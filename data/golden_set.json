@@ -1,0 +1,127 @@
+[
+  {
+    "query_cover_id": 13859660,
+    "query_title": "Treasure Island",
+    "query_authors": [
+      "Robert Louis Stevenson"
+    ],
+    "query_genre": "thriller",
+    "query_filename": "data\\covers\\thriller_13859660.jpg",
+    "primary_track": "genre + visual",
+    "note": "Dark, minimal typographic covers — tests visual style similarity within genre",
+    "expected_top_cover_ids": [
+      13699667,
+      93020,
+      12216503,
+      2760301,
+      8236915
+    ],
+    "expected_titles": [
+      "The Mysterious Affair at Styles",
+      "The Thirty-Nine Steps",
+      "Dracula",
+      "The Jewel of Seven Stars",
+      "The Red Badge of Courage"
+    ]
+  },
+  {
+    "query_cover_id": 10527843,
+    "query_title": "Alice's Adventures in Wonderland",
+    "query_authors": [
+      "Lewis Carroll"
+    ],
+    "query_genre": "science_fiction",
+    "query_filename": "data\\covers\\science_fiction_10527843.jpg",
+    "primary_track": "cross-modal (OCR → genre)",
+    "note": "Sci-fi covers with legible titles — tests whether OCR + text embedding retrieves correct genre",
+    "expected_top_cover_ids": [
+      12356249,
+      552443,
+      9009316,
+      8231444,
+      8231823
+    ],
+    "expected_titles": [
+      "Frankenstein or The Modern Prometheus",
+      "The Wonderful Wizard of Oz",
+      "The Time Machine",
+      "The Lost World",
+      "Brave New World"
+    ]
+  },
+  {
+    "query_cover_id": 12717083,
+    "query_title": "Gulliver's Travels",
+    "query_authors": [
+      "Jonathan Swift"
+    ],
+    "query_genre": "fantasy",
+    "query_filename": "data\\covers\\fantasy_12717083.jpg",
+    "primary_track": "visual similarity",
+    "note": "Illustrated fantasy covers — tests colour palette and visual texture matching",
+    "expected_top_cover_ids": [
+      7205924,
+      12726168,
+      11272464,
+      13335427,
+      28174
+    ],
+    "expected_titles": [
+      "A Midsummer Night's Dream",
+      "The Prince",
+      "Through the Looking-Glass",
+      "The Wind in the Willows",
+      "Five Children and It"
+    ]
+  },
+  {
+    "query_cover_id": 12707846,
+    "query_title": "Bible",
+    "query_authors": [
+      "Bible"
+    ],
+    "query_genre": "biography",
+    "query_filename": "data\\covers\\biography_12707846.jpg",
+    "primary_track": "semantic text",
+    "note": "Covers with strong author-name prominence — tests semantic NLP track on metadata",
+    "expected_top_cover_ids": [
+      14428305,
+      11621024,
+      14641084,
+      7901303,
+      11248037
+    ],
+    "expected_titles": [
+      "Don Quijote de la Mancha",
+      "La Divina Commedia",
+      "Anne of Green Gables",
+      "Julius Caesar",
+      "Walden"
+    ]
+  },
+  {
+    "query_cover_id": 14314858,
+    "query_title": "The Picture of Dorian Gray",
+    "query_authors": [
+      "Oscar Wilde"
+    ],
+    "query_genre": "horror",
+    "query_filename": "data\\covers\\horror_14314858.jpg",
+    "primary_track": "color palette",
+    "note": "Red/black dominant covers — tests colour-based retrieval",
+    "expected_top_cover_ids": [
+      1260617,
+      973851,
+      181493,
+      448130,
+      921610
+    ],
+    "expected_titles": [
+      "The Mayor of Casterbridge",
+      "Carmilla",
+      "The Turn of the Screw",
+      "Herland",
+      "The Great God Pan"
+    ]
+  }
+]
