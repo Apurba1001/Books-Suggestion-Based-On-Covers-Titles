@@ -13,15 +13,15 @@
       13699667,
       93020,
       12216503,
-      2760301,
-      8236915
+      8237593,
+      12657405
     ],
     "expected_titles": [
       "The Mysterious Affair at Styles",
       "The Thirty-Nine Steps",
       "Dracula",
-      "The Jewel of Seven Stars",
-      "The Red Badge of Courage"
+      "The Deerslayer",
+      "A Strange Disappearance"
     ]
   },
   {
@@ -37,23 +37,23 @@
     "expected_top_cover_ids": [
       12356249,
       552443,
-      9009316,
-      8231444,
+      36314,
+      6419199,
       8231823
     ],
     "expected_titles": [
       "Frankenstein or The Modern Prometheus",
       "The Wonderful Wizard of Oz",
-      "The Time Machine",
-      "The Lost World",
+      "THE WAR OF THE WORLDS",
+      "The Invisible Man",
       "Brave New World"
     ]
   },
   {
-    "query_cover_id": 12717083,
-    "query_title": "Gulliver's Travels",
+    "query_cover_id": 552443,
+    "query_title": "The Wizard of Oz",
     "query_authors": [
-      "Jonathan Swift"
+      "L. Frank Baum"
     ],
     "query_genre": "fantasy",
     "query_filename": "data\\covers\\fantasy_12717083.jpg",
@@ -61,24 +61,24 @@
     "note": "Illustrated fantasy covers — tests colour palette and visual texture matching",
     "expected_top_cover_ids": [
       7205924,
-      12726168,
+      15155833,
       11272464,
       13335427,
-      28174
+      14627509
     ],
     "expected_titles": [
       "A Midsummer Night's Dream",
-      "The Prince",
+      "Harry Potter and the Philosopher's Stone",
       "Through the Looking-Glass",
       "The Wind in the Willows",
-      "Five Children and It"
+      "The Hobbit"
     ]
   },
   {
-    "query_cover_id": 12707846,
-    "query_title": "Bible",
+    "query_cover_id": 119317,
+    "query_title": "Up From Slavery",
     "query_authors": [
-      "Bible"
+      "Booker T. Washington"
     ],
     "query_genre": "biography",
     "query_filename": "data\\covers\\biography_12707846.jpg",
@@ -86,41 +86,41 @@
     "note": "Covers with strong author-name prominence — tests semantic NLP track on metadata",
     "expected_top_cover_ids": [
       14428305,
-      11621024,
+      825789,
       14641084,
       7901303,
       11248037
     ],
     "expected_titles": [
       "Don Quijote de la Mancha",
-      "La Divina Commedia",
+      "Erewhon",
       "Anne of Green Gables",
       "Julius Caesar",
       "Walden"
     ]
   },
   {
-    "query_cover_id": 14314858,
-    "query_title": "The Picture of Dorian Gray",
+    "query_cover_id": 8274288,
+    "query_title": "Thinner",
     "query_authors": [
-      "Oscar Wilde"
+      "Richard Bachman"
     ],
     "query_genre": "horror",
     "query_filename": "data\\covers\\horror_14314858.jpg",
     "primary_track": "color palette",
     "note": "Red/black dominant covers — tests colour-based retrieval",
     "expected_top_cover_ids": [
-      1260617,
+      11851436,
       973851,
       181493,
-      448130,
+      8259296,
       921610
     ],
     "expected_titles": [
-      "The Mayor of Casterbridge",
+      "The Tell-Tale Heart",
       "Carmilla",
       "The Turn of the Screw",
-      "Herland",
+      "Misery",
       "The Great God Pan"
     ]
   }
