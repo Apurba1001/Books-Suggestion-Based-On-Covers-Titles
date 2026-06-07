@@ -11,7 +11,8 @@ matching themes and descriptions than CLIP's text encoder.
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
-
+import logging
+logging.getLogger("transformers.modeling_utils").setLevel(logging.ERROR)
 MODEL_ID = "all-MiniLM-L6-v2"
 
 _model = None

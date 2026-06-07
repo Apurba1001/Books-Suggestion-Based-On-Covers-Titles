@@ -16,7 +16,7 @@ def _load():
     if _reader is None:
         print("  Loading EasyOCR (first run downloads language model)...")
         # gpu=False keeps it simple; set to True if you have CUDA
-        _reader = easyocr.Reader(["en"], gpu=False)
+        _reader = easyocr.Reader(["en"], gpu=True)
     return _reader
 
 

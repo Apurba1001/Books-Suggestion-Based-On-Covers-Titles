@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 # ── Allow src imports ──────────────────────────────────────────────────────────
-sys.path.insert(0, str(Path(__file__).resolve().parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.features.clip_encoder import encode_image, encode_text
 from src.features.ocr          import extract_text
