@@ -1,0 +1,3224 @@
+[
+  {
+    "isbn": "9780593135228",
+    "title": "PROJECT HAIL MARY",
+    "authors": [
+      "Andy Weir"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780593135228.jpg",
+    "nyt_rank": 7,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "Ryland Grace awakes from a long sleep alone and far from home, and the fate of humanity rests on his shoulders; the basis of the movie.",
+    "publisher": "Ballantine",
+    "weeks_on_list": 51
+  },
+  {
+    "isbn": "9781607067726",
+    "title": "INVINCIBLE COMPENDIUM TWO",
+    "authors": [
+      "Robert Kirkman"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781607067726.jpg",
+    "nyt_rank": 15,
+    "nyt_list": "graphic-books-and-manga",
+    "description": "A second collection of the comic that is the basis of the animated series.",
+    "publisher": "Image Comics",
+    "weeks_on_list": 4
+  },
+  {
+    "isbn": "9780593820254",
+    "title": "DUNGEON CRAWLER CARL",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780593820254.jpg",
+    "nyt_rank": 12,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "A Coast Guard vet named Carl and his ex-girlfriend’s cat, Princess Donut, are trapped in a fantasy dungeon.",
+    "publisher": "Ace",
+    "weeks_on_list": 21
+  },
+  {
+    "isbn": "9780063415898",
+    "title": "THE BALLAD OF FALLING DRAGONS",
+    "authors": [
+      "Sarah A. Parker"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780063415898.jpg",
+    "nyt_rank": 14,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "The second book in the Moonfall series. As a calamitous moonfall approaches, Raeve must make life-or-death decisions.",
+    "publisher": "Avon",
+    "weeks_on_list": 2
+  },
+  {
+    "isbn": "9798217190065",
+    "title": "A PARADE OF HORRIBLES",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9798217190065.jpg",
+    "nyt_rank": 10,
+    "nyt_list": "hardcover-fiction",
+    "description": "The eighth book in the “Dungeon Crawler Carl” series. A sense of normalcy might be a set-up that spells danger for Carl and Donut.",
+    "publisher": "Ace",
+    "weeks_on_list": 3
+  },
+  {
+    "isbn": "9780593820261",
+    "title": "CARL'S DOOMSDAY SCENARIO",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780593820261.jpg",
+    "nyt_rank": 11,
+    "nyt_list": "hardcover-fiction",
+    "description": "The second book in the \"Dungeon Crawler Carl\" series. Carl and Donut confront an ancient spell and heightened dangers.",
+    "publisher": "Ace",
+    "weeks_on_list": 20
+  },
+  {
+    "isbn": "9780593820285",
+    "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780593820285.jpg",
+    "nyt_rank": 13,
+    "nyt_list": "hardcover-fiction",
+    "description": "The third book in the \"Dungeon Crawler Carl\" series. Carl and Donut are up against a subway system filled with monsters.",
+    "publisher": "Ace",
+    "weeks_on_list": 13
+  },
+  {
+    "isbn": "9798217006120",
+    "title": "THE ESCAPE GAME",
+    "authors": [
+      "Marissa Meyer and Tamara Moss"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9798217006120.jpg",
+    "nyt_rank": 2,
+    "nyt_list": "young-adult-hardcover",
+    "description": "A real murder takes place on an escape room-themed game show. (Ages 14 and up)",
+    "publisher": "Putnam",
+    "weeks_on_list": 8
+  },
+  {
+    "isbn": "9781775293934",
+    "title": "THE DEAL",
+    "authors": [
+      "Elle Kennedy"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781775293934.jpg",
+    "nyt_rank": 2,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "Hannah Wells makes a deal with the captain of the college hockey team in exchange for tutoring him that may complicate their relationship.",
+    "publisher": "Bloom",
+    "weeks_on_list": 3
+  },
+  {
+    "isbn": "9781775293965",
+    "title": "THE GOAL",
+    "authors": [
+      "Elle Kennedy"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781775293965.jpg",
+    "nyt_rank": 10,
+    "nyt_list": "trade-fiction-paperback",
+    "description": "The fourth book in the Off-Campus series. Pregnancy complicates things between a college senior and a hockey player.",
+    "publisher": "Bloom",
+    "weeks_on_list": 2
+  },
+  {
+    "isbn": "9780593438534",
+    "title": "EVERY SUMMER AFTER",
+    "authors": [
+      "Carley Fortune"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780593438534.jpg",
+    "nyt_rank": 15,
+    "nyt_list": "trade-fiction-paperback",
+    "description": "The love story of Percy and Sam is told over the course of six summers and one weekend.",
+    "publisher": "Berkley",
+    "weeks_on_list": 19
+  },
+  {
+    "isbn": "9780593733318",
+    "title": "STRANGERS",
+    "authors": [
+      "Belle Burden"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9780593733318.jpg",
+    "nyt_rank": 2,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "Burden retraces her marriage of 20 years in search of clues to help shape her understanding about its demise and to find a way forward.",
+    "publisher": "Dial",
+    "weeks_on_list": 20
+  },
+  {
+    "isbn": "9781250183866",
+    "title": "EXTREME OWNERSHIP",
+    "authors": [
+      "Jocko Willink and Leif Babin"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9781250183866.jpg",
+    "nyt_rank": 7,
+    "nyt_list": "business-books",
+    "description": "",
+    "publisher": "St. Martin's",
+    "weeks_on_list": 77
+  },
+  {
+    "isbn": "9780143127741",
+    "title": "THE BODY KEEPS THE SCORE",
+    "authors": [
+      "Bessel van der Kolk"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780143127741.jpg",
+    "nyt_rank": 7,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "How trauma affects the body and mind, and innovative treatments for recovery.",
+    "publisher": "Penguin",
+    "weeks_on_list": 297
+  },
+  {
+    "isbn": "9781464249631",
+    "title": "THE DIVORCE",
+    "authors": [
+      "Freida McFadden"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781464249631.jpg",
+    "nyt_rank": 1,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "After her husband ends their marriage and she turns her attention to his new girlfriend, Naomi suspects she might be in danger.",
+    "publisher": "Poisoned Pen",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9781250413598",
+    "title": "THE FINAL TARGET",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781250413598.jpg",
+    "nyt_rank": 3,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "A fan fixates on the introverted author Arden Bowie, who tries to set up a new life for herself in a small town in Oregon.",
+    "publisher": "St. Martin's",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9781668236512",
+    "title": "THEO OF GOLDEN",
+    "authors": [
+      "Allen Levi"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781668236512.jpg",
+    "nyt_rank": 4,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "A man travels to a small Southern town, where he purchases pencil drawings of local residents and exchanges them for stories.",
+    "publisher": "Atria",
+    "weeks_on_list": 26
+  },
+  {
+    "isbn": "9780593804216",
+    "title": "YESTERYEAR",
+    "authors": [
+      "Caro Claire Burke"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593804216.jpg",
+    "nyt_rank": 5,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "Natalie Heller Mills, a privileged tradwife social media influencer, wakes up to find she is living in the comparatively difficult reality of 1855.",
+    "publisher": "Knopf",
+    "weeks_on_list": 8
+  },
+  {
+    "isbn": "9781775293941",
+    "title": "THE MISTAKE",
+    "authors": [
+      "Elle Kennedy"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781775293941.jpg",
+    "nyt_rank": 6,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "The second book in the Off-Campus series. A college hockey player attempts to redeem himself to a rising sophomore.",
+    "publisher": "Bloom",
+    "weeks_on_list": 3
+  },
+  {
+    "isbn": "9781775293958",
+    "title": "THE SCORE",
+    "authors": [
+      "Elle Kennedy"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781775293958.jpg",
+    "nyt_rank": 8,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "The third book in the Off-Campus series. A brokenhearted senior resists the charms of a hockey star.",
+    "publisher": "Bloom",
+    "weeks_on_list": 3
+  },
+  {
+    "isbn": "9798217088263",
+    "title": "PHOEBE BERMAN'S GONNA LOSE IT",
+    "authors": [
+      "Brooke Averick"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9798217088263.jpg",
+    "nyt_rank": 9,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "As her 30th birthday approaches, Phoebe Berman goes from no dating life to juggling several prospects.",
+    "publisher": "Crown",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9780593833377",
+    "title": "THE MIDNIGHT TRAIN",
+    "authors": [
+      "Matt Haig"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593833377.jpg",
+    "nyt_rank": 10,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "The second book in the Midnight World series. Wilbur wants to go back in time to see how he might have lived differently.",
+    "publisher": "Viking",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9780063204164",
+    "title": "REMARKABLY BRIGHT CREATURES",
+    "authors": [
+      "Shelby Van Pelt"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780063204164.jpg",
+    "nyt_rank": 11,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "A widow working the night shift at the Sowell Bay Aquarium is aided in solving a mystery by a giant Pacific octopus living there; the basis of the movie.",
+    "publisher": "Ecco",
+    "weeks_on_list": 24
+  },
+  {
+    "isbn": "9781954118812",
+    "title": "THE CALAMITY CLUB",
+    "authors": [
+      "Kathryn Stockett"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781954118812.jpg",
+    "nyt_rank": 13,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "As things get tougher during the Depression, several women look for ways to improve their circumstances.",
+    "publisher": "Spiegel & Grau",
+    "weeks_on_list": 4
+  },
+  {
+    "isbn": "9780593798430",
+    "title": "THE CORRESPONDENT",
+    "authors": [
+      "Virginia Evans"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593798430.jpg",
+    "nyt_rank": 15,
+    "nyt_list": "combined-print-and-e-book-fiction",
+    "description": "Letters from someone she used to know push Sybil Van Antwerp toward revisiting her past and finding a way to forgive.",
+    "publisher": "Crown",
+    "weeks_on_list": 29
+  },
+  {
+    "isbn": "9780316264839",
+    "title": "THE LAND AND ITS PEOPLE",
+    "authors": [
+      "David Sedaris"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780316264839.jpg",
+    "nyt_rank": 1,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "Essays on the passage of time, complicated relationships and some unexpected delights life has to offer.",
+    "publisher": "Little, Brown",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9781668093801",
+    "title": "THE HERO NEXT DOOR",
+    "authors": [
+      "Martha Raddatz"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781668093801.jpg",
+    "nyt_rank": 3,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "The Emmy Award–winning ABC News anchor profiles members of our military who served in the wake of 9/11.",
+    "publisher": "Avid Reader",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9780593595121",
+    "title": "ALL WE SAY",
+    "authors": [
+      "Ben Rhodes"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593595121.jpg",
+    "nyt_rank": 4,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "The former speechwriter for President Obama explicates what it means to be American through this collection of 15 speeches.",
+    "publisher": "Random House",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9780316601306",
+    "title": "LIAR'S KINGDOM",
+    "authors": [
+      "Andrew Weissmann"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780316601306.jpg",
+    "nyt_rank": 5,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "The author of “Where Law Ends” argues that a flaw in America’s legal system allows for deceit in our politics.",
+    "publisher": "Little, Brown",
+    "weeks_on_list": 2
+  },
+  {
+    "isbn": "9780374621117",
+    "title": "CRISIS OF THE COMMON GOOD",
+    "authors": [
+      "Chris Murphy"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780374621117.jpg",
+    "nyt_rank": 6,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "The Democratic senator from Connecticut re-examines one of our country’s organizing principles.",
+    "publisher": "Farrar, Straus & Giroux",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9781668249970",
+    "title": "TAKE ME TO YOUR LEADER",
+    "authors": [
+      "Neil deGrasse Tyson"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781668249970.jpg",
+    "nyt_rank": 8,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "The astrophysicist depicts what potential encounters with aliens from outer space might be like.",
+    "publisher": "Simon Six",
+    "weeks_on_list": 3
+  },
+  {
+    "isbn": "9780385548533",
+    "title": "LONDON FALLING",
+    "authors": [
+      "Patrick Radden Keefe"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780385548533.jpg",
+    "nyt_rank": 9,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "The author of “Say Nothing” details the efforts by the parents of a 19-year-old Londoner to uncover the truth about his mysterious death and secret life.",
+    "publisher": "Doubleday",
+    "weeks_on_list": 8
+  },
+  {
+    "isbn": "9780593129326",
+    "title": "FAMESICK",
+    "authors": [
+      "Lena Dunham"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593129326.jpg",
+    "nyt_rank": 10,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "The author of “Not That Kind of Girl” evaluates the effects that pursuing her creative endeavors had on her.",
+    "publisher": "Random House",
+    "weeks_on_list": 7
+  },
+  {
+    "isbn": "9780593296967",
+    "title": "1929",
+    "authors": [
+      "Andrew Ross Sorkin"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593296967.jpg",
+    "nyt_rank": 11,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "The New York Times journalist and CNBC host looks at the fight between Washington and Wall Street that fueled a historic crash of the stock market.",
+    "publisher": "Viking",
+    "weeks_on_list": 24
+  },
+  {
+    "isbn": "9780063422506",
+    "title": "THE INVISIBLE COUP",
+    "authors": [
+      "Peter Schweizer"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780063422506.jpg",
+    "nyt_rank": 12,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "The author of “Blood Money” puts forward his argument that mass migration is a political weapon.",
+    "publisher": "Harper",
+    "weeks_on_list": 6
+  },
+  {
+    "isbn": "9780593239803",
+    "title": "AMERICA, U.S.A.",
+    "authors": [
+      "Eddie S. Glaude Jr"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593239803.jpg",
+    "nyt_rank": 13,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "The author of “Begin Again” delves into elements of America’s difficult and complicated past, and what they portend for our future.",
+    "publisher": "Crown",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9780063446533",
+    "title": "SUICIDAL EMPATHY",
+    "authors": [
+      "Gad Saad"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780063446533.jpg",
+    "nyt_rank": 14,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "The host of the podcast “The Saad Truth” argues that what he considers misguided compassion is having a negative impact on society.",
+    "publisher": "Broadside",
+    "weeks_on_list": 3
+  },
+  {
+    "isbn": "9780593832837",
+    "title": "HOW TO RULE THE WORLD",
+    "authors": [
+      "Theo Baker"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593832837.jpg",
+    "nyt_rank": 15,
+    "nyt_list": "combined-print-and-e-book-nonfiction",
+    "description": "The Stanford University student chronicles his investigation that helped end the tenure of Marc Tessier-Lavigne as the school’s president.",
+    "publisher": "Penguin Press",
+    "weeks_on_list": 2
+  },
+  {
+    "isbn": "9781250413581",
+    "title": "THE FINAL TARGET",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781250413581.jpg",
+    "nyt_rank": 3,
+    "nyt_list": "hardcover-fiction",
+    "description": "A fan fixates on the introverted author Arden Bowie, who tries to set up a new life for herself in a small town in Oregon.",
+    "publisher": "St. Martin's",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9798217234288",
+    "title": "KPOP DEMON HUNTERS",
+    "authors": [
+      "Jessica Yoon"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9798217234288.jpg",
+    "nyt_rank": 3,
+    "nyt_list": "childrens-middle-grade-hardcover",
+    "description": "Huntrix takes on the Saja Boys, a boy band who happen to be demons in disguise. Based on the movie. (Ages 7 to 10)",
+    "publisher": "Random House",
+    "weeks_on_list": 9
+  },
+  {
+    "isbn": "9798217234301",
+    "title": "KPOP DEMON HUNTERS: THE MOVIE IN COMICS",
+    "authors": [
+      "based on the screenplay by Danya Jimenez, Hannah McMechan, Maggie Kang and Chris Appelhans"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9798217234301.jpg",
+    "nyt_rank": 9,
+    "nyt_list": "graphic-books-and-manga",
+    "description": "An adaptation of the film.",
+    "publisher": "Random House",
+    "weeks_on_list": 2
+  },
+  {
+    "isbn": "9781974710027",
+    "title": "JUJUTSU KAISEN, VOL. 1",
+    "authors": [
+      "Gege Akutami"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9781974710027.jpg",
+    "nyt_rank": 10,
+    "nyt_list": "graphic-books-and-manga",
+    "description": "The athletic Yuji Itadori chooses to spend his time with members of the Occult Research Club, who unseal a cursed object.",
+    "publisher": "VIZ Media",
+    "weeks_on_list": 12
+  },
+  {
+    "isbn": "9781668191569",
+    "title": "TAKE ME TO YOUR LEADER",
+    "authors": [
+      "Neil deGrasse Tyson"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781668191569.jpg",
+    "nyt_rank": 10,
+    "nyt_list": "audio-nonfiction",
+    "description": "The astrophysicist depicts what potential encounters with aliens from outer space might be like. Read by the author. 5 hours, 5 minutes unabridged.",
+    "publisher": "Simon & Schuster Audio",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9781638493655",
+    "title": "DUNGEON CRAWLER CARL, VOL. 1",
+    "authors": [
+      "Tevagah"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781638493655.jpg",
+    "nyt_rank": 2,
+    "nyt_list": "graphic-books-and-manga",
+    "description": "Carl is stuck with his ex-girlfriend’s cat, Donut, on a dangerous alien game show.",
+    "publisher": "Vault Comics",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9781546176183",
+    "title": "BIG JIM BELIEVES",
+    "authors": [
+      "Dav Pilkey"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781546176183.jpg",
+    "nyt_rank": 5,
+    "nyt_list": "graphic-books-and-manga",
+    "description": "The 14th book in the Dog Man series. The Space Cuties From Space return and discover the city has changed.",
+    "publisher": "Scholastic",
+    "weeks_on_list": 7
+  },
+  {
+    "isbn": "9798217300556",
+    "title": "THE MARTIAN",
+    "authors": [
+      "Andy Weir"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9798217300556.jpg",
+    "nyt_rank": 9,
+    "nyt_list": "hardcover-fiction",
+    "description": "Abandoned by his crew, an astronaut embarks on a dogged quest to stay alive.",
+    "publisher": "Ballantine",
+    "weeks_on_list": 5
+  },
+  {
+    "isbn": "9780593809907",
+    "title": "THE POISONED KING",
+    "authors": [
+      "Katherine Rundell"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780593809907.jpg",
+    "nyt_rank": 9,
+    "nyt_list": "childrens-middle-grade-hardcover",
+    "description": "Christopher and Anya must save the dragons of the Archipelago from a strange new threat. (Ages 10 and up)",
+    "publisher": "Knopf",
+    "weeks_on_list": 33
+  },
+  {
+    "isbn": "9781728256184",
+    "title": "THE SUN AND THE STARMAKER",
+    "authors": [
+      "Rachel Griffin"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9781728256184.jpg",
+    "nyt_rank": 9,
+    "nyt_list": "young-adult-hardcover",
+    "description": "The Starmaker senses a powerful magic within Aurora Finch and requests that she come study under his tutelage. (Ages 14 to 18)",
+    "publisher": "Sourcebooks Fire",
+    "weeks_on_list": 13
+  },
+  {
+    "isbn": "9783748087328",
+    "title": "DUNGEON CRAWLER CARL",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9783748087328.jpg",
+    "nyt_rank": 4,
+    "nyt_list": "audio-fiction",
+    "description": "A Coast Guard vet named Carl and his ex-girlfriend’s cat, Princess Donut, are trapped in a fantasy dungeon. Read by Jeff Hays. 13 hours, 31 minutes unabridged.",
+    "publisher": "Audible Studios",
+    "weeks_on_list": 13
+  },
+  {
+    "isbn": "9798888777794",
+    "title": "WITCH HAT ATELIER: GRIMOIRE EDITION 1",
+    "authors": [
+      "Kamome Shirahama"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9798888777794.jpg",
+    "nyt_rank": 8,
+    "nyt_list": "graphic-books-and-manga",
+    "description": "After seeing a traveling magician, Coco sets about to become a witch.",
+    "publisher": "Kodansha Comics",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9780063419056",
+    "title": "RELEASE ME",
+    "authors": [
+      "Tahereh Mafi"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780063419056.jpg",
+    "nyt_rank": 3,
+    "nyt_list": "young-adult-hardcover",
+    "description": "The romantic tension mounts between Rosabelle and James as the fight in the New Republic continues. (Ages 14 and up)",
+    "publisher": "Storytide",
+    "weeks_on_list": 8
+  },
+  {
+    "isbn": "9781665990301",
+    "title": "BETTER THAN THE MOVIES",
+    "authors": [
+      "Lynn Painter"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781665990301.jpg",
+    "nyt_rank": 6,
+    "nyt_list": "young-adult-hardcover",
+    "description": "Hopeless romantic Liz has a crush on Michael but finds out that she likes being around her neighbor Wes. (Ages 12 and up)",
+    "publisher": "Simon & Schuster",
+    "weeks_on_list": 16
+  },
+  {
+    "isbn": "9798347108770",
+    "title": "CHANGE OF PLANS",
+    "authors": [
+      "Sarah Dessen"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9798347108770.jpg",
+    "nyt_rank": 10,
+    "nyt_list": "young-adult-hardcover",
+    "description": "The coming-of-age love story of a girl named Finley, who goes on a last-minute trip with her distant mother. (Ages 12 and up)",
+    "publisher": "Simon & Schuster",
+    "weeks_on_list": 4
+  },
+  {
+    "isbn": "DBKADBL025354",
+    "title": "THE DEAL",
+    "authors": [
+      "Elle Kennedy"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_DBKADBL025354.jpg",
+    "nyt_rank": 6,
+    "nyt_list": "audio-fiction",
+    "description": "Hannah Wells makes a deal with the captain of the college hockey team in exchange for tutoring him that may complicate their relationship. Read by Christian Fox and Lorelei Avalon. 12 hours, 25 minutes unabridged.",
+    "publisher": "Audible Studios",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9781668648230",
+    "title": "THE LAND AND ITS PEOPLE",
+    "authors": [
+      "David Sedaris"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781668648230.jpg",
+    "nyt_rank": 5,
+    "nyt_list": "audio-nonfiction",
+    "description": "Essays on the passage of time, complicated relationships and some unexpected delights life has to offer. Read by the author. 7 hours, 26 minutes unabridged.",
+    "publisher": "Hachette Audio",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9780063204188",
+    "title": "REMARKABLY BRIGHT CREATURES",
+    "authors": [
+      "Shelby Van Pelt"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780063204188.jpg",
+    "nyt_rank": 12,
+    "nyt_list": "audio-fiction",
+    "description": "A widow working the night shift at an aquarium is aided in solving a mystery by a giant octopus; the basis of the movie. Read by Marin Ireland and Michael Urie. 11 hours, 16 minutes unabridged.",
+    "publisher": "HarperAudio",
+    "weeks_on_list": 16
+  },
+  {
+    "isbn": "9798217073443",
+    "title": "STRANGERS",
+    "authors": [
+      "Belle Burden"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9798217073443.jpg",
+    "nyt_rank": 1,
+    "nyt_list": "audio-nonfiction",
+    "description": "Burden retraces her marriage of 20 years in search of clues to help shape her understanding about its demise and to find a way forward. Read by the author. 7 hours, 4 minutes unabridged.",
+    "publisher": "Random House Audio",
+    "weeks_on_list": 5
+  },
+  {
+    "isbn": "9781668173107",
+    "title": "THEO OF GOLDEN",
+    "authors": [
+      "Allen Levi"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781668173107.jpg",
+    "nyt_rank": 5,
+    "nyt_list": "audio-fiction",
+    "description": "A man travels to a small Southern town, where he purchases pencil drawings of local residents and exchanges them for stories. Read by David Morse. 13 hours, 12 minutes unabridged.",
+    "publisher": "Simon Maverick",
+    "weeks_on_list": 6
+  },
+  {
+    "isbn": "9780593955970",
+    "title": "THE GATE OF THE FERAL GODS",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780593955970.jpg",
+    "nyt_rank": 15,
+    "nyt_list": "hardcover-fiction",
+    "description": "The fourth book in the Dungeon Crawler Carl series. Obstacles abound on the fifth floor of the dungeon.",
+    "publisher": "Ace",
+    "weeks_on_list": 6
+  },
+  {
+    "isbn": "9781335219978",
+    "title": "BAD BOY ERA",
+    "authors": [
+      "Amy Daws"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781335219978.jpg",
+    "nyt_rank": 14,
+    "nyt_list": "trade-fiction-paperback",
+    "description": "The fourth book in the Mountain Men Matchmaker series. Emily must spend the summer next door to her college roommate’s grumpy twin brother.",
+    "publisher": "MIRA",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9781668116517",
+    "title": "THE FOURTH OPTION",
+    "authors": [
+      "Jack Carr and M.P. Woodward"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781668116517.jpg",
+    "nyt_rank": 9,
+    "nyt_list": "audio-fiction",
+    "description": "The former Navy SEAL and C.I.A. ground branch operative Chris Walker doles out vigilante justice. Read by Ray Porter. 13 hours, 36 minutes unabridged.",
+    "publisher": "Simon & Schuster Audio",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9798347810307",
+    "title": "THE CALAMITY CLUB",
+    "authors": [
+      "Kathryn Stockett"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9798347810307.jpg",
+    "nyt_rank": 10,
+    "nyt_list": "audio-fiction",
+    "description": "As things get tougher during the Depression, several women look for ways to improve their circumstances. Read by Jenna Lamia and January LaVoy. 28 hours, 44 minutes unabridged.",
+    "publisher": "Spiegel & Grau by Spotify Audiobooks",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9783748087366",
+    "title": "THE BUTCHER'S MASQUERADE",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9783748087366.jpg",
+    "nyt_rank": 13,
+    "nyt_list": "audio-fiction",
+    "description": "The fifth book in the Dungeon Crawler Carl series. Read by Jeff Hays. 23 hours, 33 minutes unabridged.",
+    "publisher": "Audible Studios",
+    "weeks_on_list": 4
+  },
+  {
+    "isbn": "9780593829097",
+    "title": "THE ANXIOUS GENERATION",
+    "authors": [
+      "Jonathan Haidt"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780593829097.jpg",
+    "nyt_rank": 11,
+    "nyt_list": "audio-nonfiction",
+    "description": "A look at the mental health impacts that a phone-based life has on children. Read by Sean Pratt and the author. 10 hours, 33 minutes unabridged.",
+    "publisher": "Penguin Audio",
+    "weeks_on_list": 27
+  },
+  {
+    "isbn": "9798217282159",
+    "title": "A WORLD APPEARS",
+    "authors": [
+      "Michael Pollan"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9798217282159.jpg",
+    "nyt_rank": 12,
+    "nyt_list": "audio-nonfiction",
+    "description": "The author of “This Is Your Mind on Plants” explores several perspectives on consciousness. Read by the author. 8 hours, 47 minutes unabridged.",
+    "publisher": "Penguin Audio",
+    "weeks_on_list": 4
+  },
+  {
+    "isbn": "9780063451070",
+    "title": "DOGS, BOYS, AND OTHER THINGS I'VE CRIED ABOUT",
+    "authors": [
+      "Isabel Klee"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780063451070.jpg",
+    "nyt_rank": 13,
+    "nyt_list": "hardcover-nonfiction",
+    "description": "Klee helps foster dogs overcome challenges while she faces her own complications.",
+    "publisher": "Morrow",
+    "weeks_on_list": 5
+  },
+  {
+    "isbn": "9780063360808",
+    "title": "THE CASE FOR AMERICA",
+    "authors": [
+      "Bret Baier"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780063360808.jpg",
+    "nyt_rank": 14,
+    "nyt_list": "hardcover-nonfiction",
+    "description": "The chief political anchor for Fox News shares his perspectives on our national character during divisive times.",
+    "publisher": "Mariner",
+    "weeks_on_list": 4
+  },
+  {
+    "isbn": "9780063515277",
+    "title": "ALL AMERICAN PATRIOTISM",
+    "authors": [
+      "Rachel Campos-Duffy"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780063515277.jpg",
+    "nyt_rank": 15,
+    "nyt_list": "hardcover-nonfiction",
+    "description": "The co-host of “Fox & Friends Weekend” brings together songs, stories and photographs to celebrate America.",
+    "publisher": "Fox News",
+    "weeks_on_list": 2
+  },
+  {
+    "isbn": "9781668099575",
+    "title": "FEVER DREAM",
+    "authors": [
+      "Elsie Silver"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781668099575.jpg",
+    "nyt_rank": 11,
+    "nyt_list": "trade-fiction-paperback",
+    "description": "A bull rider goes on a reality dating show to save his family’s farm but falls for the show’s location consultant who is also his rival’s sister.",
+    "publisher": "Atria",
+    "weeks_on_list": 2
+  },
+  {
+    "isbn": "9781401971366",
+    "title": "THE LET THEM THEORY",
+    "authors": [
+      "Mel Robbins"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781401971366.jpg",
+    "nyt_rank": 1,
+    "nyt_list": "advice-how-to-and-miscellaneous",
+    "description": "",
+    "publisher": "Hay House",
+    "weeks_on_list": 75
+  },
+  {
+    "isbn": "9780735211292",
+    "title": "ATOMIC HABITS",
+    "authors": [
+      "James Clear"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780735211292.jpg",
+    "nyt_rank": 2,
+    "nyt_list": "advice-how-to-and-miscellaneous",
+    "description": "",
+    "publisher": "Avery",
+    "weeks_on_list": 340
+  },
+  {
+    "isbn": "9780063351301",
+    "title": "IF THERE IS NO GOD",
+    "authors": [
+      "Dennis Prager with Joel Alperson"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780063351301.jpg",
+    "nyt_rank": 3,
+    "nyt_list": "advice-how-to-and-miscellaneous",
+    "description": "",
+    "publisher": "Broadside",
+    "weeks_on_list": 2
+  },
+  {
+    "isbn": "9780593418574",
+    "title": "UNREASONABLE HOSPITALITY",
+    "authors": [
+      "Will Guidara"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780593418574.jpg",
+    "nyt_rank": 4,
+    "nyt_list": "advice-how-to-and-miscellaneous",
+    "description": "",
+    "publisher": "Optimism",
+    "weeks_on_list": 36
+  },
+  {
+    "isbn": "9798893311860",
+    "title": "INCORRUPTIBLE",
+    "authors": [
+      "Eric Ries"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9798893311860.jpg",
+    "nyt_rank": 5,
+    "nyt_list": "advice-how-to-and-miscellaneous",
+    "description": "",
+    "publisher": "Authors Equity",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9781667512549",
+    "title": "18 DAYS IN HEAVEN",
+    "authors": [
+      "Gabe Poirot"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781667512549.jpg",
+    "nyt_rank": 6,
+    "nyt_list": "advice-how-to-and-miscellaneous",
+    "description": "",
+    "publisher": "Harrison House",
+    "weeks_on_list": 4
+  },
+  {
+    "isbn": "9781455570249",
+    "title": "MAKE YOUR BED",
+    "authors": [
+      "William H. McRaven"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781455570249.jpg",
+    "nyt_rank": 7,
+    "nyt_list": "advice-how-to-and-miscellaneous",
+    "description": "",
+    "publisher": "Grand Central",
+    "weeks_on_list": 148
+  },
+  {
+    "isbn": "9780062976581",
+    "title": "THE BOY, THE MOLE, THE FOX AND THE HORSE",
+    "authors": [
+      "Charlie Mackesy"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780062976581.jpg",
+    "nyt_rank": 8,
+    "nyt_list": "advice-how-to-and-miscellaneous",
+    "description": "",
+    "publisher": "HarperOne",
+    "weeks_on_list": 246
+  },
+  {
+    "isbn": "9798893310153",
+    "title": "DON'T BELIEVE EVERYTHING YOU THINK, EXPANDED EDITION",
+    "authors": [
+      "Joseph Nguyen"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9798893310153.jpg",
+    "nyt_rank": 9,
+    "nyt_list": "advice-how-to-and-miscellaneous",
+    "description": "",
+    "publisher": "Authors Equity",
+    "weeks_on_list": 57
+  },
+  {
+    "isbn": "9781538771471",
+    "title": "BIRTH VIBES",
+    "authors": [
+      "Jen Hamilton"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781538771471.jpg",
+    "nyt_rank": 10,
+    "nyt_list": "advice-how-to-and-miscellaneous",
+    "description": "",
+    "publisher": "Grand Central",
+    "weeks_on_list": 4
+  },
+  {
+    "isbn": "9798217176397",
+    "title": "FAMESICK",
+    "authors": [
+      "Lena Dunham"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9798217176397.jpg",
+    "nyt_rank": 2,
+    "nyt_list": "audio-nonfiction",
+    "description": "The author of “Not That Kind of Girl” evaluates the effects that pursuing her creative endeavors had on her. Read by the author. 11 hours, 47 minutes unabridged.",
+    "publisher": "Random House Audio",
+    "weeks_on_list": 2
+  },
+  {
+    "isbn": "9780063446557",
+    "title": "SUICIDAL EMPATHY",
+    "authors": [
+      "Gad Saad"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780063446557.jpg",
+    "nyt_rank": 3,
+    "nyt_list": "audio-nonfiction",
+    "description": "The host of the podcast “The Saad Truth” argues that what he considers misguided compassion is having a negative impact on society. Read by the author. 8 hours, 23 minutes unabridged.",
+    "publisher": "Broadside",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9798217174072",
+    "title": "LONDON FALLING",
+    "authors": [
+      "Patrick Radden Keefe"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9798217174072.jpg",
+    "nyt_rank": 4,
+    "nyt_list": "audio-nonfiction",
+    "description": "The author of “Say Nothing” details the efforts by the parents of a 19-year-old Londoner to uncover the truth about his mysterious death and secret life. Read by the author. 13 hours unabridged.",
+    "publisher": "Random House Audio",
+    "weeks_on_list": 2
+  },
+  {
+    "isbn": "9780593412701",
+    "title": "THE BODY KEEPS THE SCORE",
+    "authors": [
+      "Bessel van der Kolk"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780593412701.jpg",
+    "nyt_rank": 6,
+    "nyt_list": "audio-nonfiction",
+    "description": "How trauma affects the body and mind, and innovative treatments for recovery. Read by Sean Pratt. 16 hours, 17 minutes unabridged.",
+    "publisher": "Penguin Audio",
+    "weeks_on_list": 67
+  },
+  {
+    "isbn": "9781668655627",
+    "title": "THIS IS ME",
+    "authors": [
+      "Hayden Panettiere"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781668655627.jpg",
+    "nyt_rank": 7,
+    "nyt_list": "audio-nonfiction",
+    "description": "The Golden Globe-nominated actress describes how she contended with fame and handled difficulties in her life. Read by the author. 8 hours, 47 minutes unabridged.",
+    "publisher": "Hachette Audio",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9781668653487",
+    "title": "YOU WITH THE SAD EYES",
+    "authors": [
+      "Christina Applegate"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781668653487.jpg",
+    "nyt_rank": 8,
+    "nyt_list": "audio-nonfiction",
+    "description": "The Emmy Award-winning actress, who received a multiple sclerosis diagnosis in 2021, shares personal stories. Read by the author. 8 hours, 27 minutes unabridged.",
+    "publisher": "Hachette Audio",
+    "weeks_on_list": 3
+  },
+  {
+    "isbn": "9781668657157",
+    "title": "LIAR'S KINGDOM",
+    "authors": [
+      "Andrew Weissmann"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781668657157.jpg",
+    "nyt_rank": 9,
+    "nyt_list": "audio-nonfiction",
+    "description": "The author of “Where Law Ends” argues that a flaw in America’s legal system allows for deceit in our politics. Read by the author. 4 hours, 31 minutes unabridged.",
+    "publisher": "Hachette Audio",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9780593294185",
+    "title": "GREENLIGHTS",
+    "authors": [
+      "Matthew McConaughey"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780593294185.jpg",
+    "nyt_rank": 13,
+    "nyt_list": "audio-nonfiction",
+    "description": "The Academy Award-winning actor shares snippets from the diaries he kept over 35 years. Read by the author. 6 hours, 42 minutes unabridged.",
+    "publisher": "Random House Audio",
+    "weeks_on_list": 67
+  },
+  {
+    "isbn": "9798217281633",
+    "title": "INSIDE THE BOX",
+    "authors": [
+      "David Epstein"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9798217281633.jpg",
+    "nyt_rank": 14,
+    "nyt_list": "audio-nonfiction",
+    "description": "The author of “Range” evaluates the benefits of limitations and constraints. Read by the author. 7 hours, 30 minutes unabridged.",
+    "publisher": "Penguin Audio",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9780063360839",
+    "title": "THE CASE FOR AMERICA",
+    "authors": [
+      "Bret Baier"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780063360839.jpg",
+    "nyt_rank": 15,
+    "nyt_list": "audio-nonfiction",
+    "description": "The chief political anchor for Fox News shares his perspectives on our national character during divisive times. Read by the author. 5 hours, 34 minutes unabridged.",
+    "publisher": "Mariner",
+    "weeks_on_list": 1
+  },
+  {
+    "isbn": "9780451173317",
+    "title": "The Waste Lands",
+    "authors": [
+      "Stephen King"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780451173317.jpg",
+    "description": "Roland, the Last Gunslinger, moves closer to The Dark Tower of his dreams and nightmares through a world of the fiendish foes.",
+    "publisher": "Signet Book",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780553588262",
+    "title": "Forever Odd",
+    "authors": [
+      "Dean Ray Koontz"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780553588262.jpg",
+    "description": "In the unique world of Pico, Odd--an unforgettable hero who lives between the living and the dead--takes a stand against evil in a battle where there are no innocent bystanders. Reprint.",
+    "publisher": "Bantam",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780553807738",
+    "title": "Deeply Odd",
+    "authors": [
+      "Dean Ray Koontz"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780553807738.jpg",
+    "description": "Odd Thomas journeys through California and Nevada after a vision about the murders of three children, befriending a series of eccentric helpers who become allies in a battle against a sociopath and a network of killers.",
+    "publisher": "Bantam",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780399137730",
+    "title": "Dragon Tears",
+    "authors": [
+      "Dean Ray Koontz"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780399137730.jpg",
+    "description": "Police Detective Harry Lyon is caught in a whirlwind of terror that threatens to sweep away not only him but his partner and everyone he loves.",
+    "publisher": "Putnam Adult",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780671685638",
+    "title": "Ghost Story",
+    "authors": [
+      "Peter Straub"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780671685638.jpg",
+    "description": "Horror. Early novel about four men who inadvertently cause the death of a young woman in the 1920s.",
+    "publisher": "Simon and Schuster",
+    "source": "google_books"
+  },
+  {
+    "isbn": "c8RlAAAAMAAJ",
+    "title": "We Have Always Lived in the Castle",
+    "authors": [
+      "Shirley Jackson"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_c8RlAAAAMAAJ.jpg",
+    "description": "Alone since four members of the family died of arsenic poisoning, Merricat, Constance, and Julian Blackwood spend their days in happy isolation until cousin Charles appears.",
+    "publisher": "Penguin Classics",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780813917238",
+    "title": "Featherless Chickens, Laughing Women, and Serious Stories",
+    "authors": [
+      "Jeannie B. Thomas"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780813917238.jpg",
+    "description": "Interested in preserving her family folklore, Jeannie B. Thomas recorded detailed oral histories from her mother and two grandmothers. While analyzing the tapes of these sessions, she notices the inappropriate laughter often accompanied the retelling of painful stories. In this book, Thomas combines",
+    "publisher": "University of Virginia Press",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780760376799",
+    "title": "Horror Unmasked",
+    "authors": [
+      "Brad Weismann"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780760376799.jpg",
+    "description": "From the silent-film era to the blockbusters of today, Horror Unmasked is a fun-filled, highly illustrated dive into the past influences and present popularity of the horror film genre. The horror film’s pop-culture importance is undeniable, from its early influences to today’s most significant and ",
+    "publisher": "Epic Ink",
+    "source": "google_books"
+  },
+  {
+    "isbn": "2K9ePFqOOqgC",
+    "title": "The Chest of Opium. (Chinese Horror)",
+    "authors": [
+      "Mr. M----",
+      "Charles W. Mason"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_2K9ePFqOOqgC.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "fKAqAQAAIAAJ",
+    "title": "Clive Barker's A-Z of Horror",
+    "authors": [
+      "Clive Barker"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_fKAqAQAAIAAJ.jpg",
+    "description": "This is an exploration of the tradition of horror, from its earliest origins - as far back as the biblical victim Job - to the monsters, slashers, satanic children and serial killers who represent our anxieties today. Each letter of the alphabet is used as a starting point for an aspect, element or ",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "cANUAAAAMAAJ",
+    "title": "Gregor Schneider",
+    "authors": [
+      "Gregor Schneider",
+      "Andrew O'Hagan",
+      "Colm Tóibín"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_cANUAAAAMAAJ.jpg",
+    "description": "Talks about artist Gregor Schneider's extension of the original work, a document and exploration of Schneider's obsession with repression, reproduction, and repetition in images and text. Internationally renowned for his unnerving presentation of normality, Schneider's medium is the room - kitchen, ",
+    "publisher": "Steidlmack/Artangel",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780340836552",
+    "title": "The Optimists",
+    "authors": [
+      "Andrew Miller"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780340836552.jpg",
+    "description": "Clem Glass was a successful photojournalist, fired by his conviction that only photographs could capture the world's true face. Then, in Africa, he witnesses the grotesque aftermath of a genocidal massacre and returns to London with the belief that people, including himself, are fundamentally wicked",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781645177074",
+    "title": "The Call of Cthulhu and Dagon: A Graphic Novel",
+    "authors": [
+      "H. P. Lovecraft",
+      "Pete Katz"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9781645177074.jpg",
+    "description": "\"In this hauntingly illustrated adaptation of two of H. P. Lovecraft's most famous stories from the Cthulhu Mythos, illustrator Dave Shephard captivates readers with stories of supernatural monsters so powerful that humanity is deemed irrelevant. The Call of Cthulhu and Dagon introduce the Great Old",
+    "publisher": "Simon and Schuster",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780451129529",
+    "title": "Shadow of the Beast",
+    "authors": [
+      "Gerald DiPego"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780451129529.jpg",
+    "description": "",
+    "publisher": "Signet Book",
+    "source": "google_books"
+  },
+  {
+    "isbn": "GyzmEAAAQBAJ",
+    "title": "Once Upon A Parallel Time",
+    "authors": [
+      "Philip K. Dick"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_GyzmEAAAQBAJ.jpg",
+    "description": "In \"Once Upon A Parallel Time,\" Philip K. Dick delves into the intricate tapestry of multiple realities and the fluidity of time, exploring profound themes of identity, existence, and the nature of perception. Written in his characteristic speculative fiction style, the narrative blurs the lines bet",
+    "publisher": "DigiCat",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780898750010",
+    "title": "Worlds Within Worlds",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780898750010.jpg",
+    "description": "For the first time in history, humans are learning to produce and control nuclear energy -- the energy that, in the form of sunlight, has served humankind for it's entire existence. With fossil fuel supplies dwindling, concerned citizens, no matter how scant their scientific knowledge, must understa",
+    "publisher": "The Minerva Group, Inc.",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781497638679",
+    "title": "In the Beginning",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781497638679.jpg",
+    "description": "In the Beginning: Science Faces God in the Book of Genesis. The beginning of time. The origin of life. In our Western civilization, there are two influential accounts of beginnings. One is the biblical account, compiled more than two thousand years ago by Judean writers who based much of their think",
+    "publisher": "Open Road Media Books",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780307792273",
+    "title": "Isaac Asimov's Guide to Earth and Space",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780307792273.jpg",
+    "description": "A thrilling nonfiction tour of the cosmos that brings the universe down to Earth, from one of the all-time masters of science fiction. No one makes sense out of science like Isaac Asimov. Are you puzzled by pulsars? Baffled by black holes? Bewildered by the big bang? If so, here are succinct, crysta",
+    "publisher": "Fawcett",
+    "source": "google_books"
+  },
+  {
+    "isbn": "neLXAAAAMAAJ",
+    "title": "Atom",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_neLXAAAAMAAJ.jpg",
+    "description": "Traces the path of discovery that revealed the nature of the atom, of light, of gravity, of the electromagnetic force, and the nature and structure of the universe.",
+    "publisher": "Plume",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781250163660",
+    "title": "Our Angry Earth",
+    "authors": [
+      "Isaac Asimov",
+      "Frederik Pohl"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781250163660.jpg",
+    "description": "\"A lucid overview of [environmental] problems and a compelling call to action.\" — Publishers Weekly From two of science fiction's most celebrated and brilliant minds—Isaac Asimov and Frederik Pohl—comes the second edition of Our Angry Earth, a comprehensive analysis of today's environmental threats ",
+    "publisher": "Macmillan",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781473232181",
+    "title": "The Exploration of Space",
+    "authors": [
+      "Arthur C. Clarke"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781473232181.jpg",
+    "description": "Arthur C. Clarke was renowned for his science fiction, but his understanding of the subject was more than imagined. First published in 1951, this painstakingly-researched non-fiction book shows the depth of Clarke's expertise - he predicts the moon landings nearly two decades before they occurred, e",
+    "publisher": "Hachette UK",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780190854157",
+    "title": "The First Minds",
+    "authors": [
+      "Arthur S. Reber"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780190854157.jpg",
+    "description": "The Cellular Basis of Consciousness theory places the first appearance of sentience at the emergence of life. It makes the radical, and previously unexplored, claim that prokaryotes, like bacteria, possess a primitive form of consciousness. The implications of the theory for the philosophy of mind, ",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780006483694",
+    "title": "Greetings, Carbon-based Bipeds!",
+    "authors": [
+      "Arthur Charles Clarke",
+      "Ian T. Macauley"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780006483694.jpg",
+    "description": "The most visionary and versatile thinker of his age gathers together in a single volume his most significant and prophetic non-fiction writings to present a personal view of the twentieth century. Each essay has a new introduction by Clarke. Witness the awesome workings of Clarke's intellect as he p",
+    "publisher": "Voyager",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780575104402",
+    "title": "Children Of Dune",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780575104402.jpg",
+    "description": "What The Lord of the Rings is to fantasy, Dune is to science fiction. Presenting Children of Dune, the third book in one of the most influential series of all time, which has inspired countless other stories for more than half a century, this is an awe-inspiring world, and a story of truly epic scop",
+    "publisher": "Hachette UK",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780575104396",
+    "title": "Chapter House Dune",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780575104396.jpg",
+    "description": "What The Lord of the Rings is to fantasy, Dune is to science fiction. Presenting Chapter House Dune, the sixth book in one of the most influential series of all time, which has inspired countless other stories for more than half a century, this is an awe-inspiring world, and a story of truly epic sc",
+    "publisher": "Hachette UK",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781473226579",
+    "title": "The Great Dune Trilogy",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781473226579.jpg",
+    "description": "Three of the greatest SF novels in the world in one bumper omnibus, and the inspiration for the spectacular cinematic events Dune: Part One and Dune: Part Two. 'An astonishing science fiction phenomenon' WASHINGTON POST 'I know nothing comparable to it except The Lord of the Rings' Arthur C Clarke H",
+    "publisher": "Hachette UK",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780575104457",
+    "title": "Heretics Of Dune",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780575104457.jpg",
+    "description": "What The Lord of the Rings is to fantasy, Dune is to science fiction. Presenting Heretics of Dune, the fifth book in one of the most influential series of all time, which has inspired countless other stories for more than half a century, this is an awe-inspiring world, and a story of truly epic scop",
+    "publisher": "Hachette UK",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781399637176",
+    "title": "The Eyes of Heisenberg",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781399637176.jpg",
+    "description": "Public Law 10927 was clear and direct. Parents were permitted to watch the genetic alterations of their gametes by skilled surgeons... only no one ever requested it. Until Lizbeth and Harvey Durant decided to invoke the Law... And Dr Potter did not rearrange the most unusual genetic structure of the",
+    "publisher": "Hachette UK",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780575104440",
+    "title": "God Emperor Of Dune",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780575104440.jpg",
+    "description": "What The Lord of the Rings is to fantasy, Dune is to science fiction. Presenting God Emperor of Dune, the fourth book in one of the most influential series of all time, which has inspired countless other stories for more than half a century, this is an awe-inspiring world, and a story of truly epic ",
+    "publisher": "Hachette UK",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781473205956",
+    "title": "Dreams Must Explain Themselves",
+    "authors": [
+      "Ursula K. Le Guin"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781473205956.jpg",
+    "description": "Ursula K. Le Guin has won or been nominated for over 200 awards for her fiction, including the Hugo, Nebula, World Fantasy and SFWA Grand Master Awards. She is the acclaimed author of the Earthsea sequence and The Left Hand of Darkness - which alone would qualify her for literary immortality - as we",
+    "publisher": "Hachette UK",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781640141315",
+    "title": "The Noah Myth in Twenty-first-century Cli-fi Novels",
+    "authors": [
+      "Helen E. Mundler"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781640141315.jpg",
+    "description": "Breaks new ground by both analyzing the literary qualities of four recent rewritings of the Noah myth and contextualizing their concern with climate change within the wider crises of the Anthropocene.With the rise of concern about global warming in recent years, climate-change fiction, or cli-fi, ha",
+    "publisher": "Boydell & Brewer",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781443892698",
+    "title": "Margaret Atwood's Dystopian Fiction",
+    "authors": [
+      "Sławomir Kuźnicki"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781443892698.jpg",
+    "description": "This volume details Margaret Atwood’s dystopian novels through the themes of the ambivalent ethics of science and technology, the position of women in the male-dominated world, and the ambiguous role played by religion and spirituality. The book’s unique and original approach places Atwood’s fiction",
+    "publisher": "Cambridge Scholars Publishing",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781000631845",
+    "title": "The Plague Years",
+    "authors": [
+      "Michael Titlestad",
+      "Karl van Wyk",
+      "Grace A. Musila"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781000631845.jpg",
+    "description": "The Plague Years collects scholarly and essayistic reflections on literary, visual, and sonic representations of the COVID-19 and other pandemics. These are placed alongside poetry and short fiction written in the first two years of quarantine or isolation. This range expresses the intellectual and ",
+    "publisher": "Taylor & Francis",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781040677520",
+    "title": "Narrating Multiplicities in Motion",
+    "authors": [
+      "Elena Ogliari",
+      "Anna Pasolini",
+      "Carla Tempestoso"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781040677520.jpg",
+    "description": "Narrating Multiplicities in Motion brings together a dynamic collection of interdisciplinary essays that explore storytelling as a powerful tool for resisting dominant narratives and imagining equitable futures. Grounded in Cultural Studies, English and Anglophone Literature, and Linguistics, the vo",
+    "publisher": "Taylor & Francis",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780765365279",
+    "title": "The Way of Kings",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780765365279.jpg",
+    "description": "A new epic fantasy series from the New York Times bestselling author chosen to complete Robert Jordan's The Wheel of Time® Series",
+    "publisher": "St. Martin's Press",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780765356147",
+    "title": "The Hero of Ages",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780765356147.jpg",
+    "description": "Fantasy roman.",
+    "publisher": "Macmillan",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780575097414",
+    "title": "Words of Radiance",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780575097414.jpg",
+    "description": "A planet swept by apocalyptic storms, a world tipping into war as aristocratic families move to control the shard blades and shard plates, ancient artifacts from a past civilisation that can win wars. Huge, ideas-filled, world-spanning fantasy from a master of the genre.",
+    "publisher": "Gollancz",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780575103993",
+    "title": "Steelheart",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780575103993.jpg",
+    "description": "Ten years ago, Calamity came. It was a burst in the sky that gave ordinary men and women extraordinary powers. The awed public started calling them Epics. But Epics are no friend of man. With incredible gifts came the desire to rule. And to rule man you must crush his wills. Nobody fights the Epics.",
+    "publisher": "Gollancz",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780765330420",
+    "title": "The Alloy of Law",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780765330420.jpg",
+    "description": "Three hundred years after the events of the Mistborn trilogy, Scadrial is now on the verge of modernity. Kelsier, Vin, Elend, Sazed, Spook, and the rest are now part of history--or religion. Yet even as science and technology are reaching new heights, the old magics of Allomancy and Feruchemy contin",
+    "publisher": "Macmillan",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781841492414",
+    "title": "The Gathering Storm",
+    "authors": [
+      "Robert Jordan",
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9781841492414.jpg",
+    "description": "The most eagerly anticipated fantasy novel of the last two decades, 'The Gathering Storm' has been completed by acclaimed fantasy author Brandon Sanderson from Robert Jordan's extensive notes. It will begin the final chapter of the compelling saga that started almost twenty years ago with 'The Eye o",
+    "publisher": "Orbit Books",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781473230095",
+    "title": "Legion: the Many Lives of Stephen Leeds",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9781473230095.jpg",
+    "description": "From #1 New York Times bestselling author Brandon Sanderson comes the complete tales of the mysterious Stephen Leeds. Stephen Leeds is perfectly sane. It's his hallucinations who are mad. A genius of unrivaled aptitude, Stephen can learn any new skill, vocation, or art in a matter of hours. However,",
+    "publisher": "Gollancz",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780765350381",
+    "title": "Mistborn",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780765350381.jpg",
+    "description": "Fantasy roman.",
+    "publisher": "Macmillan",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780007196197",
+    "title": "Renegade's Magic",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780007196197.jpg",
+    "description": "Nevare Burvelle, the second son of a noble Gernian family, once looked forward to a promising future as a cadet soldier and then and officer in the King's Cavalry. But his entanglement with the magic of the Speck people has robbed him not only of his childhood dream, but also of any hope he might ha",
+    "publisher": "HarperCollins UK",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780006486022",
+    "title": "The Golden Fool",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780006486022.jpg",
+    "description": "Fantasy-roman.",
+    "publisher": "HarperCollins UK",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780007196166",
+    "title": "Forest Mage",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780007196166.jpg",
+    "description": "While the King's Cavalla Academy recover from the terrible Speck plague, Nevare Burvelle returns home to his family, fiance and a shocking revelation. Although, he appears to have escaped unscathed at first, the infection has changed him in ways that promise to devastate his golden future and tie hi",
+    "publisher": "Voyager",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780553575637",
+    "title": "Ship of Magic",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780553575637.jpg",
+    "description": "Expecting to inherit her family's liveship, the Vivacia, Althea Vestrit now must defend this animate, intelligent treasure from both her scheming brother-in-law, who plans to use it as a slave ship, and a nation of ruthless pirates, led by Captain Kennit. Reprint. AB.",
+    "publisher": "Spectra",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780060757625",
+    "title": "Shaman's Crossing",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780060757625.jpg",
+    "description": "In this thrilling epic fantasy tale, the first in the \"Soldier Son Trilogy\" a noble's son is destined for a brilliant military career until he discovers that the magic of the conquered plains folk has an insidious hold on him.",
+    "publisher": "Harper Collins",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780002246064",
+    "title": "Assassin's Apprentice",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780002246064.jpg",
+    "description": "Filled with adventure and bloodshed, pageantry and piracy, mystery and menace, Assassin's Apprentice begins the story of a bastard of the royal house, a young man who is trained in the mystic arts of the assassin and who may become the savior of his kingdom.",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780751536560",
+    "title": "True Believer",
+    "authors": [
+      "Nicholas Sparks"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780751536560.jpg",
+    "description": "Jeremy Marsh, a science journalist and perofessional skeptic, finds himself in over his head when he arrives at the small town of Boone Creek, North Carolina, and falls head over heels for the granddaughter of the supposed town psychic.",
+    "publisher": "Grand Central Publishing",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780446547567",
+    "title": "The Last Song",
+    "authors": [
+      "Nicholas Sparks"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780446547567.jpg",
+    "description": "Her teenage life turned upside-down by her parents' divorce and her father's relocation out of state, Ronnie Miller remains bitter three years later when her mother urges her to spend a summer with her father, a concert pianist who is quietly immersed in creating a work of art that will become the c",
+    "publisher": "Grand Central Pub",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780733592362",
+    "title": "(All's Fair In) Love and War",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780733592362.jpg",
+    "description": "",
+    "publisher": "Mills & Boon",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780727889119",
+    "title": "Unfinished Business",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780727889119.jpg",
+    "description": "It's been twelve years, but very little in Hyattown, Maryland has changed. Vanessa Sexton has finally come home to the small town after having her heart shattered all those years ago by her high school sweetheart, Brady Tucker. But the once reckless boy has become a solid, dependable man. Can she ev",
+    "publisher": "Severn House Publishers",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780739417928",
+    "title": "Dance Upon the Air",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780739417928.jpg",
+    "description": "When Nell Channing arrives on charming Three Sisters Island, she believes that she's finally found refuge from her abusive husband --and from the terrifying life she fled so desperately eight months ago. But even in this quiet , peaceful place, Nell never feels entirely at ease. Careful to conceal h",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "JlxbAAAAMAAJ",
+    "title": "The Villa",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_JlxbAAAAMAAJ.jpg",
+    "description": "The top PR executive for the family winery, Sophia Giambelli finds her life turned upside down by the merger with the MacMillan family's winery and her powerful attraction to professional rival Tyler MacMillan.",
+    "publisher": "Putnam Adult",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780373218578",
+    "title": "The MacKade Brothers: Rafe and Jared",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780373218578.jpg",
+    "description": "The Pride of Jared MacKade.",
+    "publisher": "Silhouette",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781542000178",
+    "title": "Layla",
+    "authors": [
+      "Colleen Hoover"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781542000178.jpg",
+    "description": "\"When Leeds meets Layla, he's convinced he'll spend the rest of his life with her--until an unexpected attack leaves Layla fighting for her life. After weeks in the hospital, Layla recovers physically, but the emotional and mental scarring has altered the woman Leeds fell in love with. In order to p",
+    "publisher": "Montlake Romance",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781501151712",
+    "title": "9-Nov",
+    "authors": [
+      "Colleen Hoover"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781501151712.jpg",
+    "description": "When Fallon and aspiring novelist Ben meet and fall in love the day before Fallon's cross-country move, they vow to meet on the same date every year, until Fallon suspects Ben is fabricating their relationship to create the perfect plot twist.",
+    "publisher": "Simon and Schuster",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781761105357",
+    "title": "All Your Perfects",
+    "authors": [
+      "Colleen Hoover"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781761105357.jpg",
+    "description": "Can a love story with a perfect beginning survive a lifetime between two imperfect people? From the bestselling author of It Ends With Us. THEN: The last thing Quinn expected was to meet the love of her life just outside her fiancé's front door. A year after leaving behind their cheating partners, Q",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780063279469",
+    "title": "The Viscount Who Loved Me",
+    "authors": [
+      "Julia Quinn"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780063279469.jpg",
+    "description": "# 1 New York Times Bestseller The inspiration for season two of BRIDGERTON, a series created by Shondaland for Netflix, from #1 New York Times bestselling author Julia Quinn: the story of Anthony Bridgerton in the second of her beloved Regency-set novels featuring the charming, powerful Bridgerton f",
+    "publisher": "HarperLuxe",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780062958594",
+    "title": "Miss Butterworth and the Mad Baron",
+    "authors": [
+      "Julia Quinn",
+      "Violet Charles"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780062958594.jpg",
+    "description": "From #1 New York Times bestselling author Julia Quinn comes this irresistible treat, a charming and jaunty graphic novel, based on story snippets peppered throughout a number of her books. Originally mentioned in It's in His Kiss--one of the Bridgerton novels which inspired the smash Netflix series ",
+    "publisher": "Avon Books",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780743497459",
+    "title": "Holly",
+    "authors": [
+      "Jude Deveraux"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780743497459.jpg",
+    "description": "Holly believes that she may finally have a chance with the man she has loved for years until she meets an undeniably attractive stranger and spends the weekend with him.",
+    "publisher": "Simon and Schuster",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780743276863",
+    "title": "Last Voyage of the Valentina",
+    "authors": [
+      "Santa Montefiore"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780743276863.jpg",
+    "description": "When Alba discovers a portrait of her deceased mother, she travels to the Amalfi coast of Italy to find out about her mother's past and not only discovers hidden secrets, but realizes the possibility of love and happiness in her own future.",
+    "publisher": "Simon and Schuster",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780590556897",
+    "title": "A Winter Love Story",
+    "authors": [
+      "Jane Claypool Miner"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780590556897.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781593108304",
+    "title": "Fairy-tale Brides",
+    "authors": [
+      "Irene B. Brand"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781593108304.jpg",
+    "description": "What happens when fairy-tale adventures meet modern life? Find out in this unique novella collection, aas four women hope for the \"happily ever after\" of a God-ordained marriage.",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780373198054",
+    "title": "Lone Star Marine",
+    "authors": [
+      "Cathie Linz"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780373198054.jpg",
+    "description": "Lone Star Marine by Cathie Linz released on Feb 14, 2006 is available now for purchase.",
+    "publisher": "Harlequin Treasury-Silhouette Romance 90s",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780006167242",
+    "title": "The ABC Murders",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780006167242.jpg",
+    "description": "When Alice Ascher is murdered in Andover, Hercule Poirot is already onto the clues. Alphabetically speaking, it's one down, 25 to go. This classic mystery is now repackaged in a digest-sized edition for young adults. Reissue.",
+    "publisher": "HarperCollins Publishers",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780007211654",
+    "title": "The Pale Horse",
+    "authors": [
+      "Agatha Christie",
+      "Hugh Fraser"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780007211654.jpg",
+    "description": "The Pale Horse is a converted Tudor inn in an English village, inhabited by the local witch and an inane medium. Mark Easterbrook thinks them harmless fools until he learns about the gang that specialises in the removal of rich, unwanted relatives.",
+    "publisher": "HarperCollins",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780854566662",
+    "title": "The Clocks",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780854566662.jpg",
+    "description": "Hercule Poirot, the relentless Belgian detective, investigates when a body is found in Miss Millicent Pebmarsh's sitting room with four strange clocks set at 4:13.",
+    "publisher": "Leicester : Ulverscroft",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780006161745",
+    "title": "Cat Among the Pigeons",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780006161745.jpg",
+    "description": "Another term has begun at Meadowbank, a prestigious, well-respected British girls' school. The indomitable headmistress is preparing to retire and name her successor. There is a disconcertingly mature Middle Eastern princess among the students and several new staff members in residence. And a brand-",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780006169185",
+    "title": "The Big Four",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780006169185.jpg",
+    "description": "Framed in the doorway of Poirot's bedroom stands an uninvited guest, coated from head to foot in dust. The gaunt man's face stares for a moment then sways and falls. Who is he and what is the significance of the figure four scribbled repeatedly on a piece of paper?",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780312979478",
+    "title": "And Then There Were None",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780312979478.jpg",
+    "description": "One by one, the guests arrived at the mansion on Indian Island, summoned by a mysterious host. And one by one, with terrifying meticulousness, they were stalked by a cunning murderer. Utterly baffling...and yet there was a pattern, concealed in a nursery rhyme hanging over the fireplace.",
+    "publisher": "Macmillan",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780739414194",
+    "title": "Spider's Web",
+    "authors": [
+      "Charles Osborne",
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780739414194.jpg",
+    "description": "Clarissa's efforts to dispose of the corpse in her drawing room before her husband arrives with an important foreign dignitary are threatened by the arrival of a police officer who has come in response to an anonymous tip about a murder.",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780708917244",
+    "title": "Hercule Poirot's Christmas",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780708917244.jpg",
+    "description": "Christmas Eve, and the Lee family¿s reunion is shattered by a deafening crash of furniture and a high-pitched wailing scream. Upstairs, the tyrannical Simeon Lee lies dead in a pool of blood, histhroat slashed. When Hercule Poirot offers to assist, he finds an atmosphere not of mourning but of mutua",
+    "publisher": "Charnwood Pub",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780446611640",
+    "title": "The Narrows",
+    "authors": [
+      "Michael Connelly"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780446611640.jpg",
+    "description": "When an infamous serial killer known as the Poet reemerges, FBI agent Rachel Walling, long haunted by her unsuccessful efforts to bring him to justice, receives assistance from LAPD detective Harry Bosch.",
+    "publisher": "Little Brown",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9783453206908",
+    "title": "Schwarzes Echo",
+    "authors": [
+      "Michael Connelly"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9783453206908.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781760630782",
+    "title": "The Late Show",
+    "authors": [
+      "Michael Connelly"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9781760630782.jpg",
+    "description": "A pulse-pounding thriller, introducing a driven, young detective trying to prove herself in the LAPD.",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780739481189",
+    "title": "The Overlook",
+    "authors": [
+      "Michael Connelly"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780739481189.jpg",
+    "description": "In his first case since he left the LAPDs Open Unsolved Unit for the prestigious Homicide Special squad, Harry Bosch is called out to investigate a murder that may have chilling consequences for national security.",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781770871380",
+    "title": "The Tsunami File",
+    "authors": [
+      "Michael E. Rose"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9781770871380.jpg",
+    "description": "Frank Delaney, investigative journalist and sometime spy, is on assignment in Phuket, Thailand, in the aftermath of the tsunami that killed thousands of people, foreigners and locals alike. Disaster victim identification teams from police forces across the globe have descended on this idyllic holida",
+    "publisher": "McArthur & Co",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780843959864",
+    "title": "Random Victim",
+    "authors": [
+      "Michael A. Black"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780843959864.jpg",
+    "description": "When he is assigned to lead a special task force in solving the high-profile murder of Miriam Walker, Sergeant Frank Leal, recovering from the death of his partner, discovers that there are a lot of people who don't want the case solved.",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781402017056",
+    "title": "Mystery in its Passions: Literary Explorations",
+    "authors": [
+      "Anna-Teresa Tymieniecka"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9781402017056.jpg",
+    "description": "Through mystery, literature reveals to us the Great Unknown. While we are absorbed by the matters at hand with the present enactment of our life, groping for clues to handle them, it is through literature that we discover the hidden strings underlying their networks. Hence our fascination with liter",
+    "publisher": "Springer Science & Business Media",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781312308060",
+    "title": "Whodoneit! A Film Guide",
+    "authors": [
+      "Terry Rowan"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9781312308060.jpg",
+    "description": "The Comprehensive Film Guide to Amateur Sleuth, Detective & Police Stories of Film and Television. A look at the writers, Private Invetigators, Lawyers, and the Hollywood Personal that produced them, and other interesting stories that have Mystery and Intrigue.",
+    "publisher": "Lulu.com",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780340820650",
+    "title": "A Presumption of Death",
+    "authors": [
+      "Jill Paton Walsh",
+      "Dorothy Leigh Sayers"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780340820650.jpg",
+    "description": "The new Lord Peter Wimsey novel.",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780792709374",
+    "title": "Bones",
+    "authors": [
+      "Bill Pronzini"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780792709374.jpg",
+    "description": "",
+    "publisher": "South Yarmouth, MA : Curley Pub.",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781597070249",
+    "title": "Nancy Drew #5: The Fake Heir",
+    "authors": [
+      "Stefan Petrucha",
+      "Carolyn Keene"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9781597070249.jpg",
+    "description": "Contemporary detective, Nancy Drew, teams with her friends to solve new mysteries.",
+    "publisher": "St. Martin's Press",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780006138402",
+    "title": "Black as He's Painted",
+    "authors": [
+      "Ngaio Marsh"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780006138402.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781921202810",
+    "title": "C.S. Lewis and the Body in the Basement",
+    "authors": [
+      "Kel Richards"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9781921202810.jpg",
+    "description": "C. S. Lewis (known to all his friends as Jack), his brother Major Warren Lewis (known as Warnie ) and one of Jack's students, Tom Morris, are on holiday in the English countryside.When they go to the bank they unwittingly enter a crime scene a murder has just been committed in the vault. The three o",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780451206923",
+    "title": "Most Wanted",
+    "authors": [
+      "Robert J. Randisi"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780451206923.jpg",
+    "description": "Three \"New York Times\" bestselling authors, four Edgar Award winners, and other critically acclaimed past and present presidents of the Private Eye Writers of America contribute their own personal favorites--which feature their famous P.I.'s--in this collection that also includes a special behind-th",
+    "publisher": "Signet Book",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780099505969",
+    "title": "The Redeemer",
+    "authors": [
+      "Jo Nesbø"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780099505969.jpg",
+    "description": "As Christmas approaches, Detective Harry Hole investigates the murder of a Salvation Army singer, who turns out to have been shot by mistake.",
+    "publisher": "Random House",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780593043998",
+    "title": "The Visitor",
+    "authors": [
+      "Lee Child"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780593043998.jpg",
+    "description": "Sergeant Amy Callan and Lieutenant Caroline Cook had a lot in common. Both high flying army women, both victims of sexual harassment, they left the army under dubious circumstances. Both are now dead their bodies discovered unmarked and unscarred in their own homes. Jack Reacher, former US military ",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780857500069",
+    "title": "Tripwire",
+    "authors": [
+      "Lee Child"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780857500069.jpg",
+    "description": "Digging swimming pools by hand in Key West, former military policeman Jack Reacher is not pleased when Costello, a private detective, starts asking questions about him. When Costello is found dead, Reacher knows that he is in serious trouble.",
+    "publisher": "Random House",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781405915007",
+    "title": "Runner",
+    "authors": [
+      "Patrick Lee"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781405915007.jpg",
+    "description": "Sam Dryden was done being a hero. But when, acting on instinct, he hides a terrified young girl from a group of well-armed pursuers, his fate is sealed. Eleven-year-old Rachel can't remember much, but she knows she was imprisoned by the men trying to kill her. And that she is important to them. In D",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781846057922",
+    "title": "11th Hour",
+    "authors": [
+      "James Patterson",
+      "Maxine Paetro"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781846057922.jpg",
+    "description": "Investigating the murder of a millionaire who was killed with a weapon linked to the deaths of four San Francisco criminals, pregnant detective Lindsay Boxer is horrified to realize that the killer could be among her closest friends.",
+    "publisher": "Random House",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781780892733",
+    "title": "Bullseye",
+    "authors": [
+      "James Patterson",
+      "Michael Ledwidge"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781780892733.jpg",
+    "description": "As the most powerful men on earth gather in New York for a meeting of the UN, Detective Michael Bennett receives intelligence warning that there will be an assassination attempt on the US president. Even more shocking, the intelligence suggests that the Russian government could be behind the plot. T",
+    "publisher": "Random House",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780316602051",
+    "title": "The Jester",
+    "authors": [
+      "James Patterson",
+      "Andrew Gross"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780316602051.jpg",
+    "description": "With the unstoppable pace and plot of his page-turning thrillers, \"The Jester\" is a breathtakingly romantic, pulse-pounding adventure set in the Middle Ages--one that could only be conjured by the mind of international bestselling author Patterson.",
+    "publisher": "Little Brown",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781720492504",
+    "title": "Arabian Deception",
+    "authors": [
+      "James Lawrence"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781720492504.jpg",
+    "description": "MYSTERY, INTRIGUE AND ADVENTUREThis is the first book in the popular Pat Walsh Arabian Adventure Series.Pat's a highly decorated infantry officer on the fast track until he screws up and picks the wrong side of a political battle. When an old Army buddy recruits Pat to work as an asset for the CIA, ",
+    "publisher": "Createspace Independent Publishing Platform",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781723974540",
+    "title": "Arabian Collusion",
+    "authors": [
+      "James Lawrence"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781723974540.jpg",
+    "description": "It's a race to save the world from anarchy. A group of archaeologists discover a holy relic that challenges the faith of almost two billion people. A secret group of powerful men steals the relic and weaponize the revelation to stoke the flames of revolution. Pat Walsh and his band of CIA backed mer",
+    "publisher": "Independently Published",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781797768489",
+    "title": "Rising Sea: A Pat Walsh Thriller",
+    "authors": [
+      "James Lawrence"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781797768489.jpg",
+    "description": "It's a battle for dominance in the South China Sea--and Pat Walsh takes on his most daring operation yet. Tensions between China and the United States near the breaking point. The Chinese Navy has flexed its muscle in a series of unprovoked strikes against U.S. military air patrols, and the time has",
+    "publisher": "Independently Published",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781471282645",
+    "title": "Missing You",
+    "authors": [
+      "Harlan Coben"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781471282645.jpg",
+    "description": "As Detective Kat Donovan focuses on the profile on the online dating site, she feels her whole world explode. Staring back at her is her ex-fiance",
+    "publisher": "Clipper Audio",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781471289200",
+    "title": "Found",
+    "authors": [
+      "Harlan Coben"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781471289200.jpg",
+    "description": "Mickey and his friends once again face dangers untold in their quest to discover the truth about the mysterious Abeona Foundation and what really happened to Mickey's father. Things take a strange turn for Mickey when one of the basketball players from his team disappears and another is accused of t",
+    "publisher": "Clipper Audio",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781501103674",
+    "title": "Trust No One",
+    "authors": [
+      "Paul Cleave"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781501103674.jpg",
+    "description": "Jerry Grey is known to most of the world by his crime writing pseudonym, Henry Cutter--a name that has been keeping readers at the edge of their seats for more than a decade. Recently diagnosed with early onset Alzheimer's at the age of forty-nine, Jerry's crime writing days are coming to an end. Hi",
+    "publisher": "Simon and Schuster",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781476782560",
+    "title": "Cimarron Rose",
+    "authors": [
+      "James Lee Burke"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781476782560.jpg",
+    "description": "\"Lucas Smothers, nineteen and from the wrong end of town, has been arrested for the rape and murder of a local girl. His lawyer, former Texas Ranger Billy Bob Holland, is convinced of Lucas's innocence--but proving it means unearthing the truth from the seething mass of deceit and corruption that sp",
+    "publisher": "Simon and Schuster",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781471253614",
+    "title": "Cross and Burn",
+    "authors": [
+      "Val McDermid"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781471253614.jpg",
+    "description": "The new unforgettable new Tony Hill and Carol Jordan novel will see them forced to fight for themselves and each other as never before... Guilt and grief have driven a wedge between long time crime-fighting partners psychologist Tony Hill and ex-DCI Carol Jordan. But just because they're not talking",
+    "publisher": "Clipper Audio",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781784295394",
+    "title": "Three Hours",
+    "authors": [
+      "Anders Roslund",
+      "Borge Hellstrom"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781784295394.jpg",
+    "description": "\"The Swedes have a lock on hard-hitting crime novels... the latest in a string of superb procedurals written by Anders Roslund and Borge Hellstrom.\"--Marilyn Stasio, The New York Times The explosive third novel in the Ewert Grens-Piet Hoffmann trilogy, which began with The New York Times bestseller ",
+    "publisher": "riverrun",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9798614788902",
+    "title": "The Girls They Stole",
+    "authors": [
+      "J H Leigh"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9798614788902.jpg",
+    "description": "The deal seems easy. Follow the rules. Keep your mouth shut. The payoff? Enough money to change your life forever.But is it too good to be true?Nicole, Dylan, Jilly and Tana need to take the deal. All for different, equally desperate reasons. But the deal comes at a price. Once they step into Madame",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781460757024",
+    "title": "The Last Widow",
+    "authors": [
+      "Karin Slaughter"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781460757024.jpg",
+    "description": "New York Times bestselling author Karin Slaughter brings back Will Trent and Sara Linton in this superb and timely thriller full of devious twists, disturbing secrets, and shocking surprises you won't see coming. A mysterious kidnapping On a hot summer night, a scientist from the Centers for Disease",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780008354909",
+    "title": "I KNOW WHO YOU ARE PB",
+    "authors": [
+      "ALICE. FEENEY"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780008354909.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780593044087",
+    "title": "Crime Zero",
+    "authors": [
+      "Michael Cordy"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780593044087.jpg",
+    "description": "",
+    "publisher": "Corgi",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780008236076",
+    "title": "Sometimes I Kill",
+    "authors": [
+      "Alice Feeney"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780008236076.jpg",
+    "description": "'What a ride, I loved this book and the brilliant Hitchcockian twist!' Sarah Michelle Gellar 'Twisty and gripping' Jane Fallon 'You will NEVER guess the ending of this one!' Louise Candlish 'A fiendishly well-plotted, deliciously dark and twisting read' Lucy Foley 'Expect twists a plenty in this cle",
+    "publisher": "HQ",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780099598862",
+    "title": "In Too Deep",
+    "authors": [
+      "Samantha Hayes"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780099598862.jpg",
+    "description": "Four months ago, Rick went out to buy a newspaper. He never came back. His wife, Gina, is struggling to deal with her loss, and her daughter's mood swings are getting worse. Then she receives a phone call from a woman at a country hotel, confirming details of a booking Rick made before he vanished. ",
+    "publisher": "Random House",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781473608368",
+    "title": "New Psychological Thriller",
+    "authors": [
+      "Sabine Durrant"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781473608368.jpg",
+    "description": "The sensational new thriller from the author of the Richard & Judy bestseller Lie With Me. He saved your son's life. Does that mean you have to give him yours? It starts with a holiday. A three-year-old boy on a beach, and the hero who saves his life. But nothing is ever that simple. Tessa and Marcu",
+    "publisher": "Mulholland Books",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780553824513",
+    "title": "Harvest",
+    "authors": [
+      "Tess Gerritsen"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780553824513.jpg",
+    "description": "Mystery fiction. Detective and mystery stories. Another book in the series A Mizzoli and Isles Thriller.",
+    "publisher": "Random House",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781865086682",
+    "title": "Acid Row",
+    "authors": [
+      "Minette Walters"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781865086682.jpg",
+    "description": "The name the beleaguered inhabitants give to their 'sink' estate, a no-man's land of single mothers and fatherless children, where angry, alienated youth control the streets. Into this battlefield comes Sophie Morrison, a young doctor visiting a patient in Acid Row. Little does she know that she is ",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781558611474",
+    "title": "The Living is Easy",
+    "authors": [
+      "Dorothy West"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781558611474.jpg",
+    "description": "The captivating firts novel by Dorothy West--author of The Wedding.",
+    "publisher": "Feminist Press at CUNY",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780755309795",
+    "title": "Angels in the Gloom",
+    "authors": [
+      "Anne Perry"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780755309795.jpg",
+    "description": "Mystery.",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781525811531",
+    "title": "The Warsaw Orphan",
+    "authors": [
+      "Kelly Rimmer"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781525811531.jpg",
+    "description": "\"Kelly Rimmer's heart-stopping rendering of the war in Nazi-occupied Poland will captivate readers page by page.\"--Lisa Wingate, #1 New York Times bestselling author of Before We Were Yours \"A surefire hit [and] a heartbreaking and hopeful story of family, duty, love, salvation, and resistance. The ",
+    "publisher": "Graydon House Books",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780008516062",
+    "title": "The Resistance Girl",
+    "authors": [
+      "Mandy Robotham"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780008516062.jpg",
+    "description": "The next gripping and emotional World War II historical fiction read from international bestseller, Mandy Robotham.",
+    "publisher": "Avon Books",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780062946980",
+    "title": "The Postmistress of Paris",
+    "authors": [
+      "Meg Waite Clayton"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780062946980.jpg",
+    "description": "The New York Times bestselling author of The Last Train to London revisits the dark early days of the German occupation in France in this haunting novel--a love story and a tale of high-stakes danger and incomparable courage--about a young American heiress who helps artists hunted by the Nazis escap",
+    "publisher": "Harper",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780062916242",
+    "title": "Painting the Light",
+    "authors": [
+      "Sally Cabot Gunning"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780062916242.jpg",
+    "description": "From the critically acclaimed author of Monticello and The Widow's War comes a vividly rendered historical novel of love, loss, and reinvention, set on Martha's Vineyard at the turn of the nineteenth century. Martha's Vineyard, 1898. In her first life, Ida Russell had been a painter. Five years ago,",
+    "publisher": "William Morrow",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780062983695",
+    "title": "The Godmothers",
+    "authors": [
+      "Camille Aubray"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780062983695.jpg",
+    "description": "Big Little Lies set in World War II era Greenwich Village! An irresistible, suspenseful novel about four women who marry into an elegant, prosperous Italian family, and then must take charge of the family's business when their husbands are forced to leave them during the war. Meet the Godmothers: Fi",
+    "publisher": "William Morrow",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781838898120",
+    "title": "Harpers Heroes",
+    "authors": [
+      "Rosie Clarke"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781838898120.jpg",
+    "description": "Oxford Street, London 1915 Sally Harper quietly battles to keep Harpers afloat in the difficult days of the war, whilst husband Ben is working all hours for the War Office. Beth Burrow is fighting concern for her husband Jack, now at sea with the Merchant Navy, and the fear she may never see him aga",
+    "publisher": "Boldwood Softcover Large Print",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781432885540",
+    "title": "The Last Garden in England",
+    "authors": [
+      "Julia Kelly"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781432885540.jpg",
+    "description": "\"From the author of The Light Over London and the \"gripping, moving\" (Kelly Rimmer) The Whispers of War comes a poignant and heartwrenching tale of five women in three eras, whose lives are tied together by one very special garden\"--",
+    "publisher": "Thorndike Press Large Print",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781525211898",
+    "title": "Exile's Return",
+    "authors": [
+      "Alison Stuart"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781525211898.jpg",
+    "description": "The breath - taking conclusion to Alison Stuart's English Civil War trilogy introduces a heroine with nothing left to lose and a hero with everything to gain... England, 1659: Following the death of Cromwell, a new king is poised to ascend the throne of England. One by one, those once loyal to the c",
+    "publisher": "ReadHowYouWant",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781407066875",
+    "title": "To the Last Man",
+    "authors": [
+      "Jeff Shaara"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781407066875.jpg",
+    "description": "",
+    "publisher": "CCV Digital",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781409180265",
+    "title": "Hawkwood's Sword",
+    "authors": [
+      "Christian Cameron"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781409180265.jpg",
+    "description": "'One of THE finest writers of historical fiction in the world' BEN KANE 1368. France, Spain and England prepare for war. In Italy, the Pope and the Visconti princes are battling for bloody supremacy. The worst years of Sir William Gold's life are about to begin. Leaving the side of his commander, Si",
+    "publisher": "Orion",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780648214984",
+    "title": "The Return of Absent Souls",
+    "authors": [
+      "C. J. Archer"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780648214984.jpg",
+    "description": "In this stunning conclusion to the After The Rift series, Josie and her friends return home to find Glancia on the brink of war and their enemies in power. With political machinations and court intrigue bringing danger at every turn, they must tread carefully. But being careful won't bring resolutio",
+    "publisher": "After the Rift",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781784973926",
+    "title": "The Bridge",
+    "authors": [
+      "Robert Radcliffe"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781784973926.jpg",
+    "description": "The third and final instalment in the Airborne trilogy centred on the WW2 parachute regiment.",
+    "publisher": "Airborne Trilogy",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780369331489",
+    "title": "The Black Earth",
+    "authors": [
+      "Philip Kazan"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780369331489.jpg",
+    "description": "1922. Young Zoe Haggitiris is forced to flee with her family during the Turkish invasion of Smyrna. When tragedy strikes in the midst of their escape, Zoe is found floating alone in the icy waters and is rescued by a passing ship. Caught up in a sea of desperate refugees, her life is touched by an E",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780743258074",
+    "title": "Benjamin Franklin",
+    "authors": [
+      "Walter Isaacson"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9780743258074.jpg",
+    "description": "During his 84-year life Benjamin Franklin was America's best scientist, inventor, publisher, business strategist, diplomat, and writer. He was also one of its most practical political thinkers. America's first great publicist, he carefully crafted his own persona, portrayed it in public and polished",
+    "publisher": "Simon and Schuster",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781501171383",
+    "title": "Einstein",
+    "authors": [
+      "Walter Isaacson"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9781501171383.jpg",
+    "description": "From Isaacson, the bestselling author of \"Benjamin Franklin,\" comes the first full biography of Albert Einstein since all his papers have become available--a fully realized portrait of a premier icon of his era.",
+    "publisher": "Simon and Schuster",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781476708706",
+    "title": "The Innovators",
+    "authors": [
+      "Walter Isaacson"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9781476708706.jpg",
+    "description": "Chronicles the lives and careers of the men and women responsible for the creation of the digital age, including Doug Englebart, Robert Noyce, Bill Gates, Steve Jobs and more.",
+    "publisher": "Simon and Schuster",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781501127625",
+    "title": "Steve Jobs",
+    "authors": [
+      "Walter Isaacson"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9781501127625.jpg",
+    "description": "\"FROM THE AUTHOR OF THE BESTSELLING BIOGRAPHIES OF BENJAMIN FRANKLIN AND ALBERT EINSTEIN, THIS IS THE EXCLUSIVE BIOGRAPHY OF STEVE JOBS. Based on more than forty interviews with Jobs conducted over two years--as well as interviews with more than a hundred family members, friends, adversaries, compet",
+    "publisher": "Simon and Schuster",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9781476728759",
+    "title": "The Wright Brothers",
+    "authors": [
+      "David McCullough"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9781476728759.jpg",
+    "description": "\"David McCullough once again tells a dramatic story of people and technology, this time about the courageous brothers who taught the world how to fly: Wilbur and Orville Wright\"--Provided by publisher.",
+    "publisher": "Simon and Schuster",
+    "source": "google_books"
+  },
+  {
+    "isbn": "HOsRAAAAYAAJ",
+    "title": "Memoirs and Letters of Sir James Paget",
+    "authors": [
+      "Sir James Paget"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_HOsRAAAAYAAJ.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "6aEuAQAAIAAJ",
+    "title": "Classic Memoirs: By Philippe de Commines; Marguerite de Valois; Duc de Sully; Cardinal de Richelieu; Cardinal de Retz; Madame de Montespan; Duc de Saint-Simon; Madame Campan, Madame Roland; Prince de Talleyrand; Madame de Remusat; Madame Junot, with a special introduction by George Saintsbury.- [v. 2] By Earl of Clarendon; John Evelyn; Samuel Pepys; Grammont-Hamilton; Benjamin Franklin; Horace Walpole; Aaron Burr; Margaret Fuller Ossoli; John Heneage Jesse; with a special introduction by Robert Arnot.- [v. 3] By Charles V; Frederick the great; Catherine II; Count de Mirabeau; Prince von Metternich, with a special introduction by Robert Arnot",
+    "authors": [
+      "Unknown"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_6aEuAQAAIAAJ.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "XZ5bZOvqu_UC",
+    "title": "Memoirs",
+    "authors": [
+      "Mark Pattison"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_XZ5bZOvqu_UC.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "1z8JAAAAIAAJ",
+    "title": "A Book of Memories of Great Men and Women of the Age",
+    "authors": [
+      "Samuel Carter Hall"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_1z8JAAAAIAAJ.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9sPb78D-7QkC",
+    "title": "Memories of Many Men and of Some Women",
+    "authors": [
+      "Maunsell Bradhurst Field"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9sPb78D-7QkC.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "RVAZAAAAYAAJ",
+    "title": "The Personal Equation",
+    "authors": [
+      "Lawrence McTurnan"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_RVAZAAAAYAAJ.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "KHXZAAAAMAAJ",
+    "title": "The World's Best Memoir Writing",
+    "authors": [
+      "Eve Claxton"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_KHXZAAAAMAAJ.jpg",
+    "description": "The reader experiences world history as the authors lived it and gains rare insight into the lives and personalities of some of the world's most important writers, thinkers, athletes and artists.",
+    "publisher": "Sourcebooks, Inc.",
+    "source": "google_books"
+  },
+  {
+    "isbn": "-rQdAAAAMAAJ",
+    "title": "Life and Memoirs of John Churton Collins",
+    "authors": [
+      "Laurence Churton Collins"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_-rQdAAAAMAAJ.jpg",
+    "description": "",
+    "publisher": "London, Lane",
+    "source": "google_books"
+  },
+  {
+    "isbn": "BS4YAAAAIAAJ",
+    "title": "The Cold War, 1945-1991: Resources: chronology, history, concepts, events, organizations, bibliography, archives",
+    "authors": [
+      "Benjamin Frankel"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_BS4YAAAAIAAJ.jpg",
+    "description": "Presents a chronology of the Cold War from 1945 through 1991; and features alphabetically arranged entries that examine the major events, concepts, terms, and themes that dominated the period.",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "1jO1AAAAIAAJ",
+    "title": "Classic Memoirs",
+    "authors": [
+      "Philippe de Commynes"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_1jO1AAAAIAAJ.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "_LgihI_EpyIC",
+    "title": "A Book of Memories of Great Men and Women of the Age, from Personal Acquaintance",
+    "authors": [
+      "Samuel Carter Hall"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography__LgihI_EpyIC.jpg",
+    "description": "",
+    "publisher": "",
+    "source": "google_books"
+  },
+  {
+    "isbn": "9780385121675",
+    "title": "The Shining",
+    "authors": [
+      "Stephen King"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780385121675.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9781501156700",
+    "title": "It",
+    "authors": [
+      "Stephen King"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9781501156700.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780385333481",
+    "title": "Pet Sematary",
+    "authors": [
+      "Stephen King"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780385333481.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780385472579",
+    "title": "Misery",
+    "authors": [
+      "Stephen King"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780385472579.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780307743657",
+    "title": "Doctor Sleep",
+    "authors": [
+      "Stephen King"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780307743657.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780140817737",
+    "title": "Dracula",
+    "authors": [
+      "Bram Stoker"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780140817737.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780141439471",
+    "title": "Frankenstein",
+    "authors": [
+      "Mary Shelley"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780141439471.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780143039952",
+    "title": "The Haunting of Hill House",
+    "authors": [
+      "Shirley Jackson"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780143039952.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780316769174",
+    "title": "The Exorcist",
+    "authors": [
+      "William Peter Blatty"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780316769174.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780060935474",
+    "title": "American Gods",
+    "authors": [
+      "Neil Gaiman"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780060935474.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780451205766",
+    "title": "The Name of the Rose",
+    "authors": [
+      "Umberto Eco"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780451205766.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780060931957",
+    "title": "Pillars of the Earth",
+    "authors": [
+      "Ken Follett"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780060931957.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780007320271",
+    "title": "Wolf Hall",
+    "authors": [
+      "Hilary Mantel"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780007320271.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780525555360",
+    "title": "The Tattooist of Auschwitz",
+    "authors": [
+      "Heather Morris"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780525555360.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780062409850",
+    "title": "All the Light We Cannot See",
+    "authors": [
+      "Anthony Doerr"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780062409850.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780385490818",
+    "title": "Schindler's List",
+    "authors": [
+      "Thomas Keneally"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780385490818.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780143124542",
+    "title": "The Book Thief",
+    "authors": [
+      "Markus Zusak"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780143124542.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780062409843",
+    "title": "The Alice Network",
+    "authors": [
+      "Kate Quinn"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780062409843.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780062838667",
+    "title": "The Nightingale",
+    "authors": [
+      "Kristin Hannah"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780062838667.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9781501121586",
+    "title": "Becoming",
+    "authors": [
+      "Michelle Obama"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9781501121586.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780316017923",
+    "title": "The Immortal Life of Henrietta Lacks",
+    "authors": [
+      "Rebecca Skloot"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9780316017923.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780316346627",
+    "title": "Born a Crime",
+    "authors": [
+      "Trevor Noah"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9780316346627.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780525559474",
+    "title": "I Am Malala",
+    "authors": [
+      "Malala Yousafzai"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9780525559474.jpg",
+    "source": "manual"
+  },
+  {
+    "isbn": "9780679720201",
+    "title": "The Diary of a Young Girl",
+    "authors": [
+      "Anne Frank"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9780679720201.jpg",
+    "source": "manual"
+  }
+]

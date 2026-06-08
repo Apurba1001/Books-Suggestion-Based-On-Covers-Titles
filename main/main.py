@@ -5,16 +5,17 @@ End-to-end pipeline test. Takes a book cover image and prints the
 top-3 recommendations for each track to the terminal.
 
 Usage:
-    python main.py <path_to_cover_image>
+    uv run python main.py <path_to_cover_image> [--embeddings embeddings_nyt]
 
-Example:
-    python main.py data/covers/thriller_8739161.jpg
+Examples:
+    uv run python main.py data/covers/thriller_8739161.jpg
+    uv run python main.py data/covers_nyt/horror_9780385121675.jpg --embeddings embeddings_nyt
 """
 
 import sys
+import argparse
 from pathlib import Path
 
-# ── Allow src imports ──────────────────────────────────────────────────────────
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src.features.clip_encoder import encode_image, encode_text
@@ -33,23 +34,23 @@ TRACK_LABELS = {
 }
 
 
-def run(image_path: str):
+def run(image_path: str, embeddings_dir: str):
     path = Path(image_path)
     if not path.exists():
         print(f"Error: file not found — {image_path}")
         sys.exit(1)
 
     print(f"\n{'═'*60}")
-    print(f"  Query image: {path.name}")
+    print(f"  Query image : {path.name}")
+    print(f"  Embeddings  : {embeddings_dir}")
     print(f"{'═'*60}\n")
 
-    # ── Feature extraction ────────────────────────────────────────────────────
     print("Extracting features from query image...")
 
     print("  [1/4] OCR...")
     ocr_text = extract_text(str(path))
     text_for_encoding = ocr_text if ocr_text.strip() else path.stem.replace("_", " ")
-    print(f"        OCR detected: '{ocr_text[:80]}'" if ocr_text else "        OCR: nothing detected, using filename")
+    print(f"        OCR detected: '{ocr_text[:80]}'" if ocr_text else "        OCR: nothing detected")
 
     print("  [2/4] CLIP image encoding...")
     clip_img_vec = encode_image(str(path))
@@ -61,9 +62,8 @@ def run(image_path: str):
     sentence_vec = encode_sentence(text_for_encoding)
     color_vec    = extract_palette(str(path))
 
-    # ── Search ────────────────────────────────────────────────────────────────
     print("\nSearching index...\n")
-    load_index()
+    load_index(embeddings_dir)
 
     results = search(
         clip_image_vec = clip_img_vec,
@@ -73,7 +73,6 @@ def run(image_path: str):
         k              = TOP_K,
     )
 
-    # ── Print results ─────────────────────────────────────────────────────────
     for track, label in TRACK_LABELS.items():
         hits = results.get(track, [])
         print(f"┌─ {label}")
@@ -87,9 +86,9 @@ def run(image_path: str):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python main.py <path_to_cover_image>")
-        print("Example: python main.py data/covers/thriller_8739161.jpg")
-        sys.exit(1)
-
-    run(sys.argv[1])
+    parser = argparse.ArgumentParser()
+    parser.add_argument("image", help="Path to cover image")
+    parser.add_argument("--embeddings", default="embeddings",
+                        help="Embeddings directory (default: embeddings)")
+    args = parser.parse_args()
+    run(args.image, args.embeddings)

@@ -12,12 +12,6 @@ import json
 import numpy as np
 from pathlib import Path
 
-# ── Paths ──────────────────────────────────────────────────────────────────────
-
-EMBEDDINGS_DIR = Path("embeddings")
-ROW_INDEX_PATH = EMBEDDINGS_DIR / "row_index.json"
-
-
 # ── State ──────────────────────────────────────────────────────────────────────
 
 _index      = None   # list of dicts, one per book
@@ -25,23 +19,37 @@ _clip_image = None   # (N, 512)
 _clip_text  = None   # (N, 512)
 _sentence   = None   # (N, 384)
 _colors     = None   # (N, 15)
+_loaded_dir = None   # track which dir is currently loaded
 
 
 # ── Load ───────────────────────────────────────────────────────────────────────
 
-def load_index():
-    """Load all embedding matrices and row metadata into memory."""
-    global _index, _clip_image, _clip_text, _sentence, _colors
+def load_index(embeddings_dir: str = "embeddings"):
+    """
+    Load all embedding matrices and row metadata into memory.
 
-    print("Loading embedding index...")
+    Args:
+        embeddings_dir: path to the embeddings folder.
+                        Default: "embeddings"  (OpenLibrary dataset)
+                        NYT:     "embeddings_nyt"
+    """
+    global _index, _clip_image, _clip_text, _sentence, _colors, _loaded_dir
 
-    with open(ROW_INDEX_PATH, encoding="utf-8") as f:
+    d = Path(embeddings_dir)
+
+    if _loaded_dir == str(d):
+        return  # already loaded, skip
+
+    print(f"Loading embedding index from {d}/...")
+
+    with open(d / "row_index.json", encoding="utf-8") as f:
         _index = json.load(f)
 
-    _clip_image = np.load(EMBEDDINGS_DIR / "clip_image.npy")
-    _clip_text  = np.load(EMBEDDINGS_DIR / "clip_text.npy")
-    _sentence   = np.load(EMBEDDINGS_DIR / "sentence.npy")
-    _colors     = np.load(EMBEDDINGS_DIR / "colors.npy")
+    _clip_image = np.load(d / "clip_image.npy")
+    _clip_text  = np.load(d / "clip_text.npy")
+    _sentence   = np.load(d / "sentence.npy")
+    _colors     = np.load(d / "colors.npy")
+    _loaded_dir = str(d)
 
     print(f"  {len(_index)} books loaded across 4 tracks.\n")
 
@@ -49,23 +57,13 @@ def load_index():
 # ── Helpers ────────────────────────────────────────────────────────────────────
 
 def _cosine(query_vec: np.ndarray, matrix: np.ndarray) -> np.ndarray:
-    """
-    Compute cosine similarity between a single query vector and every
-    row in matrix. Both are expected to be already L2-normalised
-    (CLIP and SentenceTransformer outputs are). Color vectors are not
-    normalised, so we normalise here just in case.
-    """
     q = query_vec / (np.linalg.norm(query_vec) + 1e-9)
     m = matrix / (np.linalg.norm(matrix, axis=1, keepdims=True) + 1e-9)
     return (m @ q).astype(np.float32)
 
 
 def _top_k(scores: np.ndarray, k: int, exclude_idx: int = -1) -> list[dict]:
-    """
-    Return the top-k results as a list of dicts with rank, score, and metadata.
-    Optionally excludes a row index (used to remove the query itself).
-    """
-    ranked = np.argsort(scores)[::-1]
+    ranked  = np.argsort(scores)[::-1]
     results = []
     for idx in ranked:
         if int(idx) == exclude_idx:
@@ -73,7 +71,7 @@ def _top_k(scores: np.ndarray, k: int, exclude_idx: int = -1) -> list[dict]:
         results.append({
             "rank":     len(results) + 1,
             "score":    float(scores[idx]),
-            "cover_id": _index[idx]["cover_id"],
+            "id":       _index[idx].get("id") or _index[idx].get("cover_id", ""),
             "title":    _index[idx]["title"],
             "authors":  _index[idx]["authors"],
             "genre":    _index[idx]["genre"],
@@ -92,29 +90,29 @@ def search(
     sentence_vec:   np.ndarray = None,
     color_vec:      np.ndarray = None,
     k: int = 3,
-    exclude_cover_id: int = None,
+    exclude_id: str = None,
 ) -> dict:
     """
     Run cosine search across whichever tracks have a query vector.
 
     Returns a dict with keys:
         "visual"       — CLIP image → image similarity
-        "cross_modal"  — CLIP text  → image similarity (OCR text vs covers)
+        "cross_modal"  — CLIP text  → image similarity
         "semantic"     — SentenceTransformer text similarity
         "color"        — dominant color palette similarity
 
     Each value is a list of top-k result dicts.
-    Pass exclude_cover_id to remove the query book from its own results
-    (useful when the query image is already in the index).
+    Pass exclude_id (isbn or cover_id string) to remove the query book
+    from its own results.
     """
     if _index is None:
         raise RuntimeError("Call load_index() before search().")
 
-    # Find the row to exclude (if query is in the index)
     exclude_idx = -1
-    if exclude_cover_id is not None:
+    if exclude_id is not None:
         for i, book in enumerate(_index):
-            if book["cover_id"] == exclude_cover_id:
+            book_id = book.get("id") or book.get("cover_id", "")
+            if str(book_id) == str(exclude_id):
                 exclude_idx = i
                 break
 
@@ -125,7 +123,7 @@ def search(
         results["visual"] = _top_k(scores, k, exclude_idx)
 
     if clip_text_vec is not None:
-        scores = _cosine(clip_text_vec, _clip_image)  # text query vs image index
+        scores = _cosine(clip_text_vec, _clip_image)
         results["cross_modal"] = _top_k(scores, k, exclude_idx)
 
     if sentence_vec is not None:

@@ -2,21 +2,21 @@
 ui.py
 -----
 Simple UI to view recommendation results with cover images.
-Click any result to see its full index metadata.
+Select a dataset, pick a cover, and see results with full index metadata on click.
 
 Usage:
     uv run python main/ui.py
+    uv run python main/ui.py --embeddings embeddings_nyt
 """
 
 import sys
 import json
+import argparse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import gradio as gr
-import numpy as np
-
 from src.features.clip_encoder import encode_image, encode_text
 from src.features.ocr          import extract_text
 from src.features.colors       import extract_palette
@@ -25,30 +25,54 @@ from src.search.retrieval       import load_index, search
 
 TOP_K = 3
 
-load_index()
+# ── Config ─────────────────────────────────────────────────────────────────────
 
-# Load full index for metadata lookup
-INDEX_PATH = Path("data/index_updated.json")
-if INDEX_PATH.exists():
-    with open(INDEX_PATH, encoding="utf-8") as f:
-        FULL_INDEX = {book["cover_id"]: book for book in json.load(f)}
-else:
-    with open("data/index.json", encoding="utf-8") as f:
-        FULL_INDEX = {book["cover_id"]: book for book in json.load(f)}
+DATASETS = {
+    "OpenLibrary (~387 books)": ("embeddings",     "data/covers",     "data/index_updated.json",     "data/index.json"),
+    "NYT Bestsellers (~260 books)": ("embeddings_nyt", "data/covers_nyt", "data/nyt_index_updated.json", "data/nyt_index.json"),
+}
 
 
-def list_covers():
-    covers_dir = Path("data/covers")
-    if covers_dir.exists():
-        return sorted([f.name for f in covers_dir.glob("*.jpg")])
+def load_full_index(json_path: str) -> dict:
+    path = Path(json_path)
+    if not path.exists():
+        path = Path(json_path.replace("_updated", ""))
+    with open(path, encoding="utf-8") as f:
+        books = json.load(f)
+    # key by isbn or cover_id
+    return {str(b.get("isbn") or b.get("cover_id", "")): b for b in books}
+
+
+def list_covers(covers_dir: str) -> list[str]:
+    d = Path(covers_dir)
+    if d.exists():
+        return sorted([f.name for f in d.glob("*.jpg")])
     return []
 
 
-def recommend(filename: str):
-    if not filename:
+# ── Core pipeline ──────────────────────────────────────────────────────────────
+
+current_dataset   = None
+current_full_index = {}
+click_map_store   = {}
+
+
+def switch_dataset(dataset_label: str):
+    global current_dataset, current_full_index
+    emb_dir, covers_dir, updated_idx, fallback_idx = DATASETS[dataset_label]
+    load_index(emb_dir)
+    current_full_index = load_full_index(updated_idx) or load_full_index(fallback_idx)
+    current_dataset    = dataset_label
+    choices = list_covers(covers_dir)
+    return gr.update(choices=choices, value=None), f"Loaded **{dataset_label}**"
+
+
+def recommend(dataset_label: str, filename: str):
+    if not filename or not dataset_label:
         return None, "", [], [], [], [], {}, ""
 
-    path = Path("data/covers") / filename
+    _, covers_dir, _, _ = DATASETS[dataset_label]
+    path = Path(covers_dir) / filename
     if not path.exists():
         return None, f"File not found: {path}", [], [], [], [], {}, ""
 
@@ -69,7 +93,6 @@ def recommend(filename: str):
 
     ocr_info = f"**OCR:** {ocr_text}" if ocr_text.strip() else "**OCR:** nothing detected"
 
-    # Store all results keyed by "track:index" for click lookup
     click_map = {}
 
     def build_gallery(track):
@@ -77,13 +100,9 @@ def recommend(filename: str):
         gallery = []
         for i, hit in enumerate(hits):
             authors = ", ".join(hit["authors"]) if hit["authors"] else "Unknown"
-            caption = (
-                f"#{hit['rank']}  {hit['title']}\n"
-                f"Score: {hit['score']:.3f} | {hit['genre']}\n"
-                f"by {authors}"
-            )
+            caption = f"#{hit['rank']}  {hit['title'][:40]}\nScore: {hit['score']:.3f} | {hit['genre']}\nby {authors}"
             gallery.append((hit["filename"], caption))
-            click_map[f"{track}:{i}"] = hit["cover_id"]
+            click_map[f"{track}:{i}"] = str(hit["id"])
         return gallery
 
     return (
@@ -98,37 +117,41 @@ def recommend(filename: str):
     )
 
 
-def on_gallery_click(track: str, click_map: dict, evt: gr.SelectData):
-    key = f"{track}:{evt.index}"
-    cover_id = click_map.get(key)
-    if cover_id is None:
+def on_click(track: str, click_map: dict, evt: gr.SelectData):
+    key      = f"{track}:{evt.index}"
+    book_id  = click_map.get(key)
+    if not book_id:
         return "No metadata found."
-
-    book = FULL_INDEX.get(cover_id)
-    if book is None:
-        return f"cover_id `{cover_id}` not found in index."
-
-    lines = [f"### 📋 Index entry for: {book.get('title', '?')}"]
+    book = current_full_index.get(book_id)
+    if not book:
+        return f"ID `{book_id}` not found in index."
+    lines = [f"### 📋 {book.get('title', '?')}"]
     lines.append("```json")
     lines.append(json.dumps(book, indent=2, ensure_ascii=False))
     lines.append("```")
     return "\n".join(lines)
 
 
+# ── UI ─────────────────────────────────────────────────────────────────────────
+
 with gr.Blocks(title="Book Cover Recommender", theme=gr.themes.Soft()) as demo:
 
     gr.Markdown("# 📚 Book Cover Recommender")
-    gr.Markdown("*Click any result image to see its full index metadata below.*")
+    gr.Markdown("*Select a dataset, pick a cover, and click any result to see its metadata.*")
 
     click_map_state = gr.State({})
 
     with gr.Row():
+        dataset_dd = gr.Dropdown(
+            choices=list(DATASETS.keys()),
+            value=list(DATASETS.keys())[1],   # default to NYT
+            label="Dataset",
+        )
+        dataset_status = gr.Markdown("")
+
+    with gr.Row():
         with gr.Column(scale=1):
-            dropdown = gr.Dropdown(
-                choices=list_covers(),
-                label="Select a cover",
-                allow_custom_value=True,
-            )
+            cover_dd  = gr.Dropdown(choices=[], label="Select a cover", allow_custom_value=True)
             run_btn   = gr.Button("Find similar books", variant="primary")
             query_img = gr.Image(label="Query cover", height=300)
             ocr_out   = gr.Markdown("")
@@ -146,28 +169,26 @@ with gr.Blocks(title="Book Cover Recommender", theme=gr.themes.Soft()) as demo:
 
     detail_out = gr.Markdown("*Click a result to see its index entry.*")
 
+    # Load default dataset on startup
+    demo.load(fn=switch_dataset, inputs=[dataset_dd], outputs=[cover_dd, dataset_status])
+
+    dataset_dd.change(fn=switch_dataset, inputs=[dataset_dd], outputs=[cover_dd, dataset_status])
+
     run_btn.click(
         fn=recommend,
-        inputs=[dropdown],
+        inputs=[dataset_dd, cover_dd],
         outputs=[query_img, ocr_out, g_visual, g_cross, g_semantic, g_color, click_map_state, detail_out],
     )
-    
-    def click_visual(click_map, evt: gr.SelectData):
-        return on_gallery_click("visual", click_map, evt)
 
-    def click_cross(click_map, evt: gr.SelectData):
-        return on_gallery_click("cross_modal", click_map, evt)
+    def click_visual(state, evt: gr.SelectData):   return on_click("visual",      state, evt)
+    def click_cross(state, evt: gr.SelectData):    return on_click("cross_modal", state, evt)
+    def click_semantic(state, evt: gr.SelectData): return on_click("semantic",    state, evt)
+    def click_color(state, evt: gr.SelectData):    return on_click("color",       state, evt)
 
-    def click_semantic(click_map, evt: gr.SelectData):
-        return on_gallery_click("semantic", click_map, evt)
-
-    def click_color(click_map, evt: gr.SelectData):
-        return on_gallery_click("color", click_map, evt)
-
-    g_visual.select(click_visual, inputs=[click_map_state], outputs=[detail_out])
-    g_cross.select(click_cross, inputs=[click_map_state], outputs=[detail_out])
+    g_visual.select(click_visual,   inputs=[click_map_state], outputs=[detail_out])
+    g_cross.select(click_cross,     inputs=[click_map_state], outputs=[detail_out])
     g_semantic.select(click_semantic, inputs=[click_map_state], outputs=[detail_out])
-    g_color.select(click_color, inputs=[click_map_state], outputs=[detail_out])
+    g_color.select(click_color,     inputs=[click_map_state], outputs=[detail_out])
 
 if __name__ == "__main__":
     demo.launch()
