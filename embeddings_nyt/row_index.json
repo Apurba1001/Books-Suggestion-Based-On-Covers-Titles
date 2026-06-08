@@ -1,0 +1,2582 @@
+[
+  {
+    "row": 0,
+    "id": "9780593135228",
+    "title": "PROJECT HAIL MARY",
+    "authors": [
+      "Andy Weir"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780593135228.jpg"
+  },
+  {
+    "row": 1,
+    "id": "9781607067726",
+    "title": "INVINCIBLE COMPENDIUM TWO",
+    "authors": [
+      "Robert Kirkman"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781607067726.jpg"
+  },
+  {
+    "row": 2,
+    "id": "9780593820254",
+    "title": "DUNGEON CRAWLER CARL",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780593820254.jpg"
+  },
+  {
+    "row": 3,
+    "id": "9780063415898",
+    "title": "THE BALLAD OF FALLING DRAGONS",
+    "authors": [
+      "Sarah A. Parker"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780063415898.jpg"
+  },
+  {
+    "row": 4,
+    "id": "9798217190065",
+    "title": "A PARADE OF HORRIBLES",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9798217190065.jpg"
+  },
+  {
+    "row": 5,
+    "id": "9780593820261",
+    "title": "CARL'S DOOMSDAY SCENARIO",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780593820261.jpg"
+  },
+  {
+    "row": 6,
+    "id": "9780593820285",
+    "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780593820285.jpg"
+  },
+  {
+    "row": 7,
+    "id": "9798217006120",
+    "title": "THE ESCAPE GAME",
+    "authors": [
+      "Marissa Meyer and Tamara Moss"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9798217006120.jpg"
+  },
+  {
+    "row": 8,
+    "id": "9781775293934",
+    "title": "THE DEAL",
+    "authors": [
+      "Elle Kennedy"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781775293934.jpg"
+  },
+  {
+    "row": 9,
+    "id": "9781775293965",
+    "title": "THE GOAL",
+    "authors": [
+      "Elle Kennedy"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781775293965.jpg"
+  },
+  {
+    "row": 10,
+    "id": "9780593438534",
+    "title": "EVERY SUMMER AFTER",
+    "authors": [
+      "Carley Fortune"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780593438534.jpg"
+  },
+  {
+    "row": 11,
+    "id": "9780593733318",
+    "title": "STRANGERS",
+    "authors": [
+      "Belle Burden"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9780593733318.jpg"
+  },
+  {
+    "row": 12,
+    "id": "9781250183866",
+    "title": "EXTREME OWNERSHIP",
+    "authors": [
+      "Jocko Willink and Leif Babin"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9781250183866.jpg"
+  },
+  {
+    "row": 13,
+    "id": "9780143127741",
+    "title": "THE BODY KEEPS THE SCORE",
+    "authors": [
+      "Bessel van der Kolk"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780143127741.jpg"
+  },
+  {
+    "row": 14,
+    "id": "9781464249631",
+    "title": "THE DIVORCE",
+    "authors": [
+      "Freida McFadden"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781464249631.jpg"
+  },
+  {
+    "row": 15,
+    "id": "9781250413598",
+    "title": "THE FINAL TARGET",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781250413598.jpg"
+  },
+  {
+    "row": 16,
+    "id": "9781668236512",
+    "title": "THEO OF GOLDEN",
+    "authors": [
+      "Allen Levi"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781668236512.jpg"
+  },
+  {
+    "row": 17,
+    "id": "9780593804216",
+    "title": "YESTERYEAR",
+    "authors": [
+      "Caro Claire Burke"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593804216.jpg"
+  },
+  {
+    "row": 18,
+    "id": "9781775293941",
+    "title": "THE MISTAKE",
+    "authors": [
+      "Elle Kennedy"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781775293941.jpg"
+  },
+  {
+    "row": 19,
+    "id": "9781775293958",
+    "title": "THE SCORE",
+    "authors": [
+      "Elle Kennedy"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781775293958.jpg"
+  },
+  {
+    "row": 20,
+    "id": "9798217088263",
+    "title": "PHOEBE BERMAN'S GONNA LOSE IT",
+    "authors": [
+      "Brooke Averick"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9798217088263.jpg"
+  },
+  {
+    "row": 21,
+    "id": "9780593833377",
+    "title": "THE MIDNIGHT TRAIN",
+    "authors": [
+      "Matt Haig"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593833377.jpg"
+  },
+  {
+    "row": 22,
+    "id": "9780063204164",
+    "title": "REMARKABLY BRIGHT CREATURES",
+    "authors": [
+      "Shelby Van Pelt"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780063204164.jpg"
+  },
+  {
+    "row": 23,
+    "id": "9781954118812",
+    "title": "THE CALAMITY CLUB",
+    "authors": [
+      "Kathryn Stockett"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781954118812.jpg"
+  },
+  {
+    "row": 24,
+    "id": "9780593798430",
+    "title": "THE CORRESPONDENT",
+    "authors": [
+      "Virginia Evans"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593798430.jpg"
+  },
+  {
+    "row": 25,
+    "id": "9780316264839",
+    "title": "THE LAND AND ITS PEOPLE",
+    "authors": [
+      "David Sedaris"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780316264839.jpg"
+  },
+  {
+    "row": 26,
+    "id": "9781668093801",
+    "title": "THE HERO NEXT DOOR",
+    "authors": [
+      "Martha Raddatz"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781668093801.jpg"
+  },
+  {
+    "row": 27,
+    "id": "9780593595121",
+    "title": "ALL WE SAY",
+    "authors": [
+      "Ben Rhodes"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593595121.jpg"
+  },
+  {
+    "row": 28,
+    "id": "9780316601306",
+    "title": "LIAR'S KINGDOM",
+    "authors": [
+      "Andrew Weissmann"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780316601306.jpg"
+  },
+  {
+    "row": 29,
+    "id": "9780374621117",
+    "title": "CRISIS OF THE COMMON GOOD",
+    "authors": [
+      "Chris Murphy"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780374621117.jpg"
+  },
+  {
+    "row": 30,
+    "id": "9781668249970",
+    "title": "TAKE ME TO YOUR LEADER",
+    "authors": [
+      "Neil deGrasse Tyson"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781668249970.jpg"
+  },
+  {
+    "row": 31,
+    "id": "9780385548533",
+    "title": "LONDON FALLING",
+    "authors": [
+      "Patrick Radden Keefe"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780385548533.jpg"
+  },
+  {
+    "row": 32,
+    "id": "9780593129326",
+    "title": "FAMESICK",
+    "authors": [
+      "Lena Dunham"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593129326.jpg"
+  },
+  {
+    "row": 33,
+    "id": "9780593296967",
+    "title": "1929",
+    "authors": [
+      "Andrew Ross Sorkin"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593296967.jpg"
+  },
+  {
+    "row": 34,
+    "id": "9780063422506",
+    "title": "THE INVISIBLE COUP",
+    "authors": [
+      "Peter Schweizer"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780063422506.jpg"
+  },
+  {
+    "row": 35,
+    "id": "9780593239803",
+    "title": "AMERICA, U.S.A.",
+    "authors": [
+      "Eddie S. Glaude Jr"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593239803.jpg"
+  },
+  {
+    "row": 36,
+    "id": "9780063446533",
+    "title": "SUICIDAL EMPATHY",
+    "authors": [
+      "Gad Saad"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780063446533.jpg"
+  },
+  {
+    "row": 37,
+    "id": "9780593832837",
+    "title": "HOW TO RULE THE WORLD",
+    "authors": [
+      "Theo Baker"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9780593832837.jpg"
+  },
+  {
+    "row": 38,
+    "id": "9781250413581",
+    "title": "THE FINAL TARGET",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "literary_fiction",
+    "filename": "data/covers_nyt/literary_fiction_9781250413581.jpg"
+  },
+  {
+    "row": 39,
+    "id": "9798217234288",
+    "title": "KPOP DEMON HUNTERS",
+    "authors": [
+      "Jessica Yoon"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9798217234288.jpg"
+  },
+  {
+    "row": 40,
+    "id": "9798217234301",
+    "title": "KPOP DEMON HUNTERS: THE MOVIE IN COMICS",
+    "authors": [
+      "based on the screenplay by Danya Jimenez, Hannah McMechan, Maggie Kang and Chris Appelhans"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9798217234301.jpg"
+  },
+  {
+    "row": 41,
+    "id": "9781974710027",
+    "title": "JUJUTSU KAISEN, VOL. 1",
+    "authors": [
+      "Gege Akutami"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9781974710027.jpg"
+  },
+  {
+    "row": 42,
+    "id": "9781668191569",
+    "title": "TAKE ME TO YOUR LEADER",
+    "authors": [
+      "Neil deGrasse Tyson"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781668191569.jpg"
+  },
+  {
+    "row": 43,
+    "id": "9781638493655",
+    "title": "DUNGEON CRAWLER CARL, VOL. 1",
+    "authors": [
+      "Tevagah"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781638493655.jpg"
+  },
+  {
+    "row": 44,
+    "id": "9781546176183",
+    "title": "BIG JIM BELIEVES",
+    "authors": [
+      "Dav Pilkey"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781546176183.jpg"
+  },
+  {
+    "row": 45,
+    "id": "9798217300556",
+    "title": "THE MARTIAN",
+    "authors": [
+      "Andy Weir"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9798217300556.jpg"
+  },
+  {
+    "row": 46,
+    "id": "9780593809907",
+    "title": "THE POISONED KING",
+    "authors": [
+      "Katherine Rundell"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780593809907.jpg"
+  },
+  {
+    "row": 47,
+    "id": "9781728256184",
+    "title": "THE SUN AND THE STARMAKER",
+    "authors": [
+      "Rachel Griffin"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9781728256184.jpg"
+  },
+  {
+    "row": 48,
+    "id": "9783748087328",
+    "title": "DUNGEON CRAWLER CARL",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9783748087328.jpg"
+  },
+  {
+    "row": 49,
+    "id": "9798888777794",
+    "title": "WITCH HAT ATELIER: GRIMOIRE EDITION 1",
+    "authors": [
+      "Kamome Shirahama"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9798888777794.jpg"
+  },
+  {
+    "row": 50,
+    "id": "9780063419056",
+    "title": "RELEASE ME",
+    "authors": [
+      "Tahereh Mafi"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780063419056.jpg"
+  },
+  {
+    "row": 51,
+    "id": "9781665990301",
+    "title": "BETTER THAN THE MOVIES",
+    "authors": [
+      "Lynn Painter"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781665990301.jpg"
+  },
+  {
+    "row": 52,
+    "id": "9798347108770",
+    "title": "CHANGE OF PLANS",
+    "authors": [
+      "Sarah Dessen"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9798347108770.jpg"
+  },
+  {
+    "row": 53,
+    "id": "DBKADBL025354",
+    "title": "THE DEAL",
+    "authors": [
+      "Elle Kennedy"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_DBKADBL025354.jpg"
+  },
+  {
+    "row": 54,
+    "id": "9781668648230",
+    "title": "THE LAND AND ITS PEOPLE",
+    "authors": [
+      "David Sedaris"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781668648230.jpg"
+  },
+  {
+    "row": 55,
+    "id": "9780063204188",
+    "title": "REMARKABLY BRIGHT CREATURES",
+    "authors": [
+      "Shelby Van Pelt"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780063204188.jpg"
+  },
+  {
+    "row": 56,
+    "id": "9798217073443",
+    "title": "STRANGERS",
+    "authors": [
+      "Belle Burden"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9798217073443.jpg"
+  },
+  {
+    "row": 57,
+    "id": "9781668173107",
+    "title": "THEO OF GOLDEN",
+    "authors": [
+      "Allen Levi"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781668173107.jpg"
+  },
+  {
+    "row": 58,
+    "id": "9780593955970",
+    "title": "THE GATE OF THE FERAL GODS",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780593955970.jpg"
+  },
+  {
+    "row": 59,
+    "id": "9781335219978",
+    "title": "BAD BOY ERA",
+    "authors": [
+      "Amy Daws"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781335219978.jpg"
+  },
+  {
+    "row": 60,
+    "id": "9781668116517",
+    "title": "THE FOURTH OPTION",
+    "authors": [
+      "Jack Carr and M.P. Woodward"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781668116517.jpg"
+  },
+  {
+    "row": 61,
+    "id": "9798347810307",
+    "title": "THE CALAMITY CLUB",
+    "authors": [
+      "Kathryn Stockett"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9798347810307.jpg"
+  },
+  {
+    "row": 62,
+    "id": "9783748087366",
+    "title": "THE BUTCHER'S MASQUERADE",
+    "authors": [
+      "Matt Dinniman"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9783748087366.jpg"
+  },
+  {
+    "row": 63,
+    "id": "9780593829097",
+    "title": "THE ANXIOUS GENERATION",
+    "authors": [
+      "Jonathan Haidt"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780593829097.jpg"
+  },
+  {
+    "row": 64,
+    "id": "9798217282159",
+    "title": "A WORLD APPEARS",
+    "authors": [
+      "Michael Pollan"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9798217282159.jpg"
+  },
+  {
+    "row": 65,
+    "id": "9780063451070",
+    "title": "DOGS, BOYS, AND OTHER THINGS I'VE CRIED ABOUT",
+    "authors": [
+      "Isabel Klee"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780063451070.jpg"
+  },
+  {
+    "row": 66,
+    "id": "9780063360808",
+    "title": "THE CASE FOR AMERICA",
+    "authors": [
+      "Bret Baier"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780063360808.jpg"
+  },
+  {
+    "row": 67,
+    "id": "9780063515277",
+    "title": "ALL AMERICAN PATRIOTISM",
+    "authors": [
+      "Rachel Campos-Duffy"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780063515277.jpg"
+  },
+  {
+    "row": 68,
+    "id": "9781668099575",
+    "title": "FEVER DREAM",
+    "authors": [
+      "Elsie Silver"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781668099575.jpg"
+  },
+  {
+    "row": 69,
+    "id": "9781401971366",
+    "title": "THE LET THEM THEORY",
+    "authors": [
+      "Mel Robbins"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781401971366.jpg"
+  },
+  {
+    "row": 70,
+    "id": "9780735211292",
+    "title": "ATOMIC HABITS",
+    "authors": [
+      "James Clear"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780735211292.jpg"
+  },
+  {
+    "row": 71,
+    "id": "9780063351301",
+    "title": "IF THERE IS NO GOD",
+    "authors": [
+      "Dennis Prager with Joel Alperson"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780063351301.jpg"
+  },
+  {
+    "row": 72,
+    "id": "9780593418574",
+    "title": "UNREASONABLE HOSPITALITY",
+    "authors": [
+      "Will Guidara"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780593418574.jpg"
+  },
+  {
+    "row": 73,
+    "id": "9798893311860",
+    "title": "INCORRUPTIBLE",
+    "authors": [
+      "Eric Ries"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9798893311860.jpg"
+  },
+  {
+    "row": 74,
+    "id": "9781667512549",
+    "title": "18 DAYS IN HEAVEN",
+    "authors": [
+      "Gabe Poirot"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781667512549.jpg"
+  },
+  {
+    "row": 75,
+    "id": "9781455570249",
+    "title": "MAKE YOUR BED",
+    "authors": [
+      "William H. McRaven"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781455570249.jpg"
+  },
+  {
+    "row": 76,
+    "id": "9780062976581",
+    "title": "THE BOY, THE MOLE, THE FOX AND THE HORSE",
+    "authors": [
+      "Charlie Mackesy"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780062976581.jpg"
+  },
+  {
+    "row": 77,
+    "id": "9798893310153",
+    "title": "DON'T BELIEVE EVERYTHING YOU THINK, EXPANDED EDITION",
+    "authors": [
+      "Joseph Nguyen"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9798893310153.jpg"
+  },
+  {
+    "row": 78,
+    "id": "9781538771471",
+    "title": "BIRTH VIBES",
+    "authors": [
+      "Jen Hamilton"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781538771471.jpg"
+  },
+  {
+    "row": 79,
+    "id": "9798217176397",
+    "title": "FAMESICK",
+    "authors": [
+      "Lena Dunham"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9798217176397.jpg"
+  },
+  {
+    "row": 80,
+    "id": "9780063446557",
+    "title": "SUICIDAL EMPATHY",
+    "authors": [
+      "Gad Saad"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780063446557.jpg"
+  },
+  {
+    "row": 81,
+    "id": "9798217174072",
+    "title": "LONDON FALLING",
+    "authors": [
+      "Patrick Radden Keefe"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9798217174072.jpg"
+  },
+  {
+    "row": 82,
+    "id": "9780593412701",
+    "title": "THE BODY KEEPS THE SCORE",
+    "authors": [
+      "Bessel van der Kolk"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780593412701.jpg"
+  },
+  {
+    "row": 83,
+    "id": "9781668655627",
+    "title": "THIS IS ME",
+    "authors": [
+      "Hayden Panettiere"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781668655627.jpg"
+  },
+  {
+    "row": 84,
+    "id": "9781668653487",
+    "title": "YOU WITH THE SAD EYES",
+    "authors": [
+      "Christina Applegate"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781668653487.jpg"
+  },
+  {
+    "row": 85,
+    "id": "9781668657157",
+    "title": "LIAR'S KINGDOM",
+    "authors": [
+      "Andrew Weissmann"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9781668657157.jpg"
+  },
+  {
+    "row": 86,
+    "id": "9780593294185",
+    "title": "GREENLIGHTS",
+    "authors": [
+      "Matthew McConaughey"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780593294185.jpg"
+  },
+  {
+    "row": 87,
+    "id": "9798217281633",
+    "title": "INSIDE THE BOX",
+    "authors": [
+      "David Epstein"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9798217281633.jpg"
+  },
+  {
+    "row": 88,
+    "id": "9780063360839",
+    "title": "THE CASE FOR AMERICA",
+    "authors": [
+      "Bret Baier"
+    ],
+    "genre": "non-fiction",
+    "filename": "data/covers_nyt/non-fiction_9780063360839.jpg"
+  },
+  {
+    "row": 89,
+    "id": "9780451173317",
+    "title": "The Waste Lands",
+    "authors": [
+      "Stephen King"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780451173317.jpg"
+  },
+  {
+    "row": 90,
+    "id": "9780553588262",
+    "title": "Forever Odd",
+    "authors": [
+      "Dean Ray Koontz"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780553588262.jpg"
+  },
+  {
+    "row": 91,
+    "id": "9780553807738",
+    "title": "Deeply Odd",
+    "authors": [
+      "Dean Ray Koontz"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780553807738.jpg"
+  },
+  {
+    "row": 92,
+    "id": "9780399137730",
+    "title": "Dragon Tears",
+    "authors": [
+      "Dean Ray Koontz"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780399137730.jpg"
+  },
+  {
+    "row": 93,
+    "id": "9780671685638",
+    "title": "Ghost Story",
+    "authors": [
+      "Peter Straub"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780671685638.jpg"
+  },
+  {
+    "row": 94,
+    "id": "c8RlAAAAMAAJ",
+    "title": "We Have Always Lived in the Castle",
+    "authors": [
+      "Shirley Jackson"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_c8RlAAAAMAAJ.jpg"
+  },
+  {
+    "row": 95,
+    "id": "9780813917238",
+    "title": "Featherless Chickens, Laughing Women, and Serious Stories",
+    "authors": [
+      "Jeannie B. Thomas"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780813917238.jpg"
+  },
+  {
+    "row": 96,
+    "id": "9780760376799",
+    "title": "Horror Unmasked",
+    "authors": [
+      "Brad Weismann"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780760376799.jpg"
+  },
+  {
+    "row": 97,
+    "id": "2K9ePFqOOqgC",
+    "title": "The Chest of Opium. (Chinese Horror)",
+    "authors": [
+      "Mr. M----",
+      "Charles W. Mason"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_2K9ePFqOOqgC.jpg"
+  },
+  {
+    "row": 98,
+    "id": "fKAqAQAAIAAJ",
+    "title": "Clive Barker's A-Z of Horror",
+    "authors": [
+      "Clive Barker"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_fKAqAQAAIAAJ.jpg"
+  },
+  {
+    "row": 99,
+    "id": "cANUAAAAMAAJ",
+    "title": "Gregor Schneider",
+    "authors": [
+      "Gregor Schneider",
+      "Andrew O'Hagan",
+      "Colm Tóibín"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_cANUAAAAMAAJ.jpg"
+  },
+  {
+    "row": 100,
+    "id": "9780340836552",
+    "title": "The Optimists",
+    "authors": [
+      "Andrew Miller"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780340836552.jpg"
+  },
+  {
+    "row": 101,
+    "id": "9781645177074",
+    "title": "The Call of Cthulhu and Dagon: A Graphic Novel",
+    "authors": [
+      "H. P. Lovecraft",
+      "Pete Katz"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9781645177074.jpg"
+  },
+  {
+    "row": 102,
+    "id": "9780451129529",
+    "title": "Shadow of the Beast",
+    "authors": [
+      "Gerald DiPego"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780451129529.jpg"
+  },
+  {
+    "row": 103,
+    "id": "GyzmEAAAQBAJ",
+    "title": "Once Upon A Parallel Time",
+    "authors": [
+      "Philip K. Dick"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_GyzmEAAAQBAJ.jpg"
+  },
+  {
+    "row": 104,
+    "id": "9780898750010",
+    "title": "Worlds Within Worlds",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780898750010.jpg"
+  },
+  {
+    "row": 105,
+    "id": "9781497638679",
+    "title": "In the Beginning",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781497638679.jpg"
+  },
+  {
+    "row": 106,
+    "id": "9780307792273",
+    "title": "Isaac Asimov's Guide to Earth and Space",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780307792273.jpg"
+  },
+  {
+    "row": 107,
+    "id": "neLXAAAAMAAJ",
+    "title": "Atom",
+    "authors": [
+      "Isaac Asimov"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_neLXAAAAMAAJ.jpg"
+  },
+  {
+    "row": 108,
+    "id": "9781250163660",
+    "title": "Our Angry Earth",
+    "authors": [
+      "Isaac Asimov",
+      "Frederik Pohl"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781250163660.jpg"
+  },
+  {
+    "row": 109,
+    "id": "9781473232181",
+    "title": "The Exploration of Space",
+    "authors": [
+      "Arthur C. Clarke"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781473232181.jpg"
+  },
+  {
+    "row": 110,
+    "id": "9780190854157",
+    "title": "The First Minds",
+    "authors": [
+      "Arthur S. Reber"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780190854157.jpg"
+  },
+  {
+    "row": 111,
+    "id": "9780006483694",
+    "title": "Greetings, Carbon-based Bipeds!",
+    "authors": [
+      "Arthur Charles Clarke",
+      "Ian T. Macauley"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780006483694.jpg"
+  },
+  {
+    "row": 112,
+    "id": "9780575104402",
+    "title": "Children Of Dune",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780575104402.jpg"
+  },
+  {
+    "row": 113,
+    "id": "9780575104396",
+    "title": "Chapter House Dune",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780575104396.jpg"
+  },
+  {
+    "row": 114,
+    "id": "9781473226579",
+    "title": "The Great Dune Trilogy",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781473226579.jpg"
+  },
+  {
+    "row": 115,
+    "id": "9780575104457",
+    "title": "Heretics Of Dune",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780575104457.jpg"
+  },
+  {
+    "row": 116,
+    "id": "9781399637176",
+    "title": "The Eyes of Heisenberg",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781399637176.jpg"
+  },
+  {
+    "row": 117,
+    "id": "9780575104440",
+    "title": "God Emperor Of Dune",
+    "authors": [
+      "Frank Herbert"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9780575104440.jpg"
+  },
+  {
+    "row": 118,
+    "id": "9781473205956",
+    "title": "Dreams Must Explain Themselves",
+    "authors": [
+      "Ursula K. Le Guin"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781473205956.jpg"
+  },
+  {
+    "row": 119,
+    "id": "9781640141315",
+    "title": "The Noah Myth in Twenty-first-century Cli-fi Novels",
+    "authors": [
+      "Helen E. Mundler"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781640141315.jpg"
+  },
+  {
+    "row": 120,
+    "id": "9781443892698",
+    "title": "Margaret Atwood's Dystopian Fiction",
+    "authors": [
+      "Sławomir Kuźnicki"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781443892698.jpg"
+  },
+  {
+    "row": 121,
+    "id": "9781000631845",
+    "title": "The Plague Years",
+    "authors": [
+      "Michael Titlestad",
+      "Karl van Wyk",
+      "Grace A. Musila"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781000631845.jpg"
+  },
+  {
+    "row": 122,
+    "id": "9781040677520",
+    "title": "Narrating Multiplicities in Motion",
+    "authors": [
+      "Elena Ogliari",
+      "Anna Pasolini",
+      "Carla Tempestoso"
+    ],
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9781040677520.jpg"
+  },
+  {
+    "row": 123,
+    "id": "9780765365279",
+    "title": "The Way of Kings",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780765365279.jpg"
+  },
+  {
+    "row": 124,
+    "id": "9780765356147",
+    "title": "The Hero of Ages",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780765356147.jpg"
+  },
+  {
+    "row": 125,
+    "id": "9780575097414",
+    "title": "Words of Radiance",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780575097414.jpg"
+  },
+  {
+    "row": 126,
+    "id": "9780575103993",
+    "title": "Steelheart",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780575103993.jpg"
+  },
+  {
+    "row": 127,
+    "id": "9780765330420",
+    "title": "The Alloy of Law",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780765330420.jpg"
+  },
+  {
+    "row": 128,
+    "id": "9781841492414",
+    "title": "The Gathering Storm",
+    "authors": [
+      "Robert Jordan",
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9781841492414.jpg"
+  },
+  {
+    "row": 129,
+    "id": "9781473230095",
+    "title": "Legion: the Many Lives of Stephen Leeds",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9781473230095.jpg"
+  },
+  {
+    "row": 130,
+    "id": "9780765350381",
+    "title": "Mistborn",
+    "authors": [
+      "Brandon Sanderson"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780765350381.jpg"
+  },
+  {
+    "row": 131,
+    "id": "9780007196197",
+    "title": "Renegade's Magic",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780007196197.jpg"
+  },
+  {
+    "row": 132,
+    "id": "9780006486022",
+    "title": "The Golden Fool",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780006486022.jpg"
+  },
+  {
+    "row": 133,
+    "id": "9780007196166",
+    "title": "Forest Mage",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780007196166.jpg"
+  },
+  {
+    "row": 134,
+    "id": "9780553575637",
+    "title": "Ship of Magic",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780553575637.jpg"
+  },
+  {
+    "row": 135,
+    "id": "9780060757625",
+    "title": "Shaman's Crossing",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780060757625.jpg"
+  },
+  {
+    "row": 136,
+    "id": "9780002246064",
+    "title": "Assassin's Apprentice",
+    "authors": [
+      "Robin Hobb"
+    ],
+    "genre": "fantasy",
+    "filename": "data/covers_nyt/fantasy_9780002246064.jpg"
+  },
+  {
+    "row": 137,
+    "id": "9780751536560",
+    "title": "True Believer",
+    "authors": [
+      "Nicholas Sparks"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780751536560.jpg"
+  },
+  {
+    "row": 138,
+    "id": "9780446547567",
+    "title": "The Last Song",
+    "authors": [
+      "Nicholas Sparks"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780446547567.jpg"
+  },
+  {
+    "row": 139,
+    "id": "9780733592362",
+    "title": "(All's Fair In) Love and War",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780733592362.jpg"
+  },
+  {
+    "row": 140,
+    "id": "9780727889119",
+    "title": "Unfinished Business",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780727889119.jpg"
+  },
+  {
+    "row": 141,
+    "id": "9780739417928",
+    "title": "Dance Upon the Air",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780739417928.jpg"
+  },
+  {
+    "row": 142,
+    "id": "JlxbAAAAMAAJ",
+    "title": "The Villa",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_JlxbAAAAMAAJ.jpg"
+  },
+  {
+    "row": 143,
+    "id": "9780373218578",
+    "title": "The MacKade Brothers: Rafe and Jared",
+    "authors": [
+      "Nora Roberts"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780373218578.jpg"
+  },
+  {
+    "row": 144,
+    "id": "9781542000178",
+    "title": "Layla",
+    "authors": [
+      "Colleen Hoover"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781542000178.jpg"
+  },
+  {
+    "row": 145,
+    "id": "9781501151712",
+    "title": "9-Nov",
+    "authors": [
+      "Colleen Hoover"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781501151712.jpg"
+  },
+  {
+    "row": 146,
+    "id": "9781761105357",
+    "title": "All Your Perfects",
+    "authors": [
+      "Colleen Hoover"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781761105357.jpg"
+  },
+  {
+    "row": 147,
+    "id": "9780063279469",
+    "title": "The Viscount Who Loved Me",
+    "authors": [
+      "Julia Quinn"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780063279469.jpg"
+  },
+  {
+    "row": 148,
+    "id": "9780062958594",
+    "title": "Miss Butterworth and the Mad Baron",
+    "authors": [
+      "Julia Quinn",
+      "Violet Charles"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780062958594.jpg"
+  },
+  {
+    "row": 149,
+    "id": "9780743497459",
+    "title": "Holly",
+    "authors": [
+      "Jude Deveraux"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780743497459.jpg"
+  },
+  {
+    "row": 150,
+    "id": "9780743276863",
+    "title": "Last Voyage of the Valentina",
+    "authors": [
+      "Santa Montefiore"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780743276863.jpg"
+  },
+  {
+    "row": 151,
+    "id": "9780590556897",
+    "title": "A Winter Love Story",
+    "authors": [
+      "Jane Claypool Miner"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780590556897.jpg"
+  },
+  {
+    "row": 152,
+    "id": "9781593108304",
+    "title": "Fairy-tale Brides",
+    "authors": [
+      "Irene B. Brand"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9781593108304.jpg"
+  },
+  {
+    "row": 153,
+    "id": "9780373198054",
+    "title": "Lone Star Marine",
+    "authors": [
+      "Cathie Linz"
+    ],
+    "genre": "romance",
+    "filename": "data/covers_nyt/romance_9780373198054.jpg"
+  },
+  {
+    "row": 154,
+    "id": "9780006167242",
+    "title": "The ABC Murders",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780006167242.jpg"
+  },
+  {
+    "row": 155,
+    "id": "9780007211654",
+    "title": "The Pale Horse",
+    "authors": [
+      "Agatha Christie",
+      "Hugh Fraser"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780007211654.jpg"
+  },
+  {
+    "row": 156,
+    "id": "9780854566662",
+    "title": "The Clocks",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780854566662.jpg"
+  },
+  {
+    "row": 157,
+    "id": "9780006161745",
+    "title": "Cat Among the Pigeons",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780006161745.jpg"
+  },
+  {
+    "row": 158,
+    "id": "9780006169185",
+    "title": "The Big Four",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780006169185.jpg"
+  },
+  {
+    "row": 159,
+    "id": "9780312979478",
+    "title": "And Then There Were None",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780312979478.jpg"
+  },
+  {
+    "row": 160,
+    "id": "9780739414194",
+    "title": "Spider's Web",
+    "authors": [
+      "Charles Osborne",
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780739414194.jpg"
+  },
+  {
+    "row": 161,
+    "id": "9780708917244",
+    "title": "Hercule Poirot's Christmas",
+    "authors": [
+      "Agatha Christie"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780708917244.jpg"
+  },
+  {
+    "row": 162,
+    "id": "9780446611640",
+    "title": "The Narrows",
+    "authors": [
+      "Michael Connelly"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780446611640.jpg"
+  },
+  {
+    "row": 163,
+    "id": "9783453206908",
+    "title": "Schwarzes Echo",
+    "authors": [
+      "Michael Connelly"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9783453206908.jpg"
+  },
+  {
+    "row": 164,
+    "id": "9781760630782",
+    "title": "The Late Show",
+    "authors": [
+      "Michael Connelly"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9781760630782.jpg"
+  },
+  {
+    "row": 165,
+    "id": "9780739481189",
+    "title": "The Overlook",
+    "authors": [
+      "Michael Connelly"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780739481189.jpg"
+  },
+  {
+    "row": 166,
+    "id": "9781770871380",
+    "title": "The Tsunami File",
+    "authors": [
+      "Michael E. Rose"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9781770871380.jpg"
+  },
+  {
+    "row": 167,
+    "id": "9780843959864",
+    "title": "Random Victim",
+    "authors": [
+      "Michael A. Black"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780843959864.jpg"
+  },
+  {
+    "row": 168,
+    "id": "9781402017056",
+    "title": "Mystery in its Passions: Literary Explorations",
+    "authors": [
+      "Anna-Teresa Tymieniecka"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9781402017056.jpg"
+  },
+  {
+    "row": 169,
+    "id": "9781312308060",
+    "title": "Whodoneit! A Film Guide",
+    "authors": [
+      "Terry Rowan"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9781312308060.jpg"
+  },
+  {
+    "row": 170,
+    "id": "9780340820650",
+    "title": "A Presumption of Death",
+    "authors": [
+      "Jill Paton Walsh",
+      "Dorothy Leigh Sayers"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780340820650.jpg"
+  },
+  {
+    "row": 171,
+    "id": "9780792709374",
+    "title": "Bones",
+    "authors": [
+      "Bill Pronzini"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780792709374.jpg"
+  },
+  {
+    "row": 172,
+    "id": "9781597070249",
+    "title": "Nancy Drew #5: The Fake Heir",
+    "authors": [
+      "Stefan Petrucha",
+      "Carolyn Keene"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9781597070249.jpg"
+  },
+  {
+    "row": 173,
+    "id": "9780006138402",
+    "title": "Black as He's Painted",
+    "authors": [
+      "Ngaio Marsh"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780006138402.jpg"
+  },
+  {
+    "row": 174,
+    "id": "9781921202810",
+    "title": "C.S. Lewis and the Body in the Basement",
+    "authors": [
+      "Kel Richards"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9781921202810.jpg"
+  },
+  {
+    "row": 175,
+    "id": "9780451206923",
+    "title": "Most Wanted",
+    "authors": [
+      "Robert J. Randisi"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780451206923.jpg"
+  },
+  {
+    "row": 176,
+    "id": "9780099505969",
+    "title": "The Redeemer",
+    "authors": [
+      "Jo Nesbø"
+    ],
+    "genre": "mystery",
+    "filename": "data/covers_nyt/mystery_9780099505969.jpg"
+  },
+  {
+    "row": 177,
+    "id": "9780593043998",
+    "title": "The Visitor",
+    "authors": [
+      "Lee Child"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780593043998.jpg"
+  },
+  {
+    "row": 178,
+    "id": "9780857500069",
+    "title": "Tripwire",
+    "authors": [
+      "Lee Child"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780857500069.jpg"
+  },
+  {
+    "row": 179,
+    "id": "9781405915007",
+    "title": "Runner",
+    "authors": [
+      "Patrick Lee"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781405915007.jpg"
+  },
+  {
+    "row": 180,
+    "id": "9781846057922",
+    "title": "11th Hour",
+    "authors": [
+      "James Patterson",
+      "Maxine Paetro"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781846057922.jpg"
+  },
+  {
+    "row": 181,
+    "id": "9781780892733",
+    "title": "Bullseye",
+    "authors": [
+      "James Patterson",
+      "Michael Ledwidge"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781780892733.jpg"
+  },
+  {
+    "row": 182,
+    "id": "9780316602051",
+    "title": "The Jester",
+    "authors": [
+      "James Patterson",
+      "Andrew Gross"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780316602051.jpg"
+  },
+  {
+    "row": 183,
+    "id": "9781720492504",
+    "title": "Arabian Deception",
+    "authors": [
+      "James Lawrence"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781720492504.jpg"
+  },
+  {
+    "row": 184,
+    "id": "9781723974540",
+    "title": "Arabian Collusion",
+    "authors": [
+      "James Lawrence"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781723974540.jpg"
+  },
+  {
+    "row": 185,
+    "id": "9781797768489",
+    "title": "Rising Sea: A Pat Walsh Thriller",
+    "authors": [
+      "James Lawrence"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781797768489.jpg"
+  },
+  {
+    "row": 186,
+    "id": "9781471282645",
+    "title": "Missing You",
+    "authors": [
+      "Harlan Coben"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781471282645.jpg"
+  },
+  {
+    "row": 187,
+    "id": "9781471289200",
+    "title": "Found",
+    "authors": [
+      "Harlan Coben"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781471289200.jpg"
+  },
+  {
+    "row": 188,
+    "id": "9781501103674",
+    "title": "Trust No One",
+    "authors": [
+      "Paul Cleave"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781501103674.jpg"
+  },
+  {
+    "row": 189,
+    "id": "9781476782560",
+    "title": "Cimarron Rose",
+    "authors": [
+      "James Lee Burke"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781476782560.jpg"
+  },
+  {
+    "row": 190,
+    "id": "9781471253614",
+    "title": "Cross and Burn",
+    "authors": [
+      "Val McDermid"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781471253614.jpg"
+  },
+  {
+    "row": 191,
+    "id": "9781784295394",
+    "title": "Three Hours",
+    "authors": [
+      "Anders Roslund",
+      "Borge Hellstrom"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781784295394.jpg"
+  },
+  {
+    "row": 192,
+    "id": "9798614788902",
+    "title": "The Girls They Stole",
+    "authors": [
+      "J H Leigh"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9798614788902.jpg"
+  },
+  {
+    "row": 193,
+    "id": "9781460757024",
+    "title": "The Last Widow",
+    "authors": [
+      "Karin Slaughter"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781460757024.jpg"
+  },
+  {
+    "row": 194,
+    "id": "9780008354909",
+    "title": "I KNOW WHO YOU ARE PB",
+    "authors": [
+      "ALICE. FEENEY"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780008354909.jpg"
+  },
+  {
+    "row": 195,
+    "id": "9780593044087",
+    "title": "Crime Zero",
+    "authors": [
+      "Michael Cordy"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780593044087.jpg"
+  },
+  {
+    "row": 196,
+    "id": "9780008236076",
+    "title": "Sometimes I Kill",
+    "authors": [
+      "Alice Feeney"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780008236076.jpg"
+  },
+  {
+    "row": 197,
+    "id": "9780099598862",
+    "title": "In Too Deep",
+    "authors": [
+      "Samantha Hayes"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780099598862.jpg"
+  },
+  {
+    "row": 198,
+    "id": "9781473608368",
+    "title": "New Psychological Thriller",
+    "authors": [
+      "Sabine Durrant"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781473608368.jpg"
+  },
+  {
+    "row": 199,
+    "id": "9780553824513",
+    "title": "Harvest",
+    "authors": [
+      "Tess Gerritsen"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9780553824513.jpg"
+  },
+  {
+    "row": 200,
+    "id": "9781865086682",
+    "title": "Acid Row",
+    "authors": [
+      "Minette Walters"
+    ],
+    "genre": "thriller",
+    "filename": "data/covers_nyt/thriller_9781865086682.jpg"
+  },
+  {
+    "row": 201,
+    "id": "9781558611474",
+    "title": "The Living is Easy",
+    "authors": [
+      "Dorothy West"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781558611474.jpg"
+  },
+  {
+    "row": 202,
+    "id": "9780755309795",
+    "title": "Angels in the Gloom",
+    "authors": [
+      "Anne Perry"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780755309795.jpg"
+  },
+  {
+    "row": 203,
+    "id": "9781525811531",
+    "title": "The Warsaw Orphan",
+    "authors": [
+      "Kelly Rimmer"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781525811531.jpg"
+  },
+  {
+    "row": 204,
+    "id": "9780008516062",
+    "title": "The Resistance Girl",
+    "authors": [
+      "Mandy Robotham"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780008516062.jpg"
+  },
+  {
+    "row": 205,
+    "id": "9780062946980",
+    "title": "The Postmistress of Paris",
+    "authors": [
+      "Meg Waite Clayton"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780062946980.jpg"
+  },
+  {
+    "row": 206,
+    "id": "9780062916242",
+    "title": "Painting the Light",
+    "authors": [
+      "Sally Cabot Gunning"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780062916242.jpg"
+  },
+  {
+    "row": 207,
+    "id": "9780062983695",
+    "title": "The Godmothers",
+    "authors": [
+      "Camille Aubray"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780062983695.jpg"
+  },
+  {
+    "row": 208,
+    "id": "9781838898120",
+    "title": "Harpers Heroes",
+    "authors": [
+      "Rosie Clarke"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781838898120.jpg"
+  },
+  {
+    "row": 209,
+    "id": "9781432885540",
+    "title": "The Last Garden in England",
+    "authors": [
+      "Julia Kelly"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781432885540.jpg"
+  },
+  {
+    "row": 210,
+    "id": "9781525211898",
+    "title": "Exile's Return",
+    "authors": [
+      "Alison Stuart"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781525211898.jpg"
+  },
+  {
+    "row": 211,
+    "id": "9781407066875",
+    "title": "To the Last Man",
+    "authors": [
+      "Jeff Shaara"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781407066875.jpg"
+  },
+  {
+    "row": 212,
+    "id": "9781409180265",
+    "title": "Hawkwood's Sword",
+    "authors": [
+      "Christian Cameron"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781409180265.jpg"
+  },
+  {
+    "row": 213,
+    "id": "9780648214984",
+    "title": "The Return of Absent Souls",
+    "authors": [
+      "C. J. Archer"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780648214984.jpg"
+  },
+  {
+    "row": 214,
+    "id": "9781784973926",
+    "title": "The Bridge",
+    "authors": [
+      "Robert Radcliffe"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9781784973926.jpg"
+  },
+  {
+    "row": 215,
+    "id": "9780369331489",
+    "title": "The Black Earth",
+    "authors": [
+      "Philip Kazan"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780369331489.jpg"
+  },
+  {
+    "row": 216,
+    "id": "9780743258074",
+    "title": "Benjamin Franklin",
+    "authors": [
+      "Walter Isaacson"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9780743258074.jpg"
+  },
+  {
+    "row": 217,
+    "id": "9781501171383",
+    "title": "Einstein",
+    "authors": [
+      "Walter Isaacson"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9781501171383.jpg"
+  },
+  {
+    "row": 218,
+    "id": "9781476708706",
+    "title": "The Innovators",
+    "authors": [
+      "Walter Isaacson"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9781476708706.jpg"
+  },
+  {
+    "row": 219,
+    "id": "9781501127625",
+    "title": "Steve Jobs",
+    "authors": [
+      "Walter Isaacson"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9781501127625.jpg"
+  },
+  {
+    "row": 220,
+    "id": "9781476728759",
+    "title": "The Wright Brothers",
+    "authors": [
+      "David McCullough"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9781476728759.jpg"
+  },
+  {
+    "row": 221,
+    "id": "HOsRAAAAYAAJ",
+    "title": "Memoirs and Letters of Sir James Paget",
+    "authors": [
+      "Sir James Paget"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_HOsRAAAAYAAJ.jpg"
+  },
+  {
+    "row": 222,
+    "id": "6aEuAQAAIAAJ",
+    "title": "Classic Memoirs: By Philippe de Commines; Marguerite de Valois; Duc de Sully; Cardinal de Richelieu; Cardinal de Retz; Madame de Montespan; Duc de Saint-Simon; Madame Campan, Madame Roland; Prince de Talleyrand; Madame de Remusat; Madame Junot, with a special introduction by George Saintsbury.- [v. 2] By Earl of Clarendon; John Evelyn; Samuel Pepys; Grammont-Hamilton; Benjamin Franklin; Horace Walpole; Aaron Burr; Margaret Fuller Ossoli; John Heneage Jesse; with a special introduction by Robert Arnot.- [v. 3] By Charles V; Frederick the great; Catherine II; Count de Mirabeau; Prince von Metternich, with a special introduction by Robert Arnot",
+    "authors": [
+      "Unknown"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_6aEuAQAAIAAJ.jpg"
+  },
+  {
+    "row": 223,
+    "id": "XZ5bZOvqu_UC",
+    "title": "Memoirs",
+    "authors": [
+      "Mark Pattison"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_XZ5bZOvqu_UC.jpg"
+  },
+  {
+    "row": 224,
+    "id": "1z8JAAAAIAAJ",
+    "title": "A Book of Memories of Great Men and Women of the Age",
+    "authors": [
+      "Samuel Carter Hall"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_1z8JAAAAIAAJ.jpg"
+  },
+  {
+    "row": 225,
+    "id": "9sPb78D-7QkC",
+    "title": "Memories of Many Men and of Some Women",
+    "authors": [
+      "Maunsell Bradhurst Field"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9sPb78D-7QkC.jpg"
+  },
+  {
+    "row": 226,
+    "id": "RVAZAAAAYAAJ",
+    "title": "The Personal Equation",
+    "authors": [
+      "Lawrence McTurnan"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_RVAZAAAAYAAJ.jpg"
+  },
+  {
+    "row": 227,
+    "id": "KHXZAAAAMAAJ",
+    "title": "The World's Best Memoir Writing",
+    "authors": [
+      "Eve Claxton"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_KHXZAAAAMAAJ.jpg"
+  },
+  {
+    "row": 228,
+    "id": "-rQdAAAAMAAJ",
+    "title": "Life and Memoirs of John Churton Collins",
+    "authors": [
+      "Laurence Churton Collins"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_-rQdAAAAMAAJ.jpg"
+  },
+  {
+    "row": 229,
+    "id": "BS4YAAAAIAAJ",
+    "title": "The Cold War, 1945-1991: Resources: chronology, history, concepts, events, organizations, bibliography, archives",
+    "authors": [
+      "Benjamin Frankel"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_BS4YAAAAIAAJ.jpg"
+  },
+  {
+    "row": 230,
+    "id": "1jO1AAAAIAAJ",
+    "title": "Classic Memoirs",
+    "authors": [
+      "Philippe de Commynes"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_1jO1AAAAIAAJ.jpg"
+  },
+  {
+    "row": 231,
+    "id": "_LgihI_EpyIC",
+    "title": "A Book of Memories of Great Men and Women of the Age, from Personal Acquaintance",
+    "authors": [
+      "Samuel Carter Hall"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography__LgihI_EpyIC.jpg"
+  },
+  {
+    "row": 232,
+    "id": "9780385121675",
+    "title": "The Shining",
+    "authors": [
+      "Stephen King"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780385121675.jpg"
+  },
+  {
+    "row": 233,
+    "id": "9781501156700",
+    "title": "It",
+    "authors": [
+      "Stephen King"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9781501156700.jpg"
+  },
+  {
+    "row": 234,
+    "id": "9780385333481",
+    "title": "Pet Sematary",
+    "authors": [
+      "Stephen King"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780385333481.jpg"
+  },
+  {
+    "row": 235,
+    "id": "9780385472579",
+    "title": "Misery",
+    "authors": [
+      "Stephen King"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780385472579.jpg"
+  },
+  {
+    "row": 236,
+    "id": "9780307743657",
+    "title": "Doctor Sleep",
+    "authors": [
+      "Stephen King"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780307743657.jpg"
+  },
+  {
+    "row": 237,
+    "id": "9780140817737",
+    "title": "Dracula",
+    "authors": [
+      "Bram Stoker"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780140817737.jpg"
+  },
+  {
+    "row": 238,
+    "id": "9780141439471",
+    "title": "Frankenstein",
+    "authors": [
+      "Mary Shelley"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780141439471.jpg"
+  },
+  {
+    "row": 239,
+    "id": "9780143039952",
+    "title": "The Haunting of Hill House",
+    "authors": [
+      "Shirley Jackson"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780143039952.jpg"
+  },
+  {
+    "row": 240,
+    "id": "9780316769174",
+    "title": "The Exorcist",
+    "authors": [
+      "William Peter Blatty"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780316769174.jpg"
+  },
+  {
+    "row": 241,
+    "id": "9780060935474",
+    "title": "American Gods",
+    "authors": [
+      "Neil Gaiman"
+    ],
+    "genre": "horror",
+    "filename": "data/covers_nyt/horror_9780060935474.jpg"
+  },
+  {
+    "row": 242,
+    "id": "9780451205766",
+    "title": "The Name of the Rose",
+    "authors": [
+      "Umberto Eco"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780451205766.jpg"
+  },
+  {
+    "row": 243,
+    "id": "9780060931957",
+    "title": "Pillars of the Earth",
+    "authors": [
+      "Ken Follett"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780060931957.jpg"
+  },
+  {
+    "row": 244,
+    "id": "9780007320271",
+    "title": "Wolf Hall",
+    "authors": [
+      "Hilary Mantel"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780007320271.jpg"
+  },
+  {
+    "row": 245,
+    "id": "9780525555360",
+    "title": "The Tattooist of Auschwitz",
+    "authors": [
+      "Heather Morris"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780525555360.jpg"
+  },
+  {
+    "row": 246,
+    "id": "9780062409850",
+    "title": "All the Light We Cannot See",
+    "authors": [
+      "Anthony Doerr"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780062409850.jpg"
+  },
+  {
+    "row": 247,
+    "id": "9780385490818",
+    "title": "Schindler's List",
+    "authors": [
+      "Thomas Keneally"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780385490818.jpg"
+  },
+  {
+    "row": 248,
+    "id": "9780143124542",
+    "title": "The Book Thief",
+    "authors": [
+      "Markus Zusak"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780143124542.jpg"
+  },
+  {
+    "row": 249,
+    "id": "9780062409843",
+    "title": "The Alice Network",
+    "authors": [
+      "Kate Quinn"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780062409843.jpg"
+  },
+  {
+    "row": 250,
+    "id": "9780062838667",
+    "title": "The Nightingale",
+    "authors": [
+      "Kristin Hannah"
+    ],
+    "genre": "historical_fiction",
+    "filename": "data/covers_nyt/historical_fiction_9780062838667.jpg"
+  },
+  {
+    "row": 251,
+    "id": "9781501121586",
+    "title": "Becoming",
+    "authors": [
+      "Michelle Obama"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9781501121586.jpg"
+  },
+  {
+    "row": 252,
+    "id": "9780316017923",
+    "title": "The Immortal Life of Henrietta Lacks",
+    "authors": [
+      "Rebecca Skloot"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9780316017923.jpg"
+  },
+  {
+    "row": 253,
+    "id": "9780316346627",
+    "title": "Born a Crime",
+    "authors": [
+      "Trevor Noah"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9780316346627.jpg"
+  },
+  {
+    "row": 254,
+    "id": "9780525559474",
+    "title": "I Am Malala",
+    "authors": [
+      "Malala Yousafzai"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9780525559474.jpg"
+  },
+  {
+    "row": 255,
+    "id": "9780679720201",
+    "title": "The Diary of a Young Girl",
+    "authors": [
+      "Anne Frank"
+    ],
+    "genre": "biography",
+    "filename": "data/covers_nyt/biography_9780679720201.jpg"
+  }
+]

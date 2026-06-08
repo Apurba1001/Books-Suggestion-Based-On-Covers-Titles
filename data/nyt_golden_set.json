@@ -1,0 +1,252 @@
+[
+  {
+    "query_isbn": "9780385121675",
+    "query_title": "The Shining",
+    "query_authors": [
+      "Stephen King"
+    ],
+    "query_genre": "horror",
+    "query_filename": "data/covers_nyt/horror_9780385121675.jpg",
+    "primary_track": "visual + semantic",
+    "note": "Stephen King horror — tests visual style and same-author genre clustering",
+    "expected_top_isbns": [
+      "9781501156700",
+      "9780307743657",
+      "9780671685638",
+      "9780553807738",
+      "9780451173317"
+    ],
+    "expected_top_titles": [
+      "It",
+      "Doctor Sleep",
+      "Ghost Story",
+      "Deeply Odd",
+      "The Waste Lands"
+    ]
+  },
+  {
+    "query_isbn": "9780593135228",
+    "query_title": "PROJECT HAIL MARY",
+    "query_authors": [
+      "Andy Weir"
+    ],
+    "query_genre": "science_fiction",
+    "query_filename": "data/covers_nyt/science_fiction_9780593135228.jpg",
+    "primary_track": "cross-modal + semantic",
+    "note": "Modern sci-fi — tests cross-modal and semantic retrieval within science fiction",
+    "expected_top_isbns": [
+      "9798217300556",
+      "9781250163660",
+      "9780307792273",
+      "9780898750010",
+      "9780190854157"
+    ],
+    "expected_top_titles": [
+      "THE MARTIAN",
+      "Our Angry Earth",
+      "Isaac Asimov's Guide to Earth and Space",
+      "Worlds Within Worlds",
+      "The First Minds"
+    ]
+  },
+  {
+    "query_isbn": "9780765365279",
+    "query_title": "The Way of Kings",
+    "query_authors": [
+      "Brandon Sanderson"
+    ],
+    "query_genre": "fantasy",
+    "query_filename": "data/covers_nyt/fantasy_9780765365279.jpg",
+    "primary_track": "visual similarity",
+    "note": "Epic fantasy artwork — tests visual clustering within fantasy genre",
+    "expected_top_isbns": [
+      "9780765350381",
+      "9780006486022",
+      "9780593809907",
+      "9780063415898",
+      "9780765356147"
+    ],
+    "expected_top_titles": [
+      "Mistborn",
+      "The Golden Fool",
+      "THE POISONED KING",
+      "THE BALLAD OF FALLING DRAGONS",
+      "The Hero of Ages"
+    ]
+  },
+  {
+    "query_isbn": "9780312979478",
+    "query_title": "And Then There Were None",
+    "query_authors": [
+      "Agatha Christie"
+    ],
+    "query_genre": "mystery",
+    "query_filename": "data/covers_nyt/mystery_9780312979478.jpg",
+    "primary_track": "visual + genre",
+    "note": "Agatha Christie — tests same-author visual clustering within mystery",
+    "expected_top_isbns": [
+      "9780006167242",
+      "9780007211654",
+      "9780006161745",
+      "9780006169185",
+      "9780446611640"
+    ],
+    "expected_top_titles": [
+      "The ABC Murders",
+      "The Pale Horse",
+      "Cat Among the Pigeons",
+      "The Big Four",
+      "The Narrows"
+    ]
+  },
+  {
+    "query_isbn": "9781476708706",
+    "query_title": "The Innovators",
+    "query_authors": [
+      "Walter Isaacson"
+    ],
+    "query_genre": "biography",
+    "query_filename": "data/covers_nyt/biography_9781476708706.jpg",
+    "primary_track": "visual + semantic",
+    "note": "Walter Isaacson biography — tests same-author visual and semantic clustering",
+    "expected_top_isbns": [
+      "9780743258074",
+      "9781501171383",
+      "9781501127625",
+      "9781476728759",
+      "9780316017923"
+    ],
+    "expected_top_titles": [
+      "Benjamin Franklin",
+      "Einstein",
+      "Steve Jobs",
+      "The Wright Brothers",
+      "The Immortal Life of Henrietta Lacks"
+    ]
+  },
+  {
+    "query_isbn": "9780143124542",
+    "query_title": "The Book Thief",
+    "query_authors": [
+      "Markus Zusak"
+    ],
+    "query_genre": "historical_fiction",
+    "query_filename": "data/covers_nyt/historical_fiction_9780143124542.jpg",
+    "primary_track": "visual + semantic",
+    "note": "WWII historical fiction — tests visual and semantic clustering",
+    "expected_top_isbns": [
+      "9780062409843",
+      "9780062409850",
+      "9780525555360",
+      "9780062838667",
+      "9780007320271"
+    ],
+    "expected_top_titles": [
+      "The Alice Network",
+      "All the Light We Cannot See",
+      "The Tattooist of Auschwitz",
+      "The Nightingale",
+      "Wolf Hall"
+    ]
+  },
+  {
+    "query_isbn": "9780735211292",
+    "query_title": "ATOMIC HABITS",
+    "query_authors": [
+      "James Clear"
+    ],
+    "query_genre": "non-fiction",
+    "query_filename": "data/covers_nyt/non-fiction_9780735211292.jpg",
+    "primary_track": "cross-modal + semantic",
+    "note": "Self-help non-fiction — tests OCR bold typography and semantic retrieval",
+    "expected_top_isbns": [
+      "9798893310153",
+      "9798893311860",
+      "9781455570249",
+      "9781401971366",
+      "9798217281633"
+    ],
+    "expected_top_titles": [
+      "DON'T BELIEVE EVERYTHING YOU THINK, EXPANDED EDITION",
+      "INCORRUPTIBLE",
+      "MAKE YOUR BED",
+      "THE LET THEM THEORY",
+      "INSIDE THE BOX"
+    ]
+  },
+  {
+    "query_isbn": "9780063204188",
+    "query_title": "REMARKABLY BRIGHT CREATURES",
+    "query_authors": [
+      "Shelby Van Pelt"
+    ],
+    "query_genre": "mystery",
+    "query_filename": "data/covers_nyt/mystery_9780063204188.jpg",
+    "primary_track": "visual + semantic",
+    "note": "Illustrated literary cover — tests visual similarity and thematic retrieval",
+    "expected_top_isbns": [
+      "9798347810307",
+      "9781954118812",
+      "9781775293941",
+      "9798217073443",
+      "9780060757625"
+    ],
+    "expected_top_titles": [
+      "THE CALAMITY CLUB",
+      "THE CALAMITY CLUB",
+      "THE MISTAKE",
+      "STRANGERS",
+      "Shaman's Crossing"
+    ]
+  },
+  {
+    "query_isbn": "9780553575637",
+    "query_title": "Ship of Magic",
+    "query_authors": [
+      "Robin Hobb"
+    ],
+    "query_genre": "fantasy",
+    "query_filename": "data/covers_nyt/fantasy_9780553575637.jpg",
+    "primary_track": "visual similarity",
+    "note": "Robin Hobb fantasy — tests same-author visual clustering",
+    "expected_top_isbns": [
+      "9780006486022",
+      "9780007196197",
+      "9780007196166",
+      "9780060757625",
+      "9780002246064"
+    ],
+    "expected_top_titles": [
+      "The Golden Fool",
+      "Renegade's Magic",
+      "Forest Mage",
+      "Shaman's Crossing",
+      "Assassin's Apprentice"
+    ]
+  },
+  {
+    "query_isbn": "9781501121586",
+    "query_title": "Becoming",
+    "query_authors": [
+      "Michelle Obama"
+    ],
+    "query_genre": "biography",
+    "query_filename": "data/covers_nyt/biography_9781501121586.jpg",
+    "primary_track": "semantic",
+    "note": "Contemporary memoir — tests semantic retrieval for personal narrative",
+    "expected_top_isbns": [
+      "9780316346627",
+      "9780525559474",
+      "9780679720201",
+      "9780316017923",
+      "9780743258074"
+    ],
+    "expected_top_titles": [
+      "Born a Crime",
+      "I Am Malala",
+      "The Diary of a Young Girl",
+      "The Immortal Life of Henrietta Lacks",
+      "Benjamin Franklin"
+    ]
+  }
+]
