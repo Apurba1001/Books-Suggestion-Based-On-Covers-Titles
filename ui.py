@@ -71,7 +71,8 @@ def recommend(dataset_label: str, filename: str):
     if not filename or not dataset_label:
         return None, "", [], [], [], [], {}, ""
 
-    _, covers_dir, _, _ = DATASETS[dataset_label]
+    emb_dir, covers_dir, _, _ = DATASETS[dataset_label]
+    load_index(emb_dir)
     path = Path(covers_dir) / filename
     if not path.exists():
         return None, f"File not found: {path}", [], [], [], [], {}, ""
@@ -82,6 +83,7 @@ def recommend(dataset_label: str, filename: str):
     clip_txt_vec = encode_text(text)
     sentence_vec = encode_sentence(text)
     color_vec    = extract_palette(str(path))
+    book_id = Path(path).stem.split("_", 1)[-1]  # e.g. "horror_9780385121675" → "9780385121675"
 
     results = search(
         clip_image_vec = clip_img_vec,
@@ -89,6 +91,7 @@ def recommend(dataset_label: str, filename: str):
         sentence_vec   = sentence_vec,
         color_vec      = color_vec,
         k              = TOP_K,
+        exclude_id     = book_id,
     )
 
     ocr_info = f"**OCR:** {ocr_text}" if ocr_text.strip() else "**OCR:** nothing detected"

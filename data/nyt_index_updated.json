@@ -570,21 +570,6 @@
     "ocr_text": "Hul T0 RULE THE WORLD An EDUCATION In POWER STAnFrD univeRSITY THEO RAKER"
   },
   {
-    "isbn": "9781250413581",
-    "title": "THE FINAL TARGET",
-    "authors": [
-      "Nora Roberts"
-    ],
-    "genre": "literary_fiction",
-    "filename": "data/covers_nyt/literary_fiction_9781250413581.jpg",
-    "nyt_rank": 3,
-    "nyt_list": "hardcover-fiction",
-    "description": "A fan fixates on the introverted author Arden Bowie, who tries to set up a new life for herself in a small town in Oregon.",
-    "publisher": "St. Martin's",
-    "weeks_on_list": 1,
-    "ocr_text": "Aty NORA ROBERTS THE FXNAL TARGET"
-  },
-  {
     "isbn": "9798217234288",
     "title": "KPOP DEMON HUNTERS",
     "authors": [
@@ -630,21 +615,6 @@
     "ocr_text": "duJoguyasen StoRY And ^ET GEGE AKUTAMI"
   },
   {
-    "isbn": "9781668191569",
-    "title": "TAKE ME TO YOUR LEADER",
-    "authors": [
-      "Neil deGrasse Tyson"
-    ],
-    "genre": "science_fiction",
-    "filename": "data/covers_nyt/science_fiction_9781668191569.jpg",
-    "nyt_rank": 10,
-    "nyt_list": "audio-nonfiction",
-    "description": "The astrophysicist depicts what potential encounters with aliens from outer space might be like. Read by the author. 5 hours, 5 minutes unabridged.",
-    "publisher": "Simon & Schuster Audio",
-    "weeks_on_list": 1,
-    "ocr_text": "TAKE ME TO YOUR LEADER PERSPECTIVES ON YOuR FIRST ALIEN ENCOUNTER NEIL DEGRASSE TYSON"
-  },
-  {
     "isbn": "9781638493655",
     "title": "DUNGEON CRAWLER CARL, VOL. 1",
     "authors": [
@@ -680,14 +650,14 @@
     "authors": [
       "Andy Weir"
     ],
-    "genre": "fantasy",
-    "filename": "data/covers_nyt/fantasy_9798217300556.jpg",
+    "genre": "science_fiction",
+    "filename": "data/covers_nyt/science_fiction_9798217300556.jpg",
     "nyt_rank": 9,
     "nyt_list": "hardcover-fiction",
     "description": "Abandoned by his crew, an astronaut embarks on a dogged quest to stay alive.",
     "publisher": "Ballantine",
     "weeks_on_list": 5,
-    "ocr_text": "The M \" n ANDY WeiR"
+    "ocr_text": ""
   },
   {
     "isbn": "9780593809907",
@@ -718,21 +688,6 @@
     "publisher": "Sourcebooks Fire",
     "weeks_on_list": 13,
     "ocr_text": "Oun 'STARMAKER ICHEL GRIFFIN Tennntut Man"
-  },
-  {
-    "isbn": "9783748087328",
-    "title": "DUNGEON CRAWLER CARL",
-    "authors": [
-      "Matt Dinniman"
-    ],
-    "genre": "fantasy",
-    "filename": "data/covers_nyt/fantasy_9783748087328.jpg",
-    "nyt_rank": 4,
-    "nyt_list": "audio-fiction",
-    "description": "A Coast Guard vet named Carl and his ex-girlfriend’s cat, Princess Donut, are trapped in a fantasy dungeon. Read by Jeff Hays. 13 hours, 31 minutes unabridged.",
-    "publisher": "Audible Studios",
-    "weeks_on_list": 13,
-    "ocr_text": "WRITTEN BY MATT DINNIMAN NARRATED BY JEFF HAYS DUNGEON CRAWLER FROM CARL ONLY 3 THE APOCALYPSE WILL BF"
   },
   {
     "isbn": "9798888777794",
@@ -795,81 +750,6 @@
     "ocr_text": "SARAH DESSEN eeaenkelting Au hor CHANGE PLANS 4 Novet"
   },
   {
-    "isbn": "DBKADBL025354",
-    "title": "THE DEAL",
-    "authors": [
-      "Elle Kennedy"
-    ],
-    "genre": "romance",
-    "filename": "data/covers_nyt/romance_DBKADBL025354.jpg",
-    "nyt_rank": 6,
-    "nyt_list": "audio-fiction",
-    "description": "Hannah Wells makes a deal with the captain of the college hockey team in exchange for tutoring him that may complicate their relationship. Read by Christian Fox and Lorelei Avalon. 12 hours, 25 minutes unabridged.",
-    "publisher": "Audible Studios",
-    "weeks_on_list": 1,
-    "ocr_text": "Tre Deal Oriain / Orcalpus IcwYeu HLe KENNEDY"
-  },
-  {
-    "isbn": "9781668648230",
-    "title": "THE LAND AND ITS PEOPLE",
-    "authors": [
-      "David Sedaris"
-    ],
-    "genre": "romance",
-    "filename": "data/covers_nyt/romance_9781668648230.jpg",
-    "nyt_rank": 5,
-    "nyt_list": "audio-nonfiction",
-    "description": "Essays on the passage of time, complicated relationships and some unexpected delights life has to offer. Read by the author. 7 hours, 26 minutes unabridged.",
-    "publisher": "Hachette Audio",
-    "weeks_on_list": 1,
-    "ocr_text": "DAVID SEDARIS The Land and Its People"
-  },
-  {
-    "isbn": "9780063204188",
-    "title": "REMARKABLY BRIGHT CREATURES",
-    "authors": [
-      "Shelby Van Pelt"
-    ],
-    "genre": "mystery",
-    "filename": "data/covers_nyt/mystery_9780063204188.jpg",
-    "nyt_rank": 12,
-    "nyt_list": "audio-fiction",
-    "description": "A widow working the night shift at an aquarium is aided in solving a mystery by a giant octopus; the basis of the movie. Read by Marin Ireland and Michael Urie. 11 hours, 16 minutes unabridged.",
-    "publisher": "HarperAudio",
-    "weeks_on_list": 16,
-    "ocr_text": "EW Yo R K Time$ 0 6 $ TS ELLER Gndmi Mrurdtnand Heltot ZOuthy DadarSweere Uconata REMARKABLY BRIGHT CREATURES A NOVEL Fen a0ne Guid Unsie SHELBY VAN PELT"
-  },
-  {
-    "isbn": "9798217073443",
-    "title": "STRANGERS",
-    "authors": [
-      "Belle Burden"
-    ],
-    "genre": "mystery",
-    "filename": "data/covers_nyt/mystery_9798217073443.jpg",
-    "nyt_rank": 1,
-    "nyt_list": "audio-nonfiction",
-    "description": "Burden retraces her marriage of 20 years in search of clues to help shape her understanding about its demise and to find a way forward. Read by the author. 7 hours, 4 minutes unabridged.",
-    "publisher": "Random House Audio",
-    "weeks_on_list": 5,
-    "ocr_text": "N Yerk Tres bestseller Sfrangers 0 Memov MMarrioz \"Rwtlthe Liminls vury hature itimay Jrr:6 Carol Belle Burden"
-  },
-  {
-    "isbn": "9781668173107",
-    "title": "THEO OF GOLDEN",
-    "authors": [
-      "Allen Levi"
-    ],
-    "genre": "thriller",
-    "filename": "data/covers_nyt/thriller_9781668173107.jpg",
-    "nyt_rank": 5,
-    "nyt_list": "audio-fiction",
-    "description": "A man travels to a small Southern town, where he purchases pencil drawings of local residents and exchanges them for stories. Read by David Morse. 13 hours, 12 minutes unabridged.",
-    "publisher": "Simon Maverick",
-    "weeks_on_list": 6,
-    "ocr_text": "NatiONAL BesTseLLFR Theo & Golden Allen Levi"
-  },
-  {
     "isbn": "9780593955970",
     "title": "THE GATE OF THE FERAL GODS",
     "authors": [
@@ -913,21 +793,6 @@
     "publisher": "Simon & Schuster Audio",
     "weeks_on_list": 1,
     "ocr_text": "NEW York Times bestselLing author 0F CRY HAVOC JAcK CARR And MP WOODWARD THE FFQURTH OPTIQN"
-  },
-  {
-    "isbn": "9798347810307",
-    "title": "THE CALAMITY CLUB",
-    "authors": [
-      "Kathryn Stockett"
-    ],
-    "genre": "historical_fiction",
-    "filename": "data/covers_nyt/historical_fiction_9798347810307.jpg",
-    "nyt_rank": 10,
-    "nyt_list": "audio-fiction",
-    "description": "As things get tougher during the Depression, several women look for ways to improve their circumstances. Read by Jenna Lamia and January LaVoy. 28 hours, 44 minutes unabridged.",
-    "publisher": "Spiegel & Grau by Spotify Audiobooks",
-    "weeks_on_list": 1,
-    "ocr_text": "New York TImES BESTSELLER KATH RYN STOCKETT AUtHOR Of THE \"1 BESTSELLER THE HELP THE CALAMITY CLUB NOVEL MusT READ; BONNIE GaRmus"
   },
   {
     "isbn": "9783748087366",
@@ -1185,66 +1050,6 @@
     "ocr_text": "Jen Hamilton BSN RN CEN RNC OB birth vibes Stories and Strategies for an Empowered Birth Thc book cvcry cpcctino paient necds EYE Rodsky Nen YorkTinc besticlliag author 0f Fal; plar"
   },
   {
-    "isbn": "9798217176397",
-    "title": "FAMESICK",
-    "authors": [
-      "Lena Dunham"
-    ],
-    "genre": "non-fiction",
-    "filename": "data/covers_nyt/non-fiction_9798217176397.jpg",
-    "nyt_rank": 2,
-    "nyt_list": "audio-nonfiction",
-    "description": "The author of “Not That Kind of Girl” evaluates the effects that pursuing her creative endeavors had on her. Read by the author. 11 hours, 47 minutes unabridged.",
-    "publisher": "Random House Audio",
-    "weeks_on_list": 2,
-    "ocr_text": "Lena Dunham Famesick A Memoir"
-  },
-  {
-    "isbn": "9780063446557",
-    "title": "SUICIDAL EMPATHY",
-    "authors": [
-      "Gad Saad"
-    ],
-    "genre": "non-fiction",
-    "filename": "data/covers_nyt/non-fiction_9780063446557.jpg",
-    "nyt_rank": 3,
-    "nyt_list": "audio-nonfiction",
-    "description": "The host of the podcast “The Saad Truth” argues that what he considers misguided compassion is having a negative impact on society. Read by the author. 8 hours, 23 minutes unabridged.",
-    "publisher": "Broadside",
-    "weeks_on_list": 1,
-    "ocr_text": "ASAT #em York Times BESTSELLER EEcathE AnlLGAsu Tnnee Heutn neCht ELONML S U I C I DAL E M PATHY Free the wolves \"DYING TO BE KIND G A D S AA D lda"
-  },
-  {
-    "isbn": "9798217174072",
-    "title": "LONDON FALLING",
-    "authors": [
-      "Patrick Radden Keefe"
-    ],
-    "genre": "non-fiction",
-    "filename": "data/covers_nyt/non-fiction_9798217174072.jpg",
-    "nyt_rank": 4,
-    "nyt_list": "audio-nonfiction",
-    "description": "The author of “Say Nothing” details the efforts by the parents of a 19-year-old Londoner to uncover the truth about his mysterious death and secret life. Read by the author. 13 hours unabridged.",
-    "publisher": "Random House Audio",
-    "weeks_on_list": 2,
-    "ocr_text": "LONDONFALLING Amysterious DEnTHINA cilded CitX ANdA FAMII 5 Seaachfor truth PATRICK RADDENKEEFE nuthor of SAy NOTHING"
-  },
-  {
-    "isbn": "9780593412701",
-    "title": "THE BODY KEEPS THE SCORE",
-    "authors": [
-      "Bessel van der Kolk"
-    ],
-    "genre": "non-fiction",
-    "filename": "data/covers_nyt/non-fiction_9780593412701.jpg",
-    "nyt_rank": 6,
-    "nyt_list": "audio-nonfiction",
-    "description": "How trauma affects the body and mind, and innovative treatments for recovery. Read by Sean Pratt. 16 hours, 17 minutes unabridged.",
-    "publisher": "Penguin Audio",
-    "weeks_on_list": 67,
-    "ocr_text": "NEW Toak Times B € stseller THE B0DY KEEPS THE SCoRE BRAIN , MIND, AND BODY IN THE HEALING OF TRAUMA BESSEL VAN DER KOLK; M.D MastcrD ICI ImaT ComminI} Iml coundless Gurlosiiy  Orhe Scientust HI Erubilion Ihl SchclrArd THIPassion HAGnEE Heeaetal"
-  },
-  {
     "isbn": "9781668655627",
     "title": "THIS IS ME",
     "authors": [
@@ -1275,21 +1080,6 @@
     "ocr_text": "YOU VITH THE SAD EYES A-M CHRISTINA APpLEOHTE"
   },
   {
-    "isbn": "9781668657157",
-    "title": "LIAR'S KINGDOM",
-    "authors": [
-      "Andrew Weissmann"
-    ],
-    "genre": "non-fiction",
-    "filename": "data/covers_nyt/non-fiction_9781668657157.jpg",
-    "nyt_rank": 9,
-    "nyt_list": "audio-nonfiction",
-    "description": "The author of “Where Law Ends” argues that a flaw in America’s legal system allows for deceit in our politics. Read by the author. 4 hours, 31 minutes unabridged.",
-    "publisher": "Hachette Audio",
-    "weeks_on_list": 1,
-    "ocr_text": "uuc_ etnin LIARS KINGDOM HOW TO STOP TRUMP'S DECEIT AND SAVE AMERICA ANDREW WEISSMANN Naletnestardl"
-  },
-  {
     "isbn": "9780593294185",
     "title": "GREENLIGHTS",
     "authors": [
@@ -1318,21 +1108,6 @@
     "publisher": "Penguin Audio",
     "weeks_on_list": 1,
     "ocr_text": "NIEW YoRKTIMES D E Stse1ler INSID E THE B 0 X HoW coNSTRAINTS M AKE U $ B E TTER DAVID EP STEIN AUthoR 0f Range"
-  },
-  {
-    "isbn": "9780063360839",
-    "title": "THE CASE FOR AMERICA",
-    "authors": [
-      "Bret Baier"
-    ],
-    "genre": "non-fiction",
-    "filename": "data/covers_nyt/non-fiction_9780063360839.jpg",
-    "nyt_rank": 15,
-    "nyt_list": "audio-nonfiction",
-    "description": "The chief political anchor for Fox News shares his perspectives on our national character during divisive times. Read by the author. 5 hours, 34 minutes unabridged.",
-    "publisher": "Mariner",
-    "weeks_on_list": 1,
-    "ocr_text": "M E w Y0 R K TiMES B E STSELLE R B RET BAER caterine #mtiey THE CASE FOR AMERICA AN ARGUMENT ON BeiMALT0r OUR NaTion"
   },
   {
     "isbn": "9780451173317",
@@ -3084,19 +2859,6 @@
     "ocr_text": "MEMOIRS AND LETTERS SIR JAME S PAG ET EDITED STEPHEN PACET ONE HIS SONS With PortrAiTS AND OTHER ILLUSTRATIONS NEW EDITION (SEVENTH IMPRESSION) LO NG MANS, G REEN, AN D C 0. PATEEYOSTER ROW LOxdox NET TORK AND BOMBAY 1402 rabte Teatnted"
   },
   {
-    "isbn": "6aEuAQAAIAAJ",
-    "title": "Classic Memoirs: By Philippe de Commines; Marguerite de Valois; Duc de Sully; Cardinal de Richelieu; Cardinal de Retz; Madame de Montespan; Duc de Saint-Simon; Madame Campan, Madame Roland; Prince de Talleyrand; Madame de Remusat; Madame Junot, with a special introduction by George Saintsbury.- [v. 2] By Earl of Clarendon; John Evelyn; Samuel Pepys; Grammont-Hamilton; Benjamin Franklin; Horace Walpole; Aaron Burr; Margaret Fuller Ossoli; John Heneage Jesse; with a special introduction by Robert Arnot.- [v. 3] By Charles V; Frederick the great; Catherine II; Count de Mirabeau; Prince von Metternich, with a special introduction by Robert Arnot",
-    "authors": [
-      "Unknown"
-    ],
-    "genre": "biography",
-    "filename": "data/covers_nyt/biography_6aEuAQAAIAAJ.jpg",
-    "description": "",
-    "publisher": "",
-    "source": "google_books",
-    "ocr_text": "CLASsc MFMOIRS"
-  },
-  {
     "isbn": "XZ5bZOvqu_UC",
     "title": "Memoirs",
     "authors": [
@@ -3186,19 +2948,6 @@
     "publisher": "",
     "source": "google_books",
     "ocr_text": "image not available"
-  },
-  {
-    "isbn": "1jO1AAAAIAAJ",
-    "title": "Classic Memoirs",
-    "authors": [
-      "Philippe de Commynes"
-    ],
-    "genre": "biography",
-    "filename": "data/covers_nyt/biography_1jO1AAAAIAAJ.jpg",
-    "description": "",
-    "publisher": "",
-    "source": "google_books",
-    "ocr_text": "MEMOIRS QF"
   },
   {
     "isbn": "_LgihI_EpyIC",

@@ -25,7 +25,7 @@ import argparse
 import numpy as np
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from src.features.clip_encoder  import encode_image, encode_text
 from src.features.ocr           import extract_text

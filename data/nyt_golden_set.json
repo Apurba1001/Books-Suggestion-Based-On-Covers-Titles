@@ -175,24 +175,22 @@
     ]
   },
   {
-    "query_isbn": "9780063204188",
+    "query_isbn": "9780063204164",
     "query_title": "REMARKABLY BRIGHT CREATURES",
     "query_authors": [
       "Shelby Van Pelt"
     ],
-    "query_genre": "mystery",
-    "query_filename": "data/covers_nyt/mystery_9780063204188.jpg",
+    "query_genre": "literary_fiction",
+    "query_filename": "data/covers_nyt/literary_fiction_9780063204164.jpg",
     "primary_track": "visual + semantic",
     "note": "Illustrated literary cover — tests visual similarity and thematic retrieval",
     "expected_top_isbns": [
-      "9798347810307",
       "9781954118812",
       "9781775293941",
-      "9798217073443",
+      "9780593733318",
       "9780060757625"
     ],
     "expected_top_titles": [
-      "THE CALAMITY CLUB",
       "THE CALAMITY CLUB",
       "THE MISTAKE",
       "STRANGERS",
