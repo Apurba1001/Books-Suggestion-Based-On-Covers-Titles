@@ -64,6 +64,8 @@ def run(image_path: str, embeddings_dir: str):
 
     print("\nSearching index...\n")
     load_index(embeddings_dir)
+    
+    book_id = Path(image_path).stem.split("_", 1)[-1]  # e.g. "horror_9780385121675" → "9780385121675"
 
     results = search(
         clip_image_vec = clip_img_vec,
@@ -71,6 +73,7 @@ def run(image_path: str, embeddings_dir: str):
         sentence_vec   = sentence_vec,
         color_vec      = color_vec,
         k              = TOP_K,
+        exclude_id     = book_id
     )
 
     for track, label in TRACK_LABELS.items():
