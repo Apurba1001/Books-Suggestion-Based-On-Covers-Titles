@@ -19,7 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from src.features.clip_encoder import encode_image, encode_text
+from src.features.clip_encoder import encode_image, encode_text, set_model as set_clip_model
 from src.features.ocr          import extract_text
 from src.features.colors       import extract_palette
 from src.features.text_encoder import encode as encode_sentence
@@ -37,11 +37,13 @@ def precision_at_k(results: list[dict], expected_ids: list, k: int) -> float:
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--golden",     default="data/golden_set.json",
-                        help="Path to golden set JSON")
-    parser.add_argument("--embeddings", default="embeddings",
-                        help="Embeddings directory")
+    parser.add_argument("--golden",     default="data/golden_set.json")
+    parser.add_argument("--embeddings", default="embeddings")
+    parser.add_argument("--clip-model", default="openai/clip-vit-base-patch32",
+                        help="CLIP model ID (must match the embeddings)")
     args = parser.parse_args()
+
+    set_clip_model(args.clip_model) 
 
     golden_path = Path(args.golden)
     if not golden_path.exists():
