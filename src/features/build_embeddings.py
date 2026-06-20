@@ -27,9 +27,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from src.features.clip_encoder  import encode_image, encode_text
+from src.features.clip_encoder  import encode_image, encode_text, set_model as set_clip_model, get_model_id
 from src.features.ocr           import extract_text
-from src.features.colors        import extract_palette
+from src.features.colors        import extract_palette, get_palette_dim
 from src.features.text_encoder  import encode as encode_sentence
 
 
@@ -57,7 +57,18 @@ def main():
         "--output", default="embeddings",
         help="Output directory for .npy files (default: embeddings)"
     )
+    parser.add_argument(
+        "--clip-model", default="openai/clip-vit-base-patch32",
+        help="CLIP model ID from HuggingFace (default: openai/clip-vit-base-patch32)"
+    )
+    parser.add_argument(
+        "--text-source", choices=["ocr", "vlm"], default="ocr",
+        help="Text source for semantic/cross-modal tracks: 'ocr' (EasyOCR) or 'vlm' (Qwen2-VL descriptions from index)"
+    )
     args = parser.parse_args()
+
+    # Set CLIP model before any encoding
+    set_clip_model(args.clip_model)
 
     index_path     = Path(args.index)
     embeddings_dir = Path(args.output)
@@ -73,30 +84,54 @@ def main():
     with open(index_path, encoding="utf-8") as f:
         index = json.load(f)
 
-    n = len(index)
-    print(f"Index   : {index_path}")
-    print(f"Output  : {embeddings_dir}/")
-    print(f"Books   : {n}\n")
+    # Validate VLM descriptions exist if requested
+    if args.text_source == "vlm":
+        has_vlm = sum(1 for b in index if b.get("vlm_description"))
+        if has_vlm == 0:
+            print("Error: --text-source vlm requested but no vlm_description fields found.")
+            print("Run vlm_describe.py first.")
+            sys.exit(1)
+        print(f"Using VLM descriptions ({has_vlm}/{len(index)} books have them)")
 
-    clip_image_vecs = np.zeros((n, 512), dtype=np.float32)
-    clip_text_vecs  = np.zeros((n, 512), dtype=np.float32)
+    n = len(index)
+
+    # Detect embedding dimension from the model (512 for CLIP, 768 for SigLIP)
+    test_vec = encode_text("test")
+    clip_dim = test_vec.shape[0]
+
+    print(f"Index      : {index_path}")
+    print(f"Output     : {embeddings_dir}/")
+    print(f"CLIP model : {get_model_id()}")
+    print(f"CLIP dim   : {clip_dim}")
+    print(f"Text source: {args.text_source}")
+    print(f"Books      : {n}\n")
+
+    color_dim = get_palette_dim()
+
+    clip_image_vecs = np.zeros((n, clip_dim), dtype=np.float32)
+    clip_text_vecs  = np.zeros((n, clip_dim), dtype=np.float32)
     sentence_vecs   = np.zeros((n, 384), dtype=np.float32)
-    color_vecs      = np.zeros((n, 15),  dtype=np.float32)
+    color_vecs      = np.zeros((n, color_dim), dtype=np.float32)
     row_index       = []
 
     for i, book in enumerate(index):
         img_path = book["filename"]
         print(f"[{i+1:03d}/{n}] {book['title'][:50]:<50}  ({book['genre']})")
 
-        # ── OCR ──────────────────────────────────────────────────────────────
-        try:
-            ocr_text = extract_text(img_path)
-        except Exception as e:
-            print(f"         OCR failed: {e}")
-            ocr_text = ""
-
-        text_for_encoding = ocr_text if ocr_text.strip() else fallback_text(book)
-        book["ocr_text"]  = ocr_text
+        # ── Text source ──────────────────────────────────────────────────────
+        if args.text_source == "vlm":
+            vlm_desc = book.get("vlm_description", "")
+            text_for_encoding = vlm_desc if vlm_desc.strip() else fallback_text(book)
+            if not vlm_desc.strip():
+                print(f"         [warn] no VLM description, using fallback")
+        else:
+            try:
+                ocr_text = extract_text(img_path)
+            except Exception as e:
+                print(f"         OCR failed: {e}")
+                ocr_text = ""
+            text_for_encoding = ocr_text if ocr_text.strip() else fallback_text(book)
+            book["ocr_text"]  = ocr_text
 
         # ── CLIP image ───────────────────────────────────────────────────────
         try:

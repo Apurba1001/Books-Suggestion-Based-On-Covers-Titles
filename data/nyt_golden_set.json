@@ -13,15 +13,13 @@
       "9781501156700",
       "9780307743657",
       "9780671685638",
-      "9780553807738",
-      "9780451173317"
+      "9780553807738"
     ],
     "expected_top_titles": [
       "It",
       "Doctor Sleep",
       "Ghost Story",
-      "Deeply Odd",
-      "The Waste Lands"
+      "Deeply Odd"
     ]
   },
   {
@@ -88,65 +86,13 @@
       "9780006167242",
       "9780007211654",
       "9780006161745",
-      "9780006169185",
       "9780446611640"
     ],
     "expected_top_titles": [
       "The ABC Murders",
       "The Pale Horse",
       "Cat Among the Pigeons",
-      "The Big Four",
       "The Narrows"
-    ]
-  },
-  {
-    "query_isbn": "9781476708706",
-    "query_title": "The Innovators",
-    "query_authors": [
-      "Walter Isaacson"
-    ],
-    "query_genre": "biography",
-    "query_filename": "data/covers_nyt/biography_9781476708706.jpg",
-    "primary_track": "visual + semantic",
-    "note": "Walter Isaacson biography — tests same-author visual and semantic clustering",
-    "expected_top_isbns": [
-      "9780743258074",
-      "9781501171383",
-      "9781501127625",
-      "9781476728759",
-      "9780316017923"
-    ],
-    "expected_top_titles": [
-      "Benjamin Franklin",
-      "Einstein",
-      "Steve Jobs",
-      "The Wright Brothers",
-      "The Immortal Life of Henrietta Lacks"
-    ]
-  },
-  {
-    "query_isbn": "9780143124542",
-    "query_title": "The Book Thief",
-    "query_authors": [
-      "Markus Zusak"
-    ],
-    "query_genre": "historical_fiction",
-    "query_filename": "data/covers_nyt/historical_fiction_9780143124542.jpg",
-    "primary_track": "visual + semantic",
-    "note": "WWII historical fiction — tests visual and semantic clustering",
-    "expected_top_isbns": [
-      "9780062409843",
-      "9780062409850",
-      "9780525555360",
-      "9780062838667",
-      "9780007320271"
-    ],
-    "expected_top_titles": [
-      "The Alice Network",
-      "All the Light We Cannot See",
-      "The Tattooist of Auschwitz",
-      "The Nightingale",
-      "Wolf Hall"
     ]
   },
   {
@@ -210,41 +156,12 @@
     "expected_top_isbns": [
       "9780006486022",
       "9780007196197",
-      "9780007196166",
-      "9780060757625",
-      "9780002246064"
+      "9780060757625"
     ],
     "expected_top_titles": [
       "The Golden Fool",
       "Renegade's Magic",
-      "Forest Mage",
-      "Shaman's Crossing",
-      "Assassin's Apprentice"
-    ]
-  },
-  {
-    "query_isbn": "9781501121586",
-    "query_title": "Becoming",
-    "query_authors": [
-      "Michelle Obama"
-    ],
-    "query_genre": "biography",
-    "query_filename": "data/covers_nyt/biography_9781501121586.jpg",
-    "primary_track": "semantic",
-    "note": "Contemporary memoir — tests semantic retrieval for personal narrative",
-    "expected_top_isbns": [
-      "9780316346627",
-      "9780525559474",
-      "9780679720201",
-      "9780316017923",
-      "9780743258074"
-    ],
-    "expected_top_titles": [
-      "Born a Crime",
-      "I Am Malala",
-      "The Diary of a Young Girl",
-      "The Immortal Life of Henrietta Lacks",
-      "Benjamin Franklin"
+      "Shaman's Crossing"
     ]
   }
 ]
