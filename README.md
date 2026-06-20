@@ -2,7 +2,7 @@
 
 A cross-modal retrieval system that takes a book cover image as input and returns ranked recommendations across four similarity dimensions: visual style, cross-modal (text→image), semantic theme, and color palette.
 
-Built as a semester project for a **Natural Language Processing & Computer Vision** course.
+Built as a semester project for a **Natural Language Processing & Computer Vision** course. Compares 7 model configurations (CLIP, OpenCLIP, SigLIP 2, with OCR and VLM-based text enrichment) using zero-shot embedding-based retrieval — no fine-tuning on book covers.
 
 ---
 
@@ -12,10 +12,12 @@ A query cover image is processed through two parallel tracks — visual and text
 
 | Track | Signal | Method |
 |---|---|---|
-| 🖼️ Visual similarity | Cover art, composition, style | CLIP image → image |
-| 🔀 Cross-modal | Text on cover → visual match | CLIP text (OCR) → image |
+| 🖼️ Visual similarity | Cover art, composition, style | CLIP/SigLIP image → image |
+| 🔀 Cross-modal | Text on cover → visual match | CLIP/SigLIP text (OCR or VLM) → image |
 | 📖 Semantic / theme | Title, author, description | SentenceTransformer text → text |
-| 🎨 Color palette | Dominant colors | k-means RGB → cosine similarity |
+| 🎨 Color palette | Dominant colors | k-means LAB → cosine similarity |
+
+All models are used **zero-shot** — pretrained encoders applied directly via cosine similarity search, with no task-specific fine-tuning.
 
 ---
 
@@ -29,7 +31,11 @@ uv run python main.py data/covers_nyt/horror_9780385121675.jpg --embeddings embe
 uv run python ui.py
 ```
 
-The web UI lets you select a cover from a dropdown, view the query image alongside OCR output, and browse results tab by tab. Clicking any result shows its full index metadata.
+The web UI supports:
+- **Model selector** — switch live between 7 configurations (CLIP B/32, B/16, OpenCLIP, SigLIP 2, each with OCR or VLM text)
+- **Dataset browsing** — select any of the 173 indexed covers
+- **External upload** — drop in any book cover image and get recommendations against the indexed dataset
+- **Smart text source** — automatically uses OCR or live VLM description depending on the active model, matching how the index was built
 
 ---
 
@@ -37,10 +43,11 @@ The web UI lets you select a cover from a dropdown, view the query image alongsi
 
 | Component | Library / Model |
 |---|---|
-| Visual encoder | CLIP ViT-B/32 (`openai/clip-vit-base-patch32`) |
+| Visual encoders | CLIP (ViT-B/32, ViT-B/16), OpenCLIP (LAION-2B), SigLIP 2 |
 | Text encoder | `sentence-transformers/all-MiniLM-L6-v2` |
 | OCR | EasyOCR |
-| Color extraction | scikit-learn k-means |
+| VLM descriptions | Qwen2-VL 2B Instruct |
+| Color extraction | scikit-learn k-means + scikit-image (LAB) |
 | Similarity search | NumPy cosine similarity |
 | Demo UI | Gradio |
 | Package manager | uv |
@@ -52,23 +59,24 @@ The web UI lets you select a cover from a dropdown, view the query image alongsi
 ```
 book-rec/
 ├── data/
-│   ├── covers_nyt/          # downloaded cover images
-│   ├── nyt_index.json       # book metadata index
-│   └── nyt_golden_set.json  # evaluation queries
-├── embeddings_nyt/          # precomputed .npy vectors
-│   ├── clip_image.npy       # (N, 512) CLIP image vectors
-│   ├── clip_text.npy        # (N, 512) CLIP text vectors
-│   ├── sentence.npy         # (N, 384) SentenceTransformer vectors
-│   ├── colors.npy           # (N, 15)  color palette vectors
-│   └── row_index.json       # row → book metadata mapping
+│   ├── covers_nyt/          # 173 downloaded cover images
+│   ├── nyt_index.json       # book metadata index (incl. OCR text / VLM descriptions)
+│   └── nyt_golden_set.json  # 7 evaluation queries
+├── embeddings_nyt*/         # precomputed .npy vectors, one dir per experiment config
+│   ├── clip_image.npy
+│   ├── clip_text.npy
+│   ├── sentence.npy
+│   ├── colors.npy
+│   └── row_index.json
 ├── src/
-│   ├── data/                # dataset download scripts
+│   ├── data/                # dataset download + cleanup scripts
 │   ├── features/            # feature extractors + build_embeddings.py
-│   ├── search/              # retrieval.py
-│   └── eval/                # evaluate.py, visualize.py
+│   ├── search/               # retrieval.py
+│   └── eval/                 # evaluate.py, visualize.py
 ├── main.py                  # terminal end-to-end test
 ├── ui.py                    # Gradio web interface
-├── decisions.md             # documented technical decisions
+├── decisions.md             # full technical decisions + experiment results
+├── presentation.pptx        # final presentation deck
 └── requirements.txt
 ```
 
@@ -81,10 +89,11 @@ book-rec/
 pip install uv
 uv sync
 
-# Build embeddings (run once, ~15 min)
+# Build embeddings for a configuration (run once per config)
 uv run python src/features/build_embeddings.py \
     --index data/nyt_index.json \
-    --output embeddings_nyt
+    --output embeddings_nyt \
+    --clip-model openai/clip-vit-base-patch32
 
 # Evaluate against golden set
 uv run python src/eval/evaluate.py \
@@ -92,42 +101,61 @@ uv run python src/eval/evaluate.py \
     --embeddings embeddings_nyt
 ```
 
+**Supported `--clip-model` values:**
+```
+openai/clip-vit-base-patch32
+openai/clip-vit-base-patch16
+openclip:ViT-B-32/laion2b_s34b_b79k
+siglip:google/siglip2-base-patch16-224
+```
+
+**Text source** (`--text-source`, default `ocr`):
+```bash
+# Use VLM descriptions instead of OCR (requires running vlm_describe.py first)
+uv run python src/features/vlm_describe.py --index data/nyt_index.json
+uv run python src/features/build_embeddings.py --index data/nyt_index.json --output embeddings_nyt_vlm --text-source vlm
+```
+
 ---
 
 ## Dataset
 
-The primary dataset is sourced from:
+The dataset is sourced from:
 - **NYT Bestsellers API** — current and recent bestseller lists across fiction and non-fiction
 - **Google Books API** — genre-specific books anchored to well-known authors
 - **Manual ISBNs** — curated classics for underrepresented genres (horror, biography)
 
-~256 books across 10 genres. Covers downloaded as JPEG images. Metadata includes title, author, genre, publisher, and NYT rank where available.
+**173 books** across 10 genres after substantial data quality cleanup — removing 106 placeholder/low-quality covers (Google Books "image not available" thumbnails, audiobook edition duplicates, scanned-text-only covers identified through manual review).
 
 ---
 
 ## Evaluation
 
-Precision@3 (P@3) on a manually curated golden set of 10 queries.
+Precision@3 (P@3) on a manually curated golden set of 7 queries, built via relevance judging (expected matches derived from actual retrieval results, not genre labels alone).
 
-**Baseline results (ViT-B/32 + EasyOCR + MiniLM-L6-v2):**
+**Final results — clean 173-book dataset:**
 
-| Track | Mean P@3 |
-|---|---|
-| Visual | 0.47 |
-| Semantic | 0.43 |
-| Cross-modal | 0.33 |
-| Color | 0.10 |
+| Configuration | Visual | Cross-modal | Semantic | Color |
+|---|---|---|---|---|
+| **Baseline:** ViT-B/32 + OCR | 0.48 | 0.48 | **0.52** | 0.05 |
+| ViT-B/16 + OCR | 0.48 | 0.48 | 0.52 | 0.05 |
+| ViT-B/32 + Qwen2-VL | 0.48 | 0.48 | 0.43 ↓ | 0.05 |
+| ViT-B/16 + Qwen2-VL | 0.48 | 0.48 | 0.43 ↓ | 0.05 |
+| OpenCLIP + OCR | 0.43 | **0.52** | 0.52 | 0.05 |
+| OpenCLIP + Qwen2-VL | 0.43 | **0.52** | 0.43 ↓ | 0.05 |
+| SigLIP 2 + OCR | 0.38 ↓ | 0.00 ↓↓ | 0.52 | 0.05 |
+
+See `decisions.md` for full experiment writeups, mechanistic explanations, and discussion of result stability across dataset versions.
 
 ---
 
-## Experiments (In Progress)
+## Key Findings
 
-| | Visual P@3 | Cross-modal P@3 | Semantic P@3 | Color P@3 |
-|---|---|---|---|---|
-| ViT-B/32 + OCR (baseline) | 0.47 | 0.33 | 0.43 | 0.10 |
-| ViT-B/16 + OCR | — | — | — | — |
-| ViT-B/32 + Qwen2-VL | — | — | — | — |
-| ViT-B/16 + Qwen2-VL | — | — | — | — |
+1. **Data quality dominates model choice** — removing 106 junk covers improved retrieval more than any model swap
+2. **VLM descriptions hurt retrieval** — contrary to classification literature, sparse precise OCR text outperforms rich generic VLM descriptions for cosine-similarity search
+3. **No single model wins all tracks** — the optimal configuration depends on which track matters most
+4. **Training objective shapes the embedding space** — SigLIP 2's sigmoid loss makes cross-modal retrieval fail entirely (P@3 = 0.00), despite strong visual and semantic performance
+5. **Color palette is a fundamental dead end** — two extraction methods (RGB, LAB) both plateau at the same low ceiling; color similarity does not predict book similarity
 
 ---
 
@@ -137,4 +165,4 @@ This project extends the findings of:
 
 > Toosi et al., *"Unlocking Book Genre from Covers: A Multimodal Approach to Book Genre Prediction"*, IJWR 2025.
 
-That paper demonstrated that replacing OCR text with VLM-generated descriptions improves book cover **classification** accuracy from 52.98% to 63.31% (Top-1). We investigate whether the same holds for cross-modal **retrieval**.
+That paper demonstrated that replacing OCR text with VLM-generated descriptions improves book cover **classification** accuracy from 52.98% to 63.31% (Top-1). We investigate whether the same holds for cross-modal **retrieval** — and find the opposite: VLM enrichment consistently *hurts* retrieval performance, highlighting a fundamental difference between classification (which benefits from rich discriminative features) and retrieval (which benefits from sparse, precise signals).
